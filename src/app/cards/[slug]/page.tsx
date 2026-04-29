@@ -11,8 +11,9 @@ export function generateStaticParams() {
   return loadAllCards().map((c) => ({ slug: c.slug }));
 }
 
-export function generateMetadata({ params }: { params: { slug: string } }) {
-  const card = loadCardBySlug(params.slug);
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const card = loadCardBySlug(slug);
   if (!card) return {};
   return {
     title: `${card.issuer} ${card.name} Review`,
@@ -20,8 +21,9 @@ export function generateMetadata({ params }: { params: { slug: string } }) {
   };
 }
 
-export default function CardPage({ params }: { params: { slug: string } }) {
-  const card = loadCardBySlug(params.slug);
+export default async function CardPage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const card = loadCardBySlug(slug);
   if (!card) notFound();
 
   return (
