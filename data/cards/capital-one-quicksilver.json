@@ -1,0 +1,39 @@
+{
+  "slug": "capital-one-quicksilver",
+  "issuer": "Capital One",
+  "name": "Quicksilver Cash Rewards Credit Card",
+  "network": "Mastercard",
+  "category": ["cashback"],
+  "apr_purchase": { "min": 19.99, "max": 29.99 },
+  "apr_intro": 0,
+  "apr_intro_months": 15,
+  "apr_balance_transfer": { "min": 19.99, "max": 29.99 },
+  "apr_cash_advance": 29.99,
+  "annual_fee": 0,
+  "foreign_tx_fee": 0,
+  "balance_transfer_fee": 0.03,
+  "signup_bonus": "$200 cash bonus",
+  "signup_bonus_spend": 500,
+  "signup_bonus_value_usd": 200,
+  "rewards": { "other": 1.5 },
+  "rewards_type": "cashback",
+  "points_value_cents": null,
+  "credit_score_required": { "min": 670, "recommended": 720 },
+  "perks": [
+    "Unlimited 1.5% cash back on every purchase",
+    "$200 cash bonus after spending $500 in first 3 months",
+    "No foreign transaction fees",
+    "No annual fee",
+    "0% intro APR on purchases and balance transfers for 15 months",
+    "Redeem rewards for any amount, no minimums",
+    "Free credit monitoring with CreditWise"
+  ],
+  "drawbacks": [
+    "Only 1.5% flat rate with no elevated bonus categories",
+    "3% balance transfer fee",
+    "No travel perks or lounge access",
+    "Not ideal for big spenders who want category optimization"
+  ],
+  "application_url": "https://www.capitalone.com/credit-cards/quicksilver/",
+  "last_updated": "2026-04-29"
+}

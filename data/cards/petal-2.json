@@ -1,0 +1,43 @@
+{
+  "slug": "petal-2",
+  "issuer": "WebBank",
+  "name": "Petal 2 Cash Back No Fees Visa Credit Card",
+  "network": "Visa",
+  "category": ["no-credit", "cashback"],
+  "apr_purchase": { "min": 18.24, "max": 32.24 },
+  "apr_intro": null,
+  "apr_intro_months": 0,
+  "apr_balance_transfer": { "min": 18.24, "max": 32.24 },
+  "apr_cash_advance": 32.24,
+  "annual_fee": 0,
+  "foreign_tx_fee": 0,
+  "balance_transfer_fee": 0,
+  "signup_bonus": null,
+  "signup_bonus_spend": null,
+  "signup_bonus_value_usd": null,
+  "rewards": {
+    "other": 1.5
+  },
+  "rewards_type": "cashback",
+  "points_value_cents": null,
+  "credit_score_required": { "min": 300, "recommended": 550 },
+  "perks": [
+    "1% cash back immediately, growing to 1.5% after 12 on-time monthly payments",
+    "No annual fee, no late fees, no returned payment fees, no foreign transaction fees",
+    "Uses cash flow underwriting (analyzes bank account data) so thin/no credit applicants can qualify",
+    "Credit limit up to $10,000 based on income and cash flow",
+    "No security deposit required",
+    "Free credit score monitoring via app",
+    "Reports to all three major credit bureaus",
+    "Petal Offers: 2-10% cash back at select merchants"
+  ],
+  "drawbacks": [
+    "Must reach 1.5% - starts at 1% which is below competitors",
+    "Requires linking bank account for cash flow analysis",
+    "No signup bonus",
+    "High APR range (up to 32.24%)",
+    "Issuer is WebBank, less name recognition than major banks"
+  ],
+  "application_url": "https://www.petalcard.com/",
+  "last_updated": "2026-04-29"
+}

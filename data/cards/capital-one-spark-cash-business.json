@@ -1,0 +1,46 @@
+{
+  "slug": "capital-one-spark-cash-business",
+  "issuer": "Capital One",
+  "name": "Spark Cash Plus for Business",
+  "network": "Mastercard",
+  "category": ["business", "cashback"],
+  "apr_purchase": { "min": 0, "max": 0 },
+  "apr_intro": null,
+  "apr_intro_months": 0,
+  "apr_balance_transfer": { "min": 0, "max": 0 },
+  "apr_cash_advance": 0,
+  "annual_fee": 150,
+  "foreign_tx_fee": 0,
+  "balance_transfer_fee": 0,
+  "signup_bonus": "$1,200 cash bonus",
+  "signup_bonus_spend": 30000,
+  "signup_bonus_value_usd": 1200,
+  "rewards": {
+    "hotels-capital-one-travel": 5,
+    "rental-cars-capital-one-travel": 5,
+    "other": 2
+  },
+  "rewards_type": "cashback",
+  "points_value_cents": null,
+  "credit_score_required": { "min": 690, "recommended": 720 },
+  "perks": [
+    "Unlimited 2% cash back on every purchase",
+    "5% on hotels and rental cars booked via Capital One Travel",
+    "$1,200 cash bonus: $500 after $5,000 in first 3 months plus $700 after $50,000 in first 6 months",
+    "Annual fee refunded if you spend $150,000 or more",
+    "No foreign transaction fees",
+    "No preset spending limit (charge card, not a revolving credit card)",
+    "Free employee cards",
+    "Year-end itemized reports for tax time",
+    "24-hour travel and emergency assistance"
+  ],
+  "drawbacks": [
+    "$150 annual fee (waived at $150,000 spend)",
+    "Charge card - balance must be paid in full each month",
+    "No intro APR (charge card structure)",
+    "$30,000 total spend required to unlock both bonus tiers",
+    "High spend thresholds for signup bonus"
+  ],
+  "application_url": "https://www.capitalone.com/small-business/credit-cards/spark-cash-plus/",
+  "last_updated": "2026-04-29"
+}

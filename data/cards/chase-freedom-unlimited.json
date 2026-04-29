@@ -1,0 +1,45 @@
+{
+  "slug": "chase-freedom-unlimited",
+  "issuer": "Chase",
+  "name": "Freedom Unlimited",
+  "network": "Visa",
+  "category": ["cashback"],
+  "apr_purchase": { "min": 20.49, "max": 29.24 },
+  "apr_intro": 0,
+  "apr_intro_months": 15,
+  "apr_balance_transfer": { "min": 20.49, "max": 29.24 },
+  "apr_cash_advance": 29.99,
+  "annual_fee": 0,
+  "foreign_tx_fee": 0.03,
+  "balance_transfer_fee": 0.03,
+  "signup_bonus": "$200 bonus cash back",
+  "signup_bonus_spend": 500,
+  "signup_bonus_value_usd": 200,
+  "rewards": {
+    "chase-travel-portal": 5,
+    "dining": 3,
+    "drugstores": 3,
+    "other": 1.5
+  },
+  "rewards_type": "cashback",
+  "points_value_cents": null,
+  "credit_score_required": { "min": 670, "recommended": 720 },
+  "perks": [
+    "1.5% cash back on all purchases with no annual fee",
+    "5% on travel booked through Chase Travel, 3% dining and drugstores",
+    "$200 bonus after spending $500 in first 3 months",
+    "0% intro APR on purchases and balance transfers for 15 months",
+    "No annual fee",
+    "Trip cancellation and interruption insurance",
+    "Purchase protection and extended warranty coverage",
+    "Can be paired with Sapphire cards to convert to transferable points"
+  ],
+  "drawbacks": [
+    "3% foreign transaction fee",
+    "Only 1.5% base rate outside bonus categories",
+    "Chase 5/24 rule applies",
+    "3% balance transfer fee during intro period (then up to 5%)"
+  ],
+  "application_url": "https://creditcards.chase.com/cash-back-credit-cards/freedom/unlimited",
+  "last_updated": "2026-04-29"
+}

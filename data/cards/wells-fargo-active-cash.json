@@ -1,0 +1,38 @@
+{
+  "slug": "wells-fargo-active-cash",
+  "issuer": "Wells Fargo",
+  "name": "Active Cash Card",
+  "network": "Visa",
+  "category": ["cashback"],
+  "apr_purchase": { "min": 20.24, "max": 29.99 },
+  "apr_intro": 0,
+  "apr_intro_months": 12,
+  "apr_balance_transfer": { "min": 20.24, "max": 29.99 },
+  "apr_cash_advance": 29.99,
+  "annual_fee": 0,
+  "foreign_tx_fee": 0.03,
+  "balance_transfer_fee": 0.03,
+  "signup_bonus": "$200 cash rewards bonus",
+  "signup_bonus_spend": 500,
+  "signup_bonus_value_usd": 200,
+  "rewards": { "other": 2 },
+  "rewards_type": "cashback",
+  "points_value_cents": null,
+  "credit_score_required": { "min": 670, "recommended": 720 },
+  "perks": [
+    "Unlimited 2% cash rewards on purchases, no categories to track",
+    "$200 cash rewards bonus after spending $500 in first 3 months",
+    "0% intro APR on purchases and qualifying balance transfers for 12 months",
+    "No annual fee",
+    "Cell phone protection (up to $600, $25 deductible) when you pay bill with card",
+    "Access to Visa Signature benefits"
+  ],
+  "drawbacks": [
+    "3% foreign transaction fee",
+    "3% balance transfer fee during intro period",
+    "No travel perks or airport lounge access",
+    "No bonus categories for higher earning"
+  ],
+  "application_url": "https://www.wellsfargo.com/credit-cards/active-cash/",
+  "last_updated": "2026-04-29"
+}

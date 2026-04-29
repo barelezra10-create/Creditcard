@@ -1,0 +1,47 @@
+{
+  "slug": "chase-ink-business-preferred",
+  "issuer": "Chase",
+  "name": "Ink Business Preferred Credit Card",
+  "network": "Visa",
+  "category": ["business", "travel", "rewards"],
+  "apr_purchase": { "min": 21.24, "max": 26.24 },
+  "apr_intro": null,
+  "apr_intro_months": 0,
+  "apr_balance_transfer": { "min": 21.24, "max": 26.24 },
+  "apr_cash_advance": 29.99,
+  "annual_fee": 95,
+  "foreign_tx_fee": 0,
+  "balance_transfer_fee": 0.05,
+  "signup_bonus": "100,000 bonus points",
+  "signup_bonus_spend": 8000,
+  "signup_bonus_value_usd": 1250,
+  "rewards": {
+    "travel": 3,
+    "shipping": 3,
+    "internet-cable-phone": 3,
+    "advertising": 3,
+    "other": 1
+  },
+  "rewards_type": "points",
+  "points_value_cents": 1.25,
+  "credit_score_required": { "min": 690, "recommended": 720 },
+  "perks": [
+    "3x points on first $150,000 combined per year in travel, shipping, internet, cable, phone, and advertising purchases",
+    "100,000 bonus points after spending $8,000 in first 3 months",
+    "Points worth 1.25 cents each in Chase Travel portal or transfer to 14 airline and hotel partners at 1:1",
+    "No foreign transaction fees",
+    "Cell phone protection (up to $1,000 per claim, $100 deductible) when you pay bill with card",
+    "Trip cancellation, trip delay, and baggage delay insurance",
+    "Purchase protection and extended warranty",
+    "Employee cards at no additional cost"
+  ],
+  "drawbacks": [
+    "$95 annual fee",
+    "$150,000 annual cap on 3x bonus categories",
+    "$8,000 spend required for signup bonus (higher than personal cards)",
+    "Chase 5/24 rule applies to business cards",
+    "5% balance transfer fee"
+  ],
+  "application_url": "https://creditcards.chase.com/business-credit-cards/ink/preferred",
+  "last_updated": "2026-04-29"
+}

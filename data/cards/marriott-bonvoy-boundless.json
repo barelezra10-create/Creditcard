@@ -1,0 +1,48 @@
+{
+  "slug": "marriott-bonvoy-boundless",
+  "issuer": "Chase",
+  "name": "Marriott Bonvoy Boundless Credit Card",
+  "network": "Visa",
+  "category": ["travel", "hotel", "rewards"],
+  "apr_purchase": { "min": 21.49, "max": 28.49 },
+  "apr_intro": null,
+  "apr_intro_months": 0,
+  "apr_balance_transfer": { "min": 21.49, "max": 28.49 },
+  "apr_cash_advance": 29.99,
+  "annual_fee": 95,
+  "foreign_tx_fee": 0,
+  "balance_transfer_fee": 0.05,
+  "signup_bonus": "100,000 bonus points",
+  "signup_bonus_spend": 3000,
+  "signup_bonus_value_usd": 850,
+  "rewards": {
+    "marriott": 6,
+    "dining": 3,
+    "groceries": 3,
+    "gas": 3,
+    "other": 2
+  },
+  "rewards_type": "points",
+  "points_value_cents": 0.85,
+  "credit_score_required": { "min": 690, "recommended": 720 },
+  "perks": [
+    "6x Marriott Bonvoy points at hotels in the Marriott portfolio",
+    "3x points on first $6,000 in combined dining, grocery, and gas station purchases per year",
+    "Free annual night award certificate (up to 35,000 points) each account anniversary",
+    "Automatic Silver Elite status (plus path to Gold at 25 stays)",
+    "15 elite night credits per year",
+    "No foreign transaction fees",
+    "100,000 bonus points after spending $3,000 in first 3 months",
+    "Chase 5/24 rule applies",
+    "Complimentary premium in-room WiFi at Marriott properties"
+  ],
+  "drawbacks": [
+    "$95 annual fee",
+    "Marriott points worth less per point than many competitors",
+    "Award category creep has reduced value in recent years",
+    "Chase 5/24 rule applies",
+    "Free night certificate capped at 35,000 points (limits use at top tier properties)"
+  ],
+  "application_url": "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/boundless",
+  "last_updated": "2026-04-29"
+}

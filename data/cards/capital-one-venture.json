@@ -1,0 +1,44 @@
+{
+  "slug": "capital-one-venture",
+  "issuer": "Capital One",
+  "name": "Venture Rewards Credit Card",
+  "network": "Mastercard",
+  "category": ["travel", "rewards"],
+  "apr_purchase": { "min": 19.99, "max": 29.99 },
+  "apr_intro": null,
+  "apr_intro_months": 0,
+  "apr_balance_transfer": { "min": 19.99, "max": 29.99 },
+  "apr_cash_advance": 29.99,
+  "annual_fee": 95,
+  "foreign_tx_fee": 0,
+  "balance_transfer_fee": 0.04,
+  "signup_bonus": "75,000 miles",
+  "signup_bonus_spend": 4000,
+  "signup_bonus_value_usd": 750,
+  "rewards": {
+    "hotels-capital-one-travel": 5,
+    "rental-cars-capital-one-travel": 5,
+    "other": 2
+  },
+  "rewards_type": "miles",
+  "points_value_cents": 1,
+  "credit_score_required": { "min": 690, "recommended": 720 },
+  "perks": [
+    "2x miles on every purchase",
+    "5x miles on hotels and rental cars booked via Capital One Travel",
+    "75,000 mile bonus after spending $4,000 in first 3 months",
+    "No foreign transaction fees",
+    "Global Entry or TSA PreCheck application fee credit (up to $120 every 4 years)",
+    "Miles transfer to 15+ travel loyalty programs",
+    "Travel accident insurance and 24-hour travel assistance",
+    "Extended warranty and purchase protection"
+  ],
+  "drawbacks": [
+    "$95 annual fee",
+    "No intro APR offer",
+    "Capital One Travel portal locks in best 5x rate",
+    "Miles worth 1 cent each for statement credits (less than some competitors)"
+  ],
+  "application_url": "https://www.capitalone.com/credit-cards/venture/",
+  "last_updated": "2026-04-29"
+}

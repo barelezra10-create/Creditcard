@@ -1,0 +1,46 @@
+{
+  "slug": "hilton-honors-amex",
+  "issuer": "American Express",
+  "name": "Hilton Honors American Express Card",
+  "network": "Amex",
+  "category": ["travel", "hotel"],
+  "apr_purchase": { "min": 20.99, "max": 29.99 },
+  "apr_intro": null,
+  "apr_intro_months": 0,
+  "apr_balance_transfer": { "min": 20.99, "max": 29.99 },
+  "apr_cash_advance": 29.99,
+  "annual_fee": 0,
+  "foreign_tx_fee": 0,
+  "balance_transfer_fee": 0.05,
+  "signup_bonus": "80,000 Hilton Honors bonus points",
+  "signup_bonus_spend": 2000,
+  "signup_bonus_value_usd": 480,
+  "rewards": {
+    "hilton-hotels": 7,
+    "dining": 5,
+    "groceries": 5,
+    "gas": 5,
+    "other": 3
+  },
+  "rewards_type": "points",
+  "points_value_cents": 0.6,
+  "credit_score_required": { "min": 670, "recommended": 700 },
+  "perks": [
+    "7x Hilton Honors points at Hilton portfolio hotels and resorts",
+    "5x on restaurants, U.S. supermarkets, and U.S. gas stations",
+    "3x on all other eligible purchases",
+    "Automatic Hilton Honors Silver status",
+    "No annual fee",
+    "No foreign transaction fees",
+    "80,000 bonus points after spending $2,000 in first 6 months",
+    "Complimentary 5th reward night free when booking with points"
+  ],
+  "drawbacks": [
+    "Hilton points worth only ~0.6 cents each (less than most competitors)",
+    "Silver status offers minimal perks vs. Gold or Diamond",
+    "Redemption value can be poor compared to transferable points programs",
+    "Not accepted everywhere Visa/Mastercard are"
+  ],
+  "application_url": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors/",
+  "last_updated": "2026-04-29"
+}

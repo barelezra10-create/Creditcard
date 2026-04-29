@@ -1,0 +1,44 @@
+{
+  "slug": "discover-it-student-chrome",
+  "issuer": "Discover",
+  "name": "Discover it Student Chrome",
+  "network": "Discover",
+  "category": ["student", "cashback"],
+  "apr_purchase": { "min": 18.24, "max": 27.24 },
+  "apr_intro": null,
+  "apr_intro_months": 0,
+  "apr_balance_transfer": { "min": 18.24, "max": 27.24 },
+  "apr_cash_advance": 29.99,
+  "annual_fee": 0,
+  "foreign_tx_fee": 0,
+  "balance_transfer_fee": 0.03,
+  "signup_bonus": "Unlimited Cashback Match for first year",
+  "signup_bonus_spend": null,
+  "signup_bonus_value_usd": null,
+  "rewards": {
+    "gas": 2,
+    "restaurants": 2,
+    "other": 1
+  },
+  "rewards_type": "cashback",
+  "points_value_cents": null,
+  "credit_score_required": { "min": 300, "recommended": 580 },
+  "perks": [
+    "2% cash back at gas stations and restaurants (up to $1,000 combined purchases per quarter)",
+    "Cashback Match: Discover doubles all cash back earned at the end of the first year",
+    "No annual fee",
+    "No foreign transaction fees",
+    "No penalty APR for first late payment",
+    "Free FICO credit score monitoring",
+    "Good Grade Reward: $20 statement credit each school year GPA is 3.0 or higher",
+    "Freeze account instantly via app or website"
+  ],
+  "drawbacks": [
+    "2% categories capped at $1,000 per quarter",
+    "Discover not as widely accepted internationally as Visa or Mastercard",
+    "Only 1% after the cap on gas and restaurant categories",
+    "Requires you to be a student enrolled in a 2- or 4-year college"
+  ],
+  "application_url": "https://www.discover.com/credit-cards/student/chrome.html",
+  "last_updated": "2026-04-29"
+}

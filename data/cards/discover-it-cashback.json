@@ -1,0 +1,43 @@
+{
+  "slug": "discover-it-cashback",
+  "issuer": "Discover",
+  "name": "Discover it Cash Back",
+  "network": "Discover",
+  "category": ["cashback"],
+  "apr_purchase": { "min": 17.24, "max": 28.24 },
+  "apr_intro": 0,
+  "apr_intro_months": 15,
+  "apr_balance_transfer": { "min": 17.24, "max": 28.24 },
+  "apr_cash_advance": 29.99,
+  "annual_fee": 0,
+  "foreign_tx_fee": 0,
+  "balance_transfer_fee": 0.03,
+  "signup_bonus": "Unlimited Cashback Match for first year",
+  "signup_bonus_spend": null,
+  "signup_bonus_value_usd": null,
+  "rewards": {
+    "rotating": 5,
+    "other": 1
+  },
+  "rewards_type": "cashback",
+  "points_value_cents": null,
+  "credit_score_required": { "min": 670, "recommended": 700 },
+  "perks": [
+    "5% cash back on rotating quarterly categories (up to $1,500 per quarter, then 1%) - gas, groceries, Amazon, restaurants, and more",
+    "Cashback Match: Discover doubles all cash back earned at the end of the first year",
+    "No annual fee",
+    "No foreign transaction fees",
+    "0% intro APR on purchases and balance transfers for 15 months",
+    "Free Social Security number alerts and FICO score monitoring",
+    "No penalty APR for late payments",
+    "Freeze account instantly via app"
+  ],
+  "drawbacks": [
+    "5% categories require quarterly activation",
+    "$1,500 quarterly cap on 5% categories",
+    "Discover not as widely accepted internationally as Visa or Mastercard",
+    "Only 1% after rotating category cap"
+  ],
+  "application_url": "https://www.discover.com/credit-cards/cash-back/",
+  "last_updated": "2026-04-29"
+}

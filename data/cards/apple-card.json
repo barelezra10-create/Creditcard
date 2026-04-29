@@ -1,0 +1,45 @@
+{
+  "slug": "apple-card",
+  "issuer": "Goldman Sachs",
+  "name": "Apple Card",
+  "network": "Mastercard",
+  "category": ["cashback"],
+  "apr_purchase": { "min": 19.24, "max": 29.49 },
+  "apr_intro": null,
+  "apr_intro_months": 0,
+  "apr_balance_transfer": { "min": 19.24, "max": 29.49 },
+  "apr_cash_advance": 29.49,
+  "annual_fee": 0,
+  "foreign_tx_fee": 0,
+  "balance_transfer_fee": 0,
+  "signup_bonus": null,
+  "signup_bonus_spend": null,
+  "signup_bonus_value_usd": null,
+  "rewards": {
+    "apple": 3,
+    "apple_pay": 2,
+    "other": 1
+  },
+  "rewards_type": "cashback",
+  "points_value_cents": null,
+  "credit_score_required": { "min": 600, "recommended": 670 },
+  "perks": [
+    "3% Daily Cash back at Apple and select merchants (Nike, Uber, Walgreens, etc.)",
+    "2% Daily Cash on all Apple Pay purchases",
+    "No annual fee, no foreign transaction fees, no late fees, no over-limit fees",
+    "Daily Cash paid to Apple Cash card every day",
+    "Titanium physical card with no visible card number for security",
+    "Built-in spending summaries and financial health tools in iPhone Wallet",
+    "0% APR financing on Apple products via Apple Card Monthly Installments",
+    "Privacy protections from Goldman Sachs"
+  ],
+  "drawbacks": [
+    "Only 1% back when using the physical card",
+    "No signup bonus",
+    "Requires an iPhone to manage the account",
+    "Limited to Goldman Sachs partnership, future uncertain",
+    "Not accepted everywhere Apple Pay isn't supported"
+  ],
+  "application_url": "https://www.apple.com/apple-card/",
+  "last_updated": "2026-04-29"
+}

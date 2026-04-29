@@ -1,0 +1,43 @@
+{
+  "slug": "bank-of-america-customized-cash",
+  "issuer": "Bank of America",
+  "name": "Customized Cash Rewards Credit Card",
+  "network": "Visa",
+  "category": ["cashback"],
+  "apr_purchase": { "min": 19.24, "max": 29.24 },
+  "apr_intro": 0,
+  "apr_intro_months": 15,
+  "apr_balance_transfer": { "min": 19.24, "max": 29.24 },
+  "apr_cash_advance": 29.99,
+  "annual_fee": 0,
+  "foreign_tx_fee": 0.03,
+  "balance_transfer_fee": 0.03,
+  "signup_bonus": "$200 online cash rewards bonus",
+  "signup_bonus_spend": 1000,
+  "signup_bonus_value_usd": 200,
+  "rewards": {
+    "choice-category": 3,
+    "grocery-wholesale": 2,
+    "other": 1
+  },
+  "rewards_type": "cashback",
+  "points_value_cents": null,
+  "credit_score_required": { "min": 670, "recommended": 720 },
+  "perks": [
+    "3% cash back in your choice category: gas, online shopping, dining, travel, drug stores, or home improvement",
+    "2% cash back at grocery stores and wholesale clubs",
+    "No annual fee",
+    "$200 bonus after spending $1,000 in first 90 days",
+    "0% intro APR on purchases and balance transfers for 15 months",
+    "Preferred Rewards members can earn up to 5.25% in choice category",
+    "Contactless chip technology"
+  ],
+  "drawbacks": [
+    "3% category capped at $2,500 per quarter combined with 2% category",
+    "3% foreign transaction fee",
+    "Must manually select your 3% category each month or it defaults to gas",
+    "Preferred Rewards bonus requires substantial Bank of America banking relationship"
+  ],
+  "application_url": "https://www.bankofamerica.com/credit-cards/products/cash-back-credit-card/",
+  "last_updated": "2026-04-29"
+}

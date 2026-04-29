@@ -1,0 +1,47 @@
+{
+  "slug": "united-explorer",
+  "issuer": "Chase",
+  "name": "United Explorer Card",
+  "network": "Visa",
+  "category": ["travel", "miles"],
+  "apr_purchase": { "min": 21.99, "max": 28.99 },
+  "apr_intro": null,
+  "apr_intro_months": 0,
+  "apr_balance_transfer": { "min": 21.99, "max": 28.99 },
+  "apr_cash_advance": 29.99,
+  "annual_fee": 95,
+  "foreign_tx_fee": 0,
+  "balance_transfer_fee": 0.05,
+  "signup_bonus": "50,000 bonus miles",
+  "signup_bonus_spend": 3000,
+  "signup_bonus_value_usd": 700,
+  "rewards": {
+    "united-purchases": 2,
+    "dining": 2,
+    "hotels": 2,
+    "other": 1
+  },
+  "rewards_type": "miles",
+  "points_value_cents": 1.4,
+  "credit_score_required": { "min": 690, "recommended": 720 },
+  "perks": [
+    "First checked bag free for you and one companion (saves up to $140 per round trip)",
+    "2x miles on United purchases, dining, and hotels",
+    "50,000 mile bonus after spending $3,000 in first 3 months",
+    "Priority boarding privileges",
+    "No foreign transaction fees",
+    "2 United Club one-time-use passes per year",
+    "25% back as statement credit on United in-flight purchases",
+    "Expanded award availability on United flights",
+    "$0 intro annual fee (then $95)"
+  ],
+  "drawbacks": [
+    "$95 annual fee after first year",
+    "Miles locked to United MileagePlus ecosystem (and Star Alliance partners)",
+    "No United Club membership (just one-time passes)",
+    "Chase 5/24 rule applies",
+    "Award availability can be limited on popular routes"
+  ],
+  "application_url": "https://creditcards.chase.com/travel-credit-cards/united/united-explorer",
+  "last_updated": "2026-04-29"
+}

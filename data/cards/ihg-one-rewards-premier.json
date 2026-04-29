@@ -1,0 +1,47 @@
+{
+  "slug": "ihg-one-rewards-premier",
+  "issuer": "Chase",
+  "name": "IHG One Rewards Premier Credit Card",
+  "network": "Mastercard",
+  "category": ["travel", "hotel"],
+  "apr_purchase": { "min": 21.49, "max": 28.49 },
+  "apr_intro": null,
+  "apr_intro_months": 0,
+  "apr_balance_transfer": { "min": 21.49, "max": 28.49 },
+  "apr_cash_advance": 29.99,
+  "annual_fee": 99,
+  "foreign_tx_fee": 0,
+  "balance_transfer_fee": 0.05,
+  "signup_bonus": "140,000 bonus points",
+  "signup_bonus_spend": 3000,
+  "signup_bonus_value_usd": 840,
+  "rewards": {
+    "ihg-hotels": 10,
+    "travel": 5,
+    "dining": 5,
+    "gas": 5,
+    "other": 3
+  },
+  "rewards_type": "points",
+  "points_value_cents": 0.6,
+  "credit_score_required": { "min": 690, "recommended": 720 },
+  "perks": [
+    "Free anniversary night (up to 40,000 points) every year",
+    "Fourth Reward Night Free when redeeming points for consecutive stays",
+    "Automatic Platinum Elite status",
+    "10x points at IHG Hotels and Resorts",
+    "5x on dining, gas, and travel purchases",
+    "No foreign transaction fees",
+    "Global Entry, TSA PreCheck, or NEXUS application fee credit",
+    "140,000 bonus points after spending $3,000 in first 3 months"
+  ],
+  "drawbacks": [
+    "$99 annual fee",
+    "IHG points worth only ~0.6 cents each (lower value than Hyatt or Marriott)",
+    "IHG has inconsistent quality across brands",
+    "Chase 5/24 rule applies",
+    "Annual night certificate capped at 40,000 points"
+  ],
+  "application_url": "https://creditcards.chase.com/travel-credit-cards/ihg/premier",
+  "last_updated": "2026-04-29"
+}

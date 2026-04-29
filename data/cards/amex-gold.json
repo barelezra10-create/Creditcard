@@ -1,0 +1,47 @@
+{
+  "slug": "amex-gold",
+  "issuer": "American Express",
+  "name": "Gold Card",
+  "network": "Amex",
+  "category": ["travel", "rewards"],
+  "apr_purchase": { "min": 21.49, "max": 29.49 },
+  "apr_intro": null,
+  "apr_intro_months": 0,
+  "apr_balance_transfer": { "min": 21.49, "max": 29.49 },
+  "apr_cash_advance": 29.99,
+  "annual_fee": 325,
+  "foreign_tx_fee": 0,
+  "balance_transfer_fee": 0.05,
+  "signup_bonus": "60,000 Membership Rewards points",
+  "signup_bonus_spend": 6000,
+  "signup_bonus_value_usd": 1200,
+  "rewards": {
+    "dining": 4,
+    "groceries": 4,
+    "flights": 3,
+    "other": 1
+  },
+  "rewards_type": "points",
+  "points_value_cents": 2,
+  "credit_score_required": { "min": 700, "recommended": 740 },
+  "perks": [
+    "4x Membership Rewards points at restaurants worldwide and on takeout and delivery in the US",
+    "4x at US supermarkets (up to $25,000 per year, then 1x)",
+    "3x on flights booked directly with airlines or via Amex Travel",
+    "$120 dining credit ($10/month) at select restaurants (Grubhub, The Cheesecake Factory, etc.)",
+    "$120 Uber Cash credit ($10/month) toward Uber Eats orders or rides in the US",
+    "No foreign transaction fees",
+    "Points transfer to 20+ airline and hotel partners",
+    "Car rental loss and damage insurance",
+    "Baggage insurance plan"
+  ],
+  "drawbacks": [
+    "$325 annual fee",
+    "Dining and grocery credits require enrollment and have specific merchant restrictions",
+    "4x dining capped at combined $25,000 with groceries",
+    "No airport lounge access (upgrade to Platinum for that)",
+    "Not accepted at all merchants that Visa/Mastercard are"
+  ],
+  "application_url": "https://www.americanexpress.com/us/credit-cards/card/gold-card/",
+  "last_updated": "2026-04-29"
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "amex-platinum",
+  "issuer": "American Express",
+  "name": "Platinum Card",
+  "network": "Amex",
+  "category": ["travel", "rewards"],
+  "apr_purchase": { "min": 21.49, "max": 29.49 },
+  "apr_intro": null,
+  "apr_intro_months": 0,
+  "apr_balance_transfer": { "min": 21.49, "max": 29.49 },
+  "apr_cash_advance": 29.99,
+  "annual_fee": 695,
+  "foreign_tx_fee": 0,
+  "balance_transfer_fee": 0.05,
+  "signup_bonus": "80,000 Membership Rewards points",
+  "signup_bonus_spend": 8000,
+  "signup_bonus_value_usd": 1600,
+  "rewards": {
+    "flights-amex-travel": 5,
+    "hotels-amex-travel": 5,
+    "other": 1
+  },
+  "rewards_type": "points",
+  "points_value_cents": 2,
+  "credit_score_required": { "min": 720, "recommended": 750 },
+  "perks": [
+    "5x Membership Rewards on flights booked directly with airlines or via Amex Travel (up to $500,000 per year)",
+    "5x on prepaid hotels booked via Amex Travel",
+    "$200 airline fee credit per year for incidental fees on one selected airline",
+    "$200 Uber Cash annually ($15/month Jan-Nov, $35 in Dec)",
+    "$240 digital entertainment credit ($20/month) - Disney+, Hulu, ESPN+, NYT, Peacock, and more",
+    "$155 Walmart+ credit annually",
+    "$300 Equinox credit annually",
+    "$100 Saks Fifth Avenue credit annually ($50 semi-annual)",
+    "$189 CLEAR Plus credit annually",
+    "Access to Centurion Lounges, Delta Sky Club (with Delta flights), and Priority Pass Select",
+    "Global Entry or TSA PreCheck application fee credit",
+    "Fine Hotels + Resorts benefits (room upgrades, late checkout, credits)",
+    "Marriott Bonvoy Gold Elite and Hilton Honors Gold status",
+    "No foreign transaction fees"
+  ],
+  "drawbacks": [
+    "$695 annual fee requires actively using credits to justify cost",
+    "Only 1x points on most everyday spending",
+    "Many credits are use-it-or-lose-it and require enrollment",
+    "Not accepted everywhere Visa/Mastercard are",
+    "Centurion Lounge access limited during peak hours"
+  ],
+  "application_url": "https://www.americanexpress.com/us/credit-cards/card/platinum/",
+  "last_updated": "2026-04-29"
+}

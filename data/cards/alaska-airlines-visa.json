@@ -1,0 +1,44 @@
+{
+  "slug": "alaska-airlines-visa",
+  "issuer": "Bank of America",
+  "name": "Alaska Airlines Visa Signature Card",
+  "network": "Visa",
+  "category": ["travel", "miles"],
+  "apr_purchase": { "min": 20.24, "max": 28.24 },
+  "apr_intro": null,
+  "apr_intro_months": 0,
+  "apr_balance_transfer": { "min": 20.24, "max": 28.24 },
+  "apr_cash_advance": 29.99,
+  "annual_fee": 95,
+  "foreign_tx_fee": 0,
+  "balance_transfer_fee": 0.04,
+  "signup_bonus": "70,000 bonus miles",
+  "signup_bonus_spend": 3000,
+  "signup_bonus_value_usd": 1050,
+  "rewards": {
+    "alaska-airlines": 3,
+    "other": 1
+  },
+  "rewards_type": "miles",
+  "points_value_cents": 1.5,
+  "credit_score_required": { "min": 690, "recommended": 720 },
+  "perks": [
+    "Famous Companion Fare from $122 ($99 fare plus taxes and fees) each account anniversary",
+    "Free first checked bag for you and up to 6 companions on same reservation",
+    "3x miles on eligible Alaska Airlines purchases",
+    "70,000 mile bonus after spending $3,000 in first 90 days",
+    "No foreign transaction fees",
+    "10% rewards bonus if you also hold a Bank of America checking or savings account",
+    "Priority boarding in Group C",
+    "Miles don't expire"
+  ],
+  "drawbacks": [
+    "$95 annual fee",
+    "Alaska Airlines flies primarily in western US and select international routes",
+    "Only 1x miles on non-Alaska purchases outside of the airline",
+    "Companion Fare requires paying taxes and fees (can vary)",
+    "Miles ecosystem less flexible than transferable programs"
+  ],
+  "application_url": "https://www.bankofamerica.com/credit-cards/products/alaska-airlines-credit-card/",
+  "last_updated": "2026-04-29"
+}

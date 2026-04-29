@@ -4,6 +4,8 @@ export const CARD_CATEGORIES = [
   "cashback",
   "travel",
   "rewards",
+  "miles",
+  "hotel",
   "secured",
   "rebuilding",
   "business",

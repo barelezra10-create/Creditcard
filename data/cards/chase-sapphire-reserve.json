@@ -1,0 +1,49 @@
+{
+  "slug": "chase-sapphire-reserve",
+  "issuer": "Chase",
+  "name": "Sapphire Reserve",
+  "network": "Visa",
+  "category": ["travel", "rewards"],
+  "apr_purchase": { "min": 22.49, "max": 29.49 },
+  "apr_intro": null,
+  "apr_intro_months": 0,
+  "apr_balance_transfer": { "min": 22.49, "max": 29.49 },
+  "apr_cash_advance": 29.99,
+  "annual_fee": 550,
+  "foreign_tx_fee": 0,
+  "balance_transfer_fee": 0.05,
+  "signup_bonus": "60,000 bonus points",
+  "signup_bonus_spend": 4000,
+  "signup_bonus_value_usd": 900,
+  "rewards": {
+    "chase-travel-portal": 10,
+    "hotel-chase-portal": 10,
+    "flights-chase-portal": 5,
+    "dining": 3,
+    "travel": 3,
+    "other": 1
+  },
+  "rewards_type": "points",
+  "points_value_cents": 1.5,
+  "credit_score_required": { "min": 720, "recommended": 750 },
+  "perks": [
+    "$300 annual travel credit, automatically applied to travel purchases",
+    "10x points on hotels and car rentals via Chase Travel, 5x on flights",
+    "3x on dining and travel worldwide",
+    "Priority Pass Select airport lounge access (1,300+ lounges)",
+    "TSA PreCheck, Global Entry, or NEXUS application fee credit",
+    "No foreign transaction fees",
+    "Trip cancellation, trip delay, baggage delay, and emergency evacuation coverage",
+    "Primary rental car insurance",
+    "Points worth 1.5 cents each in Chase Travel portal or transfer to 14 partners"
+  ],
+  "drawbacks": [
+    "$550 annual fee (net $250 after $300 travel credit)",
+    "Chase 5/24 rule applies",
+    "60,000 bonus requires $4,000 spend in 3 months",
+    "5% balance transfer fee",
+    "Priority Pass restaurants excluded since 2023 at most locations"
+  ],
+  "application_url": "https://creditcards.chase.com/rewards-credit-cards/sapphire/reserve",
+  "last_updated": "2026-04-29"
+}

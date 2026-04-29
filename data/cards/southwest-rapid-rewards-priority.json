@@ -1,0 +1,47 @@
+{
+  "slug": "southwest-rapid-rewards-priority",
+  "issuer": "Chase",
+  "name": "Southwest Rapid Rewards Priority Credit Card",
+  "network": "Visa",
+  "category": ["travel", "miles"],
+  "apr_purchase": { "min": 21.49, "max": 28.49 },
+  "apr_intro": null,
+  "apr_intro_months": 0,
+  "apr_balance_transfer": { "min": 21.49, "max": 28.49 },
+  "apr_cash_advance": 29.99,
+  "annual_fee": 149,
+  "foreign_tx_fee": 0,
+  "balance_transfer_fee": 0.05,
+  "signup_bonus": "50,000 bonus points",
+  "signup_bonus_spend": 1000,
+  "signup_bonus_value_usd": 700,
+  "rewards": {
+    "southwest-purchases": 3,
+    "southwest-hotel-partners": 2,
+    "southwest-car-partners": 2,
+    "transit": 2,
+    "internet-cable-streaming": 2,
+    "other": 1
+  },
+  "rewards_type": "points",
+  "points_value_cents": 1.4,
+  "credit_score_required": { "min": 690, "recommended": 720 },
+  "perks": [
+    "$75 Southwest annual travel credit",
+    "4 upgraded boardings per year (A1-A15 priority boarding)",
+    "7,500 anniversary bonus points each year",
+    "3x points on Southwest purchases, 2x on partner hotels, car rentals, transit, and cable/internet/streaming",
+    "Earn toward Companion Pass (requires 135,000 qualifying points in a calendar year)",
+    "No foreign transaction fees",
+    "No blackout dates or seat restrictions",
+    "Points don't expire"
+  ],
+  "drawbacks": [
+    "$149 annual fee",
+    "Points only usable on Southwest (no transfer partners)",
+    "Southwest flies to limited international destinations",
+    "Chase 5/24 rule applies"
+  ],
+  "application_url": "https://creditcards.chase.com/travel-credit-cards/southwest/priority",
+  "last_updated": "2026-04-29"
+}

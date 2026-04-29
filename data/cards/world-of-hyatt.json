@@ -1,0 +1,48 @@
+{
+  "slug": "world-of-hyatt",
+  "issuer": "Chase",
+  "name": "World of Hyatt Credit Card",
+  "network": "Visa",
+  "category": ["travel", "hotel"],
+  "apr_purchase": { "min": 21.49, "max": 28.49 },
+  "apr_intro": null,
+  "apr_intro_months": 0,
+  "apr_balance_transfer": { "min": 21.49, "max": 28.49 },
+  "apr_cash_advance": 29.99,
+  "annual_fee": 95,
+  "foreign_tx_fee": 0,
+  "balance_transfer_fee": 0.05,
+  "signup_bonus": "65,000 bonus points",
+  "signup_bonus_spend": 3000,
+  "signup_bonus_value_usd": 1300,
+  "rewards": {
+    "hyatt-hotels": 4,
+    "dining": 2,
+    "airline-purchases": 2,
+    "transit": 2,
+    "gym-fitness": 2,
+    "other": 1
+  },
+  "rewards_type": "points",
+  "points_value_cents": 2,
+  "credit_score_required": { "min": 690, "recommended": 720 },
+  "perks": [
+    "Free Category 1-4 night award certificate every year",
+    "4x Hyatt points at Hyatt hotels, resorts, and restaurants",
+    "2x on dining, airline tickets, transit, gyms, and fitness studios",
+    "Automatic Discoverist elite status (including late checkout and room upgrades)",
+    "5 qualifying night credits per year toward elite status",
+    "No foreign transaction fees",
+    "65,000 bonus points: 30,000 after $3,000 spend in 3 months, plus 2x on up to $15,000 spend in first 6 months",
+    "Chase 5/24 rule applies"
+  ],
+  "drawbacks": [
+    "$95 annual fee",
+    "Hyatt has smaller hotel footprint than Marriott or Hilton",
+    "Free night certificate category caps at 4 (limits use at premium properties)",
+    "Chase 5/24 rule applies",
+    "4x only at Hyatt properties, not at competitors"
+  ],
+  "application_url": "https://creditcards.chase.com/travel-credit-cards/world-of-hyatt",
+  "last_updated": "2026-04-29"
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "bilt-mastercard",
+  "issuer": "Wells Fargo",
+  "name": "Bilt Mastercard",
+  "network": "Mastercard",
+  "category": ["travel", "rewards"],
+  "apr_purchase": { "min": 21.24, "max": 29.24 },
+  "apr_intro": null,
+  "apr_intro_months": 0,
+  "apr_balance_transfer": { "min": 21.24, "max": 29.24 },
+  "apr_cash_advance": 29.99,
+  "annual_fee": 0,
+  "foreign_tx_fee": 0,
+  "balance_transfer_fee": 0.03,
+  "signup_bonus": null,
+  "signup_bonus_spend": null,
+  "signup_bonus_value_usd": null,
+  "rewards": {
+    "rent": 1,
+    "dining": 3,
+    "travel": 2,
+    "other": 1
+  },
+  "rewards_type": "points",
+  "points_value_cents": 1.5,
+  "credit_score_required": { "min": 670, "recommended": 720 },
+  "perks": [
+    "Earn points on rent payments with no processing fee (up to 100,000 points per year)",
+    "3x points on dining, 2x on travel, 1x on other purchases",
+    "Points transfer to 15+ airline and hotel partners at 1:1 (United, American, Hyatt, Marriott, and more)",
+    "No annual fee",
+    "No foreign transaction fees",
+    "Rent Day bonus: double points on all non-rent purchases on the 1st of the month",
+    "Trip cancellation and interruption insurance",
+    "Purchase protection and cell phone protection"
+  ],
+  "drawbacks": [
+    "No signup bonus",
+    "Must make at least 5 transactions per statement period to earn rent points",
+    "Rent payment must go through Bilt's payment system",
+    "Not all landlords are in the Bilt Alliance (direct payment option has limitations)"
+  ],
+  "application_url": "https://www.biltrewards.com/",
+  "last_updated": "2026-04-29"
+}
