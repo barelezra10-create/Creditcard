@@ -1,0 +1,44 @@
+{
+  "slug": "chase-ink-business-cash",
+  "issuer": "Chase",
+  "name": "Ink Business Cash Credit Card",
+  "network": "Visa",
+  "category": ["business"],
+  "apr_purchase": { "min": 18.49, "max": 24.49 },
+  "apr_intro": 0,
+  "apr_intro_months": 12,
+  "apr_balance_transfer": { "min": 18.49, "max": 24.49 },
+  "apr_cash_advance": 29.99,
+  "annual_fee": 0,
+  "foreign_tx_fee": 0.03,
+  "balance_transfer_fee": 0.05,
+  "signup_bonus": "$750 bonus cash back",
+  "signup_bonus_spend": 6000,
+  "signup_bonus_value_usd": 750,
+  "rewards": {
+    "office-supply-stores": 5,
+    "internet-cable-phone": 5,
+    "gas-stations": 2,
+    "restaurants": 2,
+    "other": 1
+  },
+  "rewards_type": "cashback",
+  "points_value_cents": null,
+  "credit_score_required": { "min": 690, "recommended": 720 },
+  "perks": [
+    "5% cash back on first $25K/year at office supply stores and internet/cable/phone services",
+    "2% cash back on first $25K/year at gas stations and restaurants",
+    "0% intro APR for 12 months on purchases",
+    "No annual fee",
+    "Employee cards at no additional cost",
+    "Purchase protection and extended warranty"
+  ],
+  "drawbacks": [
+    "3% foreign transaction fee",
+    "5% rewards categories capped at $25,000 combined annual spend",
+    "Chase 5/24 rule applies",
+    "Requires established business credit history"
+  ],
+  "application_url": "https://creditcards.chase.com/business-credit-cards/ink/cash",
+  "last_updated": "2026-04-28"
+}

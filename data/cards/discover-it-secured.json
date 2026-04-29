@@ -1,0 +1,43 @@
+{
+  "slug": "discover-it-secured",
+  "issuer": "Discover",
+  "name": "Discover it Secured Credit Card",
+  "network": "Discover",
+  "category": ["secured", "rebuilding"],
+  "apr_purchase": { "min": 28.24, "max": 28.24 },
+  "apr_intro": null,
+  "apr_intro_months": 0,
+  "apr_balance_transfer": { "min": 28.24, "max": 28.24 },
+  "apr_cash_advance": 29.99,
+  "annual_fee": 0,
+  "foreign_tx_fee": 0,
+  "balance_transfer_fee": 0.03,
+  "signup_bonus": "Unlimited Cashback Match for first year",
+  "signup_bonus_spend": null,
+  "signup_bonus_value_usd": null,
+  "rewards": {
+    "gas": 2,
+    "restaurants": 2,
+    "other": 1
+  },
+  "rewards_type": "cashback",
+  "points_value_cents": null,
+  "credit_score_required": { "min": 300, "recommended": 580 },
+  "perks": [
+    "Cashback Match - Discover doubles all cash back earned in first year",
+    "2% at gas stations and restaurants on up to $1,000 in combined quarterly purchases",
+    "No annual fee",
+    "No foreign transaction fees",
+    "Discover automatically reviews account for upgrade to unsecured card after 7 months",
+    "Free FICO credit score monitoring",
+    "No penalty APR for late payments"
+  ],
+  "drawbacks": [
+    "Requires a refundable security deposit ($200 minimum) equal to your credit limit",
+    "High ongoing APR once intro period ends",
+    "2% rewards cap at $1,000 per quarter for gas and restaurants",
+    "Discover accepted less widely than Visa or Mastercard internationally"
+  ],
+  "application_url": "https://www.discover.com/credit-cards/secured/",
+  "last_updated": "2026-04-28"
+}

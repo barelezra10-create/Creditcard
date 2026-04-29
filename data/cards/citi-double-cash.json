@@ -1,0 +1,36 @@
+{
+  "slug": "citi-double-cash",
+  "issuer": "Citi",
+  "name": "Double Cash Card",
+  "network": "Mastercard",
+  "category": ["cashback", "balance-transfer"],
+  "apr_purchase": { "min": 19.24, "max": 29.24 },
+  "apr_intro": 0,
+  "apr_intro_months": 18,
+  "apr_balance_transfer": { "min": 19.24, "max": 29.24 },
+  "apr_cash_advance": 29.99,
+  "annual_fee": 0,
+  "foreign_tx_fee": 0.03,
+  "balance_transfer_fee": 0.05,
+  "signup_bonus": "$200 cash back",
+  "signup_bonus_spend": 1500,
+  "signup_bonus_value_usd": 200,
+  "rewards": { "other": 2 },
+  "rewards_type": "cashback",
+  "points_value_cents": null,
+  "credit_score_required": { "min": 670, "recommended": 720 },
+  "perks": [
+    "Flat 2% back on every purchase, no categories to track",
+    "0% intro APR on balance transfers for 18 months",
+    "No annual fee",
+    "Citi Entertainment access"
+  ],
+  "drawbacks": [
+    "3% foreign transaction fee",
+    "5% balance transfer fee (minimum $5)",
+    "No travel perks or airport lounge access",
+    "Intro 0% APR applies to balance transfers only, not purchases"
+  ],
+  "application_url": "https://www.citi.com/credit-cards/citi-double-cash-credit-card",
+  "last_updated": "2026-04-28"
+}

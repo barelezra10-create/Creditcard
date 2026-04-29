@@ -1,0 +1,42 @@
+{
+  "slug": "discover-it-student-cash",
+  "issuer": "Discover",
+  "name": "Discover it Student Cash Back",
+  "network": "Discover",
+  "category": ["student", "no-credit", "cashback"],
+  "apr_purchase": { "min": 18.24, "max": 27.24 },
+  "apr_intro": null,
+  "apr_intro_months": 0,
+  "apr_balance_transfer": { "min": 18.24, "max": 27.24 },
+  "apr_cash_advance": 29.99,
+  "annual_fee": 0,
+  "foreign_tx_fee": 0,
+  "balance_transfer_fee": 0.03,
+  "signup_bonus": "Unlimited Cashback Match for first year",
+  "signup_bonus_spend": null,
+  "signup_bonus_value_usd": null,
+  "rewards": {
+    "rotating-categories": 5,
+    "other": 1
+  },
+  "rewards_type": "cashback",
+  "points_value_cents": null,
+  "credit_score_required": { "min": 580, "recommended": 620 },
+  "perks": [
+    "Cashback Match - Discover doubles all cash back earned in first year",
+    "5% on rotating quarterly categories (up to $1,500 per quarter) such as groceries, gas, restaurants, and Amazon",
+    "No annual fee",
+    "No foreign transaction fees",
+    "Free FICO credit score on monthly statements",
+    "No penalty APR for late payments",
+    "Good Grade Reward - $20 statement credit each year GPA is 3.0 or higher"
+  ],
+  "drawbacks": [
+    "5% rotating categories require quarterly activation",
+    "Rotating categories capped at $1,500 per quarter",
+    "Must be enrolled in a 2 or 4 year college to qualify",
+    "Discover accepted less widely internationally than Visa or Mastercard"
+  ],
+  "application_url": "https://www.discover.com/credit-cards/student/",
+  "last_updated": "2026-04-28"
+}
