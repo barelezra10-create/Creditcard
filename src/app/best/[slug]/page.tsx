@@ -6,6 +6,7 @@ import { FAQAccordion } from "@/components/listicles/FAQAccordion";
 import { MethodologyBlock } from "@/components/listicles/MethodologyBlock";
 import { DisclosureBox } from "@/components/seo/DisclosureBox";
 import { StructuredData } from "@/components/seo/StructuredData";
+import { SITE } from "@/lib/site";
 
 export function generateStaticParams() {
   return loadAllListicles().map((l) => ({ slug: l.slug }));
@@ -30,6 +31,15 @@ export default async function ListiclePage({ params }: { params: Promise<{ slug:
   return (
     <article className="mx-auto max-w-3xl px-6 py-10">
       <StructuredData data={faqLd} />
+      <StructuredData data={{
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Home", item: SITE.url },
+          { "@type": "ListItem", position: 2, name: "Best Cards", item: `${SITE.url}/best/` },
+          { "@type": "ListItem", position: 3, name: l.title, item: `${SITE.url}/best/${l.slug}/` },
+        ],
+      }} />
       <DisclosureBox />
       <h1 className="font-display text-3xl font-bold text-navy-900 md:text-4xl">{l.title}</h1>
       <p className="mt-2 text-sm text-slate-600">Updated {l.last_updated}</p>

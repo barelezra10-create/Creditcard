@@ -6,6 +6,8 @@ import { StatGrid } from "@/components/cards/StatGrid";
 import { ProsCons } from "@/components/cards/ProsCons";
 import { RewardsTable } from "@/components/cards/RewardsTable";
 import { DisclosureBox } from "@/components/seo/DisclosureBox";
+import { StructuredData } from "@/components/seo/StructuredData";
+import { SITE } from "@/lib/site";
 
 export function generateStaticParams() {
   return loadAllCards().map((c) => ({ slug: c.slug }));
@@ -29,6 +31,18 @@ export default async function CardPage({ params }: { params: Promise<{ slug: str
   return (
     <article className="mx-auto max-w-3xl px-6 py-10">
       <DisclosureBox />
+      <StructuredData data={{
+        "@context": "https://schema.org",
+        "@type": "Product",
+        name: `${card.issuer} ${card.name}`,
+        brand: card.issuer,
+        category: card.category.join(", "),
+        review: {
+          "@type": "Review",
+          author: { "@type": "Organization", name: SITE.name },
+          datePublished: card.last_updated,
+        },
+      }} />
       <header className="grid gap-8 md:grid-cols-[1fr_auto] md:items-start">
         <div>
           <div className="text-sm font-semibold text-slate-500">{card.issuer}</div>
