@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# The Credit Card Pick
 
-## Getting Started
+Editorial credit card hub. Next.js 16 static export, deployed to Cloudflare Pages.
 
-First, run the development server:
+- **Domain:** thecreditcardpick.com
+- **Stack:** Next.js 16 + Tailwind v3 + MDX + TypeScript
+- **Build:** `npm run build` produces `out/`
+- **Test:** `npm run test:run`
+
+## Local development
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Project structure
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+src/
+  app/         Next.js App Router pages
+  components/  Shared UI components
+  lib/         Card data, tools, utilities
+data/
+  cards/       JSON card database (one file per card)
+content/
+  best/        Listicle MDX
+  learn/       Pillar guides + articles
+  glossary/    Glossary terms
+  reviews/     Per-card editorial overlays
+scripts/       Build-time scripts (sitemap, redirects, IndexNow)
+docs/superpowers/
+  specs/       Design spec
+  plans/       Implementation plan
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Deploy
 
-## Learn More
+Push to `main` triggers Cloudflare Pages auto-deploy.
 
-To learn more about Next.js, take a look at the following resources:
+## Affiliate redirects
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+All "Apply" CTAs route through `/go/<card-slug>`. A build-time script generates the Cloudflare `_redirects` file from card data so links stay swappable as affiliate networks approve.
