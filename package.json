@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build && tsx scripts/build-redirects.ts && tsx scripts/build-indexnow-key.ts",
-    "start": "next start",
+    "start": "serve out -p ${PORT:-8080} -L --no-clipboard",
     "test": "vitest",
     "test:run": "vitest run",
     "indexnow": "tsx scripts/indexnow-ping.ts"
@@ -19,6 +19,7 @@
     "react": "19.2.4",
     "react-dom": "19.2.4",
     "recharts": "^3.8.1",
+    "serve": "^14.2.6",
     "tailwind-merge": "^3.5.0",
     "zod": "^4.3.6"
   },
