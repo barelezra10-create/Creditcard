@@ -1,0 +1,61 @@
+{
+  "slug": "costco-anywhere-visa",
+  "issuer": "Citi",
+  "name": "Costco Anywhere Visa Card by Citi",
+  "network": "Visa",
+  "category": [
+    "cashback",
+    "rewards"
+  ],
+  "apr_purchase": {
+    "min": 20.49,
+    "max": 20.49
+  },
+  "apr_intro": null,
+  "apr_intro_months": 0,
+  "apr_balance_transfer": {
+    "min": 20.49,
+    "max": 20.49
+  },
+  "apr_cash_advance": 29.99,
+  "annual_fee": 0,
+  "foreign_tx_fee": 0,
+  "balance_transfer_fee": 0.05,
+  "signup_bonus": null,
+  "signup_bonus_spend": null,
+  "signup_bonus_value_usd": null,
+  "rewards": {
+    "gas-ev-charging": 4,
+    "restaurants": 3,
+    "travel": 3,
+    "costco-costco-com": 2,
+    "other": 1
+  },
+  "rewards_type": "cashback",
+  "points_value_cents": null,
+  "credit_score_required": {
+    "min": 720,
+    "recommended": 750
+  },
+  "perks": [
+    "4% cash back on eligible gas and EV charging worldwide (on first $7,000 per year, then 1%)",
+    "3% cash back on restaurants and eligible travel",
+    "2% cash back on all Costco and Costco.com purchases",
+    "1% cash back on all other purchases",
+    "No foreign transaction fees",
+    "No annual fee beyond Costco membership",
+    "Cashback rewarded as an annual Costco Shop Card redeemable in February",
+    "Extended warranty and purchase protection"
+  ],
+  "drawbacks": [
+    "Requires a Costco membership (Gold Star: $65/year, Executive: $130/year)",
+    "Cash back only paid once a year as a Costco Shop Card, not monthly",
+    "No sign-up bonus",
+    "4% gas rate capped at $7,000 in purchases per year",
+    "Visa only accepted at Costco (no Amex, MC)",
+    "Must visit a Costco warehouse to redeem annual cashback"
+  ],
+  "application_url": "https://www.citi.com/credit-cards/citi-costco-anywhere-visa-credit-card",
+  "last_updated": "2026-05-01",
+  "rating": 4.5
+}

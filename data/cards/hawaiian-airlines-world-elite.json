@@ -1,0 +1,62 @@
+{
+  "slug": "hawaiian-airlines-world-elite",
+  "issuer": "Barclays",
+  "name": "Hawaiian Airlines World Elite Mastercard",
+  "network": "Mastercard",
+  "category": [
+    "travel",
+    "miles"
+  ],
+  "apr_purchase": {
+    "min": 21.24,
+    "max": 29.99
+  },
+  "apr_intro": null,
+  "apr_intro_months": 0,
+  "apr_balance_transfer": {
+    "min": 21.24,
+    "max": 29.99
+  },
+  "apr_cash_advance": 29.99,
+  "annual_fee": 99,
+  "foreign_tx_fee": 0,
+  "balance_transfer_fee": 0.05,
+  "signup_bonus": "70,000 bonus miles",
+  "signup_bonus_spend": 2000,
+  "signup_bonus_value_usd": 840,
+  "rewards": {
+    "hawaiian-airlines-purchases": 3,
+    "gas": 2,
+    "dining": 2,
+    "grocery": 2,
+    "other": 1
+  },
+  "rewards_type": "miles",
+  "points_value_cents": 1.2,
+  "credit_score_required": {
+    "min": 670,
+    "recommended": 710
+  },
+  "perks": [
+    "3x miles on Hawaiian Airlines purchases",
+    "2x miles at gas stations, dining, and grocery stores",
+    "1x miles on all other purchases",
+    "$100 companion discount certificate each account anniversary",
+    "First checked bag free on Hawaiian Airlines for cardholder",
+    "No foreign transaction fees",
+    "Priority boarding on Hawaiian Airlines flights",
+    "One-time 50% off companion discount for HawaiianMiles members",
+    "Miles do not expire for active cardmembers"
+  ],
+  "drawbacks": [
+    "$99 annual fee",
+    "Miles primarily useful for Hawaiian Airlines routes (Hawaii, Pacific, limited mainland)",
+    "Companion discount only for economy class",
+    "No lounge access benefits",
+    "Hawaiian Airlines now part of Alaska Airlines merger, program changes possible",
+    "Limited international partner network"
+  ],
+  "application_url": "https://www.hawaiianairlines.com/miles/earn-miles/credit-cards",
+  "last_updated": "2026-05-01",
+  "rating": 4.1
+}

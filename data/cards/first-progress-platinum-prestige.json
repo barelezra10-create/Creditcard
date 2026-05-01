@@ -1,0 +1,56 @@
+{
+  "slug": "first-progress-platinum-prestige",
+  "issuer": "Synovus Bank",
+  "name": "First Progress Platinum Prestige Mastercard Secured",
+  "network": "Mastercard",
+  "category": [
+    "secured",
+    "rebuilding"
+  ],
+  "apr_purchase": {
+    "min": 15.24,
+    "max": 15.24
+  },
+  "apr_intro": null,
+  "apr_intro_months": 0,
+  "apr_balance_transfer": {
+    "min": 15.24,
+    "max": 15.24
+  },
+  "apr_cash_advance": 24.24,
+  "annual_fee": 49,
+  "foreign_tx_fee": 0.03,
+  "balance_transfer_fee": 0.03,
+  "signup_bonus": null,
+  "signup_bonus_spend": null,
+  "signup_bonus_value_usd": null,
+  "rewards": {
+    "other": 1
+  },
+  "rewards_type": "cashback",
+  "points_value_cents": null,
+  "credit_score_required": {
+    "min": 300,
+    "recommended": 580
+  },
+  "perks": [
+    "1% cash back on payments made to your account",
+    "Low ongoing purchase APR compared to most secured cards",
+    "Security deposit from $200 to $2,000 sets your credit limit",
+    "Reports to all three major credit bureaus monthly",
+    "No credit check required to apply",
+    "Accepted wherever Mastercard is accepted worldwide",
+    "Quick application and fast approval decision"
+  ],
+  "drawbacks": [
+    "$49 annual fee",
+    "3% foreign transaction fee",
+    "Rewards paid on payments, not purchases (unusual structure)",
+    "No path to automatic upgrade to unsecured card",
+    "Lower credit limit ceiling than some competitors",
+    "No mobile app with advanced features"
+  ],
+  "application_url": "https://www.firstprogress.com/credit-cards/",
+  "last_updated": "2026-05-01",
+  "rating": 4.0
+}

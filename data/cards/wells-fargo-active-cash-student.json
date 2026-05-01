@@ -1,0 +1,56 @@
+{
+  "slug": "wells-fargo-active-cash-student",
+  "issuer": "Wells Fargo",
+  "name": "Active Cash Student Credit Card",
+  "network": "Visa",
+  "category": [
+    "student",
+    "cashback"
+  ],
+  "apr_purchase": {
+    "min": 20.24,
+    "max": 30.24
+  },
+  "apr_intro": 0,
+  "apr_intro_months": 15,
+  "apr_balance_transfer": {
+    "min": 20.24,
+    "max": 30.24
+  },
+  "apr_cash_advance": 29.99,
+  "annual_fee": 0,
+  "foreign_tx_fee": 0.03,
+  "balance_transfer_fee": 0.03,
+  "signup_bonus": "$200 cash rewards bonus",
+  "signup_bonus_spend": 1000,
+  "signup_bonus_value_usd": 200,
+  "rewards": {
+    "other": 2
+  },
+  "rewards_type": "cashback",
+  "points_value_cents": null,
+  "credit_score_required": {
+    "min": 580,
+    "recommended": 630
+  },
+  "perks": [
+    "Unlimited 2% cash rewards on purchases",
+    "No annual fee",
+    "$200 cash rewards bonus after $1,000 in purchases in first 3 months",
+    "0% intro APR for 15 months on purchases and qualifying balance transfers",
+    "Cell phone protection (up to $600 per claim when you pay your phone bill with the card)",
+    "Designed for students with limited credit history",
+    "Access to Wells Fargo mobile app and online banking",
+    "Free FICO credit score access"
+  ],
+  "drawbacks": [
+    "3% foreign transaction fee (not ideal for studying abroad)",
+    "No travel rewards or points program",
+    "Student status required",
+    "2% flat rate (no bonus categories)",
+    "Wells Fargo's customer service reputation has been inconsistent"
+  ],
+  "application_url": "https://www.wellsfargo.com/credit-cards/active-cash/",
+  "last_updated": "2026-05-01",
+  "rating": 4.2
+}

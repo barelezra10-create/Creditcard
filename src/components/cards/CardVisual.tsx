@@ -22,14 +22,24 @@ const CARD_IMAGES: Record<string, string> = {
   "apple-card": "/images/cards/apple-card.png",
   // Bank of America
   "bank-of-america-customized-cash": "/images/cards/bank-of-america-customized-cash.png",
+  "bank-of-america-business-advantage-cash": "/images/cards/bank-of-america-business-advantage-cash.jpg",
+  "bank-of-america-travel-rewards-student": "/images/cards/bank-of-america-travel-rewards-student.jpg",
+  // Barclays
+  "frontier-mastercard": "/images/cards/frontier-mastercard.png",
+  "hawaiian-airlines-world-elite": "/images/cards/hawaiian-airlines-world-elite.jpg",
+  "jetblue-plus": "/images/cards/jetblue-plus.jpg",
+  "wyndham-rewards-earner-business": "/images/cards/wyndham-rewards-earner-business.jpg",
   // Bilt
   "bilt-mastercard": "/images/cards/bilt-mastercard.png",
+  // Brex
+  "brex-card": "/images/cards/brex-card.jpg",
   // Capital One
   "capital-one-platinum-secured": "/images/cards/capital-one-platinum-secured.png",
   "capital-one-quicksilver": "/images/cards/capital-one-quicksilver.png",
   "capital-one-quicksilver-student": "/images/cards/capital-one-quicksilver-student.png",
   "capital-one-spark-cash-business": "/images/cards/capital-one-spark-cash-business.png",
   "capital-one-venture": "/images/cards/capital-one-venture.png",
+  "capital-one-venture-x": "/images/cards/capital-one-venture-x.jpg",
   // Chase
   "chase-freedom-flex": "/images/cards/chase-freedom-flex.png",
   "chase-freedom-unlimited": "/images/cards/chase-freedom-unlimited.png",
@@ -40,15 +50,29 @@ const CARD_IMAGES: Record<string, string> = {
   "southwest-rapid-rewards-priority": "/images/cards/southwest-rapid-rewards-priority.png",
   "united-explorer": "/images/cards/united-explorer.png",
   "world-of-hyatt": "/images/cards/world-of-hyatt.png",
+  // Citi
+  "costco-anywhere-visa": "/images/cards/costco-anywhere-visa.jpg",
   // Discover
   "discover-it-cashback": "/images/cards/discover-it-cashback.webp",
   "discover-it-student-chrome": "/images/cards/discover-it-student-chrome.png",
+  // Capital Bank
+  "opensky-secured": "/images/cards/opensky-secured.jpg",
   // Petal / WebBank
+  "petal-1": "/images/cards/petal-1.png",
   "petal-2": "/images/cards/petal-2.svg",
   // Self Financial
   "self-visa-credit-card": "/images/cards/self-visa-credit-card.svg",
+  // Stride Bank / Chime
+  "chime-credit-builder": "/images/cards/chime-credit-builder.jpg",
+  // Synovus Bank / First Progress
+  "first-progress-platinum-prestige": "/images/cards/first-progress-platinum-prestige.jpg",
+  // U.S. Bank
+  "us-bank-altitude-reserve": "/images/cards/us-bank-altitude-reserve.jpg",
+  "us-bank-cash-plus": "/images/cards/us-bank-cash-plus.png",
   // Wells Fargo
+  "choice-privileges-mastercard": "/images/cards/choice-privileges-mastercard.jpg",
   "wells-fargo-active-cash": "/images/cards/wells-fargo-active-cash.webp",
+  "wells-fargo-active-cash-student": "/images/cards/wells-fargo-active-cash-student.jpg",
 };
 
 const ISSUER_GRADIENTS: Record<string, string> = {
@@ -64,6 +88,12 @@ const ISSUER_GRADIENTS: Record<string, string> = {
   "Capital Bank": "from-sky-700 to-sky-500",
   "Self Financial": "from-teal-700 to-teal-500",
   WebBank: "from-purple-700 to-purple-500",
+  Brex: "from-zinc-900 to-zinc-700",
+  "Stride Bank": "from-emerald-700 to-emerald-500",
+  "U.S. Bank": "from-blue-800 to-blue-600",
+  "Wyndham": "from-amber-700 to-amber-500",
+  "Synovus Bank": "from-blue-900 to-blue-700",
+  "Costco": "from-blue-900 to-blue-700",
 };
 
 const SIZE_CLASSES = {

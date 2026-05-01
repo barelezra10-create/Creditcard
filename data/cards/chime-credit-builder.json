@@ -1,0 +1,59 @@
+{
+  "slug": "chime-credit-builder",
+  "issuer": "Stride Bank",
+  "name": "Chime Credit Builder Secured Visa Credit Card",
+  "network": "Visa",
+  "category": [
+    "secured",
+    "rebuilding",
+    "no-credit"
+  ],
+  "apr_purchase": {
+    "min": 0,
+    "max": 0
+  },
+  "apr_intro": null,
+  "apr_intro_months": 0,
+  "apr_balance_transfer": {
+    "min": 0,
+    "max": 0
+  },
+  "apr_cash_advance": 0,
+  "annual_fee": 0,
+  "foreign_tx_fee": 0,
+  "balance_transfer_fee": 0,
+  "signup_bonus": null,
+  "signup_bonus_spend": null,
+  "signup_bonus_value_usd": null,
+  "rewards": {
+    "other": 0
+  },
+  "rewards_type": "none",
+  "points_value_cents": null,
+  "credit_score_required": {
+    "min": 300,
+    "recommended": 300
+  },
+  "perks": [
+    "No annual fee, no interest charges, no minimum security deposit required",
+    "Secured by your own money moved into a Credit Builder account",
+    "No hard credit check to apply",
+    "Reports to all three major credit bureaus monthly",
+    "Safer Credit Building: automatic on-time payment from Credit Builder balance each month",
+    "SpotMe eligible (if enrolled) can cover small overdrafts",
+    "No foreign transaction fees",
+    "Works wherever Visa is accepted",
+    "Chime members with qualifying direct deposit can access early paycheck"
+  ],
+  "drawbacks": [
+    "Must have a Chime checking account with at least one qualifying direct deposit",
+    "No rewards or cash back",
+    "Credit limit equals whatever you move into Credit Builder account (no floor or ceiling)",
+    "Not a traditional credit card - no credit limit separate from deposited funds",
+    "Chime is a financial technology company, not an FDIC-insured bank itself",
+    "Cannot be used for certain purchases (money orders, wire transfers)"
+  ],
+  "application_url": "https://www.chime.com/credit-builder-credit-card/",
+  "last_updated": "2026-05-01",
+  "rating": 4.3
+}

@@ -1,0 +1,65 @@
+{
+  "slug": "capital-one-venture-x",
+  "issuer": "Capital One",
+  "name": "Venture X Rewards Credit Card",
+  "network": "Visa",
+  "category": [
+    "travel",
+    "rewards"
+  ],
+  "apr_purchase": {
+    "min": 19.99,
+    "max": 29.99
+  },
+  "apr_intro": null,
+  "apr_intro_months": 0,
+  "apr_balance_transfer": {
+    "min": 19.99,
+    "max": 29.99
+  },
+  "apr_cash_advance": 29.99,
+  "annual_fee": 395,
+  "foreign_tx_fee": 0,
+  "balance_transfer_fee": 0.04,
+  "signup_bonus": "75,000 miles",
+  "signup_bonus_spend": 4000,
+  "signup_bonus_value_usd": 750,
+  "rewards": {
+    "hotels-capital-one-travel": 10,
+    "rental-cars-capital-one-travel": 10,
+    "flights-capital-one-travel": 5,
+    "other": 2
+  },
+  "rewards_type": "miles",
+  "points_value_cents": 1,
+  "credit_score_required": {
+    "min": 720,
+    "recommended": 750
+  },
+  "perks": [
+    "10x miles on hotels and rental cars booked through Capital One Travel",
+    "5x miles on flights booked through Capital One Travel",
+    "2x miles on all other purchases",
+    "$300 annual travel credit for bookings via Capital One Travel",
+    "10,000 bonus miles every account anniversary (worth $100 in travel)",
+    "Unlimited Priority Pass lounge access for cardholder and up to 2 guests",
+    "Capital One Lounge access",
+    "Global Entry or TSA PreCheck credit (up to $120 every 4 years)",
+    "Up to $100 experience credit at Premier Collection hotels",
+    "Miles transfer to 15+ airline and hotel partners",
+    "No foreign transaction fees",
+    "Hertz President's Circle status",
+    "Travel and purchase protections"
+  ],
+  "drawbacks": [
+    "$395 annual fee",
+    "Best rates require booking through Capital One Travel portal",
+    "Lounge access restricted to Priority Pass and Capital One Lounges",
+    "No hotel elite status included",
+    "No airline-specific perks (free checked bags, priority boarding)",
+    "75,000 mile bonus subject to portal booking requirement"
+  ],
+  "application_url": "https://www.capitalone.com/credit-cards/venture-x/",
+  "last_updated": "2026-05-01",
+  "rating": 4.8
+}

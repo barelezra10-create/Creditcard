@@ -1,0 +1,62 @@
+{
+  "slug": "us-bank-altitude-reserve",
+  "issuer": "U.S. Bank",
+  "name": "Altitude Reserve Visa Infinite Card",
+  "network": "Visa",
+  "category": [
+    "travel",
+    "rewards"
+  ],
+  "apr_purchase": {
+    "min": 22.24,
+    "max": 29.24
+  },
+  "apr_intro": null,
+  "apr_intro_months": 0,
+  "apr_balance_transfer": {
+    "min": 22.24,
+    "max": 29.24
+  },
+  "apr_cash_advance": 29.99,
+  "annual_fee": 400,
+  "foreign_tx_fee": 0,
+  "balance_transfer_fee": 0.03,
+  "signup_bonus": "50,000 points",
+  "signup_bonus_spend": 4500,
+  "signup_bonus_value_usd": 750,
+  "rewards": {
+    "mobile-wallet-apple-pay-google-pay-samsung-pay": 3,
+    "travel": 3,
+    "real-time-rewards-travel-dining": 5,
+    "other": 1
+  },
+  "rewards_type": "points",
+  "points_value_cents": 1.5,
+  "credit_score_required": {
+    "min": 720,
+    "recommended": 750
+  },
+  "perks": [
+    "5x points on prepaid hotels and car rentals via the Rewards Center",
+    "3x points on eligible travel and mobile wallet purchases (Apple Pay, Google Pay, Samsung Pay)",
+    "Real-Time Rewards: automatically redeem points for travel and dining purchases at a higher value",
+    "$325 annual travel credit for travel and dining purchases",
+    "12 Priority Pass Select lounge visits per year",
+    "Global Entry or TSA PreCheck credit (up to $100)",
+    "Complimentary Silvercar discount (25% off Audi rentals)",
+    "No foreign transaction fees",
+    "Visa Infinite benefits including concierge service",
+    "Points do not expire as long as account is open"
+  ],
+  "drawbacks": [
+    "$400 annual fee",
+    "Must bank with U.S. Bank to apply (existing customer requirement strongly preferred)",
+    "Mobile wallet 3x cap can be complex to maximize",
+    "Lounge access limited to 12 visits per year via Priority Pass",
+    "Points best redeemed through Real-Time Rewards or Rewards Center",
+    "No airline or hotel transfer partners"
+  ],
+  "application_url": "https://www.usbank.com/credit-cards/altitude-reserve-visa-infinite-credit-card.html",
+  "last_updated": "2026-05-01",
+  "rating": 4.6
+}

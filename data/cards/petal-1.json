@@ -1,0 +1,58 @@
+{
+  "slug": "petal-1",
+  "issuer": "WebBank",
+  "name": "Petal 1 No Annual Fee Visa Credit Card",
+  "network": "Visa",
+  "category": [
+    "no-credit",
+    "cashback"
+  ],
+  "apr_purchase": {
+    "min": 19.99,
+    "max": 34.49
+  },
+  "apr_intro": null,
+  "apr_intro_months": 0,
+  "apr_balance_transfer": {
+    "min": 19.99,
+    "max": 34.49
+  },
+  "apr_cash_advance": 34.49,
+  "annual_fee": 0,
+  "foreign_tx_fee": 0,
+  "balance_transfer_fee": 0,
+  "signup_bonus": null,
+  "signup_bonus_spend": null,
+  "signup_bonus_value_usd": null,
+  "rewards": {
+    "other": 0
+  },
+  "rewards_type": "cashback",
+  "points_value_cents": null,
+  "credit_score_required": {
+    "min": 300,
+    "recommended": 500
+  },
+  "perks": [
+    "Uses cash flow underwriting (links bank account to analyze income and spending patterns)",
+    "Designed for applicants with no credit history, thin credit, or fair credit",
+    "No annual fee, no foreign transaction fees",
+    "Petal Offers: 2-10% cash back at select local and national merchants",
+    "Reports to all three major credit bureaus monthly",
+    "No security deposit required",
+    "Free credit score monitoring via app",
+    "Credit limit up to $5,000 based on cash flow analysis",
+    "Pathway to Petal 2 after building credit history"
+  ],
+  "drawbacks": [
+    "No baseline cash back rate (0% except through Petal Offers merchants)",
+    "Requires linking bank account for cash flow review",
+    "High APR range especially for those with poor credit",
+    "Petal Offers are merchant-specific and not guaranteed",
+    "Spending limit may be lower than expected based on banking history",
+    "No sign-up bonus"
+  ],
+  "application_url": "https://www.petalcard.com/",
+  "last_updated": "2026-05-01",
+  "rating": 4.0
+}

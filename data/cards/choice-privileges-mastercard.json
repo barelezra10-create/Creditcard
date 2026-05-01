@@ -1,0 +1,60 @@
+{
+  "slug": "choice-privileges-mastercard",
+  "issuer": "Wells Fargo",
+  "name": "Choice Privileges Mastercard",
+  "network": "Mastercard",
+  "category": [
+    "hotel",
+    "rewards"
+  ],
+  "apr_purchase": {
+    "min": 20.24,
+    "max": 30.24
+  },
+  "apr_intro": null,
+  "apr_intro_months": 0,
+  "apr_balance_transfer": {
+    "min": 20.24,
+    "max": 30.24
+  },
+  "apr_cash_advance": 29.99,
+  "annual_fee": 0,
+  "foreign_tx_fee": 0.03,
+  "balance_transfer_fee": 0.05,
+  "signup_bonus": "40,000 bonus points",
+  "signup_bonus_spend": 1000,
+  "signup_bonus_value_usd": 240,
+  "rewards": {
+    "choice-hotels": 8,
+    "gas": 5,
+    "dining": 5,
+    "other": 1
+  },
+  "rewards_type": "points",
+  "points_value_cents": 0.6,
+  "credit_score_required": {
+    "min": 660,
+    "recommended": 690
+  },
+  "perks": [
+    "8x points at Choice Hotels (Comfort Inn, Quality Inn, Clarion, Radisson, and more)",
+    "5x points at gas stations and restaurants",
+    "1x points on all other purchases",
+    "No annual fee",
+    "Automatic Gold status with Choice Privileges",
+    "40,000 bonus points after $1,000 spend in first 3 months",
+    "Points transferable to airline miles with select partners",
+    "Complimentary in-room Wi-Fi at eligible properties"
+  ],
+  "drawbacks": [
+    "3% foreign transaction fee",
+    "Choice Hotels primarily budget and midscale brands",
+    "Points value is relatively low (about 0.6 cents each)",
+    "No premium hotel benefits like room upgrades or late checkout",
+    "Gold status provides limited perks",
+    "No lounge or travel credits"
+  ],
+  "application_url": "https://www.choicehotels.com/choice-privileges/credit-card",
+  "last_updated": "2026-05-01",
+  "rating": 4.0
+}

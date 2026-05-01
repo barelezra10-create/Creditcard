@@ -1,0 +1,58 @@
+{
+  "slug": "us-bank-cash-plus",
+  "issuer": "U.S. Bank",
+  "name": "Cash+ Visa Signature Card",
+  "network": "Visa",
+  "category": [
+    "cashback"
+  ],
+  "apr_purchase": {
+    "min": 19.74,
+    "max": 29.74
+  },
+  "apr_intro": 0,
+  "apr_intro_months": 15,
+  "apr_balance_transfer": {
+    "min": 19.74,
+    "max": 29.74
+  },
+  "apr_cash_advance": 29.99,
+  "annual_fee": 0,
+  "foreign_tx_fee": 0.03,
+  "balance_transfer_fee": 0.03,
+  "signup_bonus": "$200 cash back",
+  "signup_bonus_spend": 1000,
+  "signup_bonus_value_usd": 200,
+  "rewards": {
+    "chosen-category-1": 5,
+    "chosen-category-2": 5,
+    "everyday-category": 2,
+    "other": 1
+  },
+  "rewards_type": "cashback",
+  "points_value_cents": null,
+  "credit_score_required": {
+    "min": 670,
+    "recommended": 700
+  },
+  "perks": [
+    "5% cash back on your first $2,000 in combined eligible purchases each quarter in two categories you choose",
+    "5% cash back on prepaid air, hotel, and car reservations booked directly in the Rewards Travel Center",
+    "2% cash back on one everyday category such as gas stations, grocery stores, or restaurants",
+    "1% cash back on all other eligible purchases",
+    "No annual fee",
+    "0% intro APR for 15 billing cycles on purchases and balance transfers",
+    "$200 cash back after spending $1,000 in first 120 days",
+    "Choose new 5% categories each quarter"
+  ],
+  "drawbacks": [
+    "5% rate capped at $2,000 combined purchases per quarter",
+    "3% foreign transaction fee",
+    "Must actively choose and change 5% categories each quarter or rate drops to 1%",
+    "No sign-up bonus beyond intro offer",
+    "U.S. Bank app and website less intuitive than top competitors"
+  ],
+  "application_url": "https://www.usbank.com/credit-cards/cash-plus-visa-signature-credit-card.html",
+  "last_updated": "2026-05-01",
+  "rating": 4.4
+}

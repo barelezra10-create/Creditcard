@@ -1,0 +1,60 @@
+{
+  "slug": "bank-of-america-business-advantage-cash",
+  "issuer": "Bank of America",
+  "name": "Business Advantage Cash Rewards Mastercard",
+  "network": "Mastercard",
+  "category": [
+    "business",
+    "cashback"
+  ],
+  "apr_purchase": {
+    "min": 19.24,
+    "max": 29.24
+  },
+  "apr_intro": 0,
+  "apr_intro_months": 9,
+  "apr_balance_transfer": {
+    "min": 19.24,
+    "max": 29.24
+  },
+  "apr_cash_advance": 29.99,
+  "annual_fee": 0,
+  "foreign_tx_fee": 0.03,
+  "balance_transfer_fee": 0.04,
+  "signup_bonus": "$300 statement credit",
+  "signup_bonus_spend": 3000,
+  "signup_bonus_value_usd": 300,
+  "rewards": {
+    "chosen-category": 3,
+    "dining": 2,
+    "other": 1
+  },
+  "rewards_type": "cashback",
+  "points_value_cents": null,
+  "credit_score_required": {
+    "min": 670,
+    "recommended": 700
+  },
+  "perks": [
+    "3% cash back in your chosen category (gas, office supply stores, travel, TV/telecom, business consulting, or computer services)",
+    "2% cash back on dining",
+    "1% cash back on all other purchases",
+    "3% and 2% rates apply on combined purchases up to $50,000 per year",
+    "No annual fee",
+    "$300 statement credit after $3,000 in purchases in first 90 days",
+    "0% intro APR for 9 billing cycles on purchases",
+    "Preferred Rewards for Business members earn up to 75% more cash back",
+    "Free employee cards with spending limits",
+    "Year-end spending summary for tax preparation"
+  ],
+  "drawbacks": [
+    "$50,000 annual cap on combined 3% and 2% earnings (drops to 1% after)",
+    "3% foreign transaction fee",
+    "Best rewards require Preferred Rewards for Business status (Bank of America relationship)",
+    "No travel benefits or purchase protections beyond basic",
+    "Chosen category can only be changed once per calendar month"
+  ],
+  "application_url": "https://www.bankofamerica.com/smallbusiness/credit-cards/products/business-advantage-cash-rewards-credit-card/",
+  "last_updated": "2026-05-01",
+  "rating": 4.3
+}

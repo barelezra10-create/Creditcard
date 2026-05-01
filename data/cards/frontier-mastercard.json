@@ -1,0 +1,60 @@
+{
+  "slug": "frontier-mastercard",
+  "issuer": "Barclays",
+  "name": "Frontier Airlines World Mastercard",
+  "network": "Mastercard",
+  "category": [
+    "travel",
+    "miles"
+  ],
+  "apr_purchase": {
+    "min": 21.24,
+    "max": 29.99
+  },
+  "apr_intro": null,
+  "apr_intro_months": 0,
+  "apr_balance_transfer": {
+    "min": 21.24,
+    "max": 29.99
+  },
+  "apr_cash_advance": 29.99,
+  "annual_fee": 79,
+  "foreign_tx_fee": 0,
+  "balance_transfer_fee": 0.05,
+  "signup_bonus": "50,000 bonus miles",
+  "signup_bonus_spend": 500,
+  "signup_bonus_value_usd": 500,
+  "rewards": {
+    "frontier-purchases": 5,
+    "dining": 3,
+    "other": 1
+  },
+  "rewards_type": "miles",
+  "points_value_cents": 1,
+  "credit_score_required": {
+    "min": 670,
+    "recommended": 700
+  },
+  "perks": [
+    "5x miles on Frontier Airlines purchases",
+    "3x miles at restaurants",
+    "1x miles on all other purchases",
+    "Family pooling: combine miles with up to 8 family members",
+    "50,000 bonus miles after spending $500 in first 90 days",
+    "No foreign transaction fees",
+    "Free Frontier Discount Den membership in first year",
+    "Award redemption fee waiver when booking through app",
+    "Status-qualifying miles count toward Elite status"
+  ],
+  "drawbacks": [
+    "$79 annual fee",
+    "Miles only useful for Frontier flights (no airline partners)",
+    "Frontier flies domestic U.S. routes primarily",
+    "Miles can expire if account is inactive for 12 months",
+    "Frontier's change and cancellation fees can be high",
+    "No seat upgrade benefits or priority boarding"
+  ],
+  "application_url": "https://www.frontier.com/mileage-plan/frontier-credit-cards",
+  "last_updated": "2026-05-01",
+  "rating": 4.0
+}

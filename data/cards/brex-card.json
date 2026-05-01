@@ -1,0 +1,64 @@
+{
+  "slug": "brex-card",
+  "issuer": "Brex",
+  "name": "Brex Business Credit Card",
+  "network": "Mastercard",
+  "category": [
+    "business",
+    "rewards"
+  ],
+  "apr_purchase": {
+    "min": 0,
+    "max": 0
+  },
+  "apr_intro": null,
+  "apr_intro_months": 0,
+  "apr_balance_transfer": {
+    "min": 0,
+    "max": 0
+  },
+  "apr_cash_advance": 0,
+  "annual_fee": 0,
+  "foreign_tx_fee": 0,
+  "balance_transfer_fee": 0,
+  "signup_bonus": "75,000 bonus points",
+  "signup_bonus_spend": 9000,
+  "signup_bonus_value_usd": 750,
+  "rewards": {
+    "rideshare": 7,
+    "travel-via-brex": 4,
+    "dining": 3,
+    "recurring-software": 2,
+    "other": 1
+  },
+  "rewards_type": "points",
+  "points_value_cents": 1,
+  "credit_score_required": {
+    "min": 0,
+    "recommended": 0
+  },
+  "perks": [
+    "7x points on rideshare",
+    "4x points on Brex Travel bookings",
+    "3x points on dining",
+    "2x points on recurring software subscriptions",
+    "1x points on everything else",
+    "No personal guarantee required for qualifying businesses",
+    "No annual fee, no foreign transaction fees, no interest (charge card)",
+    "Points transfer to airline partners (Avianca, Air France/KLM, Cathay Pacific, and more)",
+    "Integrated expense management with real-time reporting",
+    "Up to $150/month in statement credits for qualifying categories",
+    "Scales with your business: spending limit based on cash balance"
+  ],
+  "drawbacks": [
+    "Charge card: balance must be paid in full each month",
+    "Requires a Brex business account and qualifying company (VC-backed, US-incorporated)",
+    "Not available for sole proprietors or most small businesses without institutional funding",
+    "No traditional credit building (charge card, not revolving credit)",
+    "Best rewards require using Brex Travel and partner ecosystem",
+    "Spending limit tied to cash balance can restrict large purchases"
+  ],
+  "application_url": "https://www.brex.com/product/credit-card",
+  "last_updated": "2026-05-01",
+  "rating": 4.5
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "bank-of-america-travel-rewards-student",
+  "issuer": "Bank of America",
+  "name": "Travel Rewards Credit Card for Students",
+  "network": "Visa",
+  "category": [
+    "student",
+    "travel",
+    "rewards"
+  ],
+  "apr_purchase": {
+    "min": 19.24,
+    "max": 29.24
+  },
+  "apr_intro": 0,
+  "apr_intro_months": 15,
+  "apr_balance_transfer": {
+    "min": 19.24,
+    "max": 29.24
+  },
+  "apr_cash_advance": 29.99,
+  "annual_fee": 0,
+  "foreign_tx_fee": 0,
+  "balance_transfer_fee": 0.04,
+  "signup_bonus": "25,000 online bonus points",
+  "signup_bonus_spend": 1000,
+  "signup_bonus_value_usd": 250,
+  "rewards": {
+    "other": 1.5
+  },
+  "rewards_type": "points",
+  "points_value_cents": 1,
+  "credit_score_required": {
+    "min": 580,
+    "recommended": 630
+  },
+  "perks": [
+    "1.5 points per $1 spent on all purchases with no limit",
+    "No annual fee",
+    "No foreign transaction fees",
+    "25,000 bonus points after $1,000 in purchases in first 90 days (worth $250 in travel)",
+    "0% intro APR for 15 billing cycles on purchases and balance transfers",
+    "Points redeemable for statement credit toward travel, dining, and more",
+    "Preferred Rewards program available after graduation",
+    "Free access to FICO credit score",
+    "Designed for students with limited credit history"
+  ],
+  "drawbacks": [
+    "No category bonuses (flat 1.5x rate)",
+    "Points worth exactly 1 cent each (no aspirational value)",
+    "Bonus points not as high as non-student travel cards",
+    "No transfer partners (no airline or hotel programs)",
+    "Student status required to apply"
+  ],
+  "application_url": "https://www.bankofamerica.com/student-banking/student-credit-card/",
+  "last_updated": "2026-05-01",
+  "rating": 4.3
+}
