@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { PILLARS } from "@/lib/pillars";
 import { loadArticles } from "@/lib/content/loader";
+import { HeroImage } from "@/components/layout/HeroImage";
 
 export function generateStaticParams() {
   return PILLARS.map((p) => ({ pillar: p.slug }));
@@ -22,6 +23,7 @@ export default async function PillarPage({ params }: { params: Promise<{ pillar:
 
   return (
     <div className="mx-auto max-w-3xl px-6 py-10">
+      <HeroImage slug={`pillar-${p.slug}`} alt={p.title} className="my-6 h-64 w-full rounded-2xl object-cover md:h-80" />
       <h1 className="font-display text-3xl font-bold text-navy-900">{p.title}</h1>
       <p className="mt-3 text-lg text-slate-600">{p.description}</p>
       {articles.length === 0 ? (

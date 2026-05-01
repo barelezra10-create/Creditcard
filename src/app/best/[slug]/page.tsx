@@ -6,6 +6,7 @@ import { FAQAccordion } from "@/components/listicles/FAQAccordion";
 import { MethodologyBlock } from "@/components/listicles/MethodologyBlock";
 import { DisclosureBox } from "@/components/seo/DisclosureBox";
 import { StructuredData } from "@/components/seo/StructuredData";
+import { HeroImage } from "@/components/layout/HeroImage";
 import { SITE } from "@/lib/site";
 
 export function generateStaticParams() {
@@ -41,6 +42,7 @@ export default async function ListiclePage({ params }: { params: Promise<{ slug:
         ],
       }} />
       <DisclosureBox />
+      <HeroImage slug={`best-${l.slug}`} alt={l.title} className="my-6 h-64 w-full rounded-2xl object-cover md:h-80" />
       <h1 className="font-display text-3xl font-bold text-navy-900 md:text-4xl">{l.title}</h1>
       <p className="mt-2 text-sm text-slate-600">Updated {l.last_updated}</p>
       <p className="mt-6 text-base leading-relaxed text-slate-700">{l.intro}</p>

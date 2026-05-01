@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { HeroImage } from "@/components/layout/HeroImage";
 
 const TOOLS = [
   { href: "/tools/which-card", title: "Which Card Should I Get?", desc: "60-second quiz." },
@@ -13,6 +14,7 @@ export const metadata = { title: "Credit Card Tools" };
 export default function ToolsIndex() {
   return (
     <div className="mx-auto max-w-5xl px-6 py-10">
+      <HeroImage slug="tools" alt="Credit card tools and calculators" className="mb-8 h-64 w-full rounded-2xl object-cover md:h-80" />
       <h1 className="font-display text-3xl font-bold text-navy-900">Tools</h1>
       <div className="mt-8 grid gap-4 md:grid-cols-2">
         {TOOLS.map((t) => (

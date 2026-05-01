@@ -3,6 +3,7 @@ import { SITE } from "@/lib/site";
 import { loadAllListicles } from "@/lib/listicles/loader";
 import { PILLARS } from "@/lib/pillars";
 import { EmailCapture } from "@/components/marketing/EmailCapture";
+import { HeroImage } from "@/components/layout/HeroImage";
 
 const TOOLS = [
   {
@@ -27,6 +28,14 @@ const TOOLS = [
   },
 ];
 
+const LISTICLE_HERO_SLUGS: Record<string, string> = {
+  cashback: "best-cashback",
+  travel: "best-travel",
+  secured: "best-secured",
+  business: "best-business",
+  miles: "best-miles",
+};
+
 export default function Home() {
   const allListicles = loadAllListicles();
   const featuredSlugs = ["cashback", "travel", "secured"];
@@ -37,25 +46,62 @@ export default function Home() {
   return (
     <div className="mx-auto max-w-6xl px-6">
 
-      {/* Hero */}
-      <section className="py-16 text-center md:py-24">
-        <h1 className="font-display text-4xl font-bold text-navy-900 md:text-6xl">
-          {SITE.tagline}
-        </h1>
-        <p className="mt-4 text-lg text-slate-500 md:text-xl">{SITE.subhead}</p>
-        <div className="mt-8 flex flex-wrap justify-center gap-3">
-          <Link
-            href="/tools/which-card"
-            className="rounded-md bg-navy-900 px-5 py-3 text-sm font-semibold text-white hover:bg-navy-700 transition-colors"
-          >
-            Take the 60-second quiz
-          </Link>
-          <Link
-            href="/best/cashback"
-            className="rounded-md border border-slate-300 px-5 py-3 text-sm font-semibold text-slate-900 hover:bg-slate-50 transition-colors"
-          >
-            Browse top cards
-          </Link>
+      {/* Hero: split layout on desktop, stacked on mobile */}
+      <section className="py-16 md:py-24">
+        <div className="grid gap-10 md:grid-cols-2 md:items-center">
+          {/* Text side */}
+          <div>
+            <h1 className="font-display text-4xl font-bold text-navy-900 md:text-5xl leading-tight">
+              {SITE.tagline}
+            </h1>
+            <p className="mt-4 text-lg text-slate-500 leading-relaxed">{SITE.subhead}</p>
+            <div className="mt-8 flex flex-wrap gap-3">
+              <Link
+                href="/tools/which-card"
+                className="rounded-md bg-navy-900 px-5 py-3 text-sm font-semibold text-white hover:bg-navy-700 transition-colors"
+              >
+                Take the 60-second quiz
+              </Link>
+              <Link
+                href="/best/cashback"
+                className="rounded-md border border-slate-300 px-5 py-3 text-sm font-semibold text-slate-900 hover:bg-slate-50 transition-colors"
+              >
+                Browse top cards
+              </Link>
+            </div>
+          </div>
+          {/* Image side */}
+          <div>
+            <HeroImage
+              slug="homepage"
+              alt="Person confidently choosing a credit card at a modern desk"
+              className="h-72 w-full rounded-2xl object-cover shadow-lg md:h-[380px]"
+            />
+          </div>
+        </div>
+      </section>
+
+      {/* Why us strip */}
+      <section className="rounded-2xl bg-slate-50 px-8 py-10 border border-slate-100">
+        <div className="grid gap-6 sm:grid-cols-3">
+          <div>
+            <div className="text-lg font-bold text-navy-900 font-display">Independent</div>
+            <p className="mt-1 text-sm text-slate-500 leading-relaxed">
+              No paid placements. Every pick is based on math and real cardholder value.
+            </p>
+          </div>
+          <div>
+            <div className="text-lg font-bold text-navy-900 font-display">Transparent</div>
+            <p className="mt-1 text-sm text-slate-500 leading-relaxed">
+              We publish our scoring methodology and update picks quarterly.
+            </p>
+          </div>
+          <div>
+            <div className="text-lg font-bold text-navy-900 font-display">Practical</div>
+            <p className="mt-1 text-sm text-slate-500 leading-relaxed">
+              Free tools that run in your browser. No account. No upsells.
+            </p>
+          </div>
         </div>
       </section>
 
@@ -68,28 +114,40 @@ export default function Home() {
           Curated shortlists, ranked by what matters to real cardholders.
         </p>
         <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {featuredListicles.map((listicle) => (
-            <Link
-              key={listicle.slug}
-              href={`/best/${listicle.slug}`}
-              className="group flex flex-col rounded-xl border border-slate-200 bg-white p-5 hover:border-navy-500 hover:shadow-sm transition-all"
-            >
-              <div className="font-display text-base font-semibold text-navy-900 group-hover:text-navy-700">
-                {listicle.title}
-              </div>
-              <p className="mt-2 flex-1 text-sm text-slate-500 leading-relaxed">
-                {listicle.description}
-              </p>
-              <div className="mt-4 text-sm font-medium text-navy-700 group-hover:underline">
-                View picks &rarr;
-              </div>
-            </Link>
-          ))}
+          {featuredListicles.map((listicle) => {
+            const heroSlug = LISTICLE_HERO_SLUGS[listicle.slug];
+            return (
+              <Link
+                key={listicle.slug}
+                href={`/best/${listicle.slug}`}
+                className="group flex flex-col rounded-xl border border-slate-200 bg-white overflow-hidden hover:border-navy-500 hover:shadow-sm transition-all"
+              >
+                {heroSlug && (
+                  <HeroImage
+                    slug={heroSlug}
+                    alt={listicle.title}
+                    className="h-40 w-full object-cover"
+                  />
+                )}
+                <div className="p-5 flex flex-col flex-1">
+                  <div className="font-display text-base font-semibold text-navy-900 group-hover:text-navy-700">
+                    {listicle.title}
+                  </div>
+                  <p className="mt-2 flex-1 text-sm text-slate-500 leading-relaxed">
+                    {listicle.description}
+                  </p>
+                  <div className="mt-4 text-sm font-medium text-navy-700 group-hover:underline">
+                    View picks &rarr;
+                  </div>
+                </div>
+              </Link>
+            );
+          })}
         </div>
       </section>
 
       {/* Tools featured */}
-      <section className="py-12 border-t border-slate-100">
+      <section className="rounded-2xl bg-slate-50 px-8 py-10 border border-slate-100">
         <h2 className="font-display text-2xl font-bold text-navy-900 md:text-3xl">
           Powerful tools, no signup required
         </h2>
