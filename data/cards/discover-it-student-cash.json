@@ -3,11 +3,21 @@
   "issuer": "Discover",
   "name": "Discover it Student Cash Back",
   "network": "Discover",
-  "category": ["student", "no-credit", "cashback"],
-  "apr_purchase": { "min": 18.24, "max": 27.24 },
+  "category": [
+    "student",
+    "no-credit",
+    "cashback"
+  ],
+  "apr_purchase": {
+    "min": 18.24,
+    "max": 27.24
+  },
   "apr_intro": null,
   "apr_intro_months": 0,
-  "apr_balance_transfer": { "min": 18.24, "max": 27.24 },
+  "apr_balance_transfer": {
+    "min": 18.24,
+    "max": 27.24
+  },
   "apr_cash_advance": 29.99,
   "annual_fee": 0,
   "foreign_tx_fee": 0,
@@ -21,7 +31,10 @@
   },
   "rewards_type": "cashback",
   "points_value_cents": null,
-  "credit_score_required": { "min": 580, "recommended": 620 },
+  "credit_score_required": {
+    "min": 580,
+    "recommended": 620
+  },
   "perks": [
     "Cashback Match - Discover doubles all cash back earned in first year",
     "5% on rotating quarterly categories (up to $1,500 per quarter) such as groceries, gas, restaurants, and Amazon",
@@ -38,5 +51,6 @@
     "Discover accepted less widely internationally than Visa or Mastercard"
   ],
   "application_url": "https://www.discover.com/credit-cards/student/",
-  "last_updated": "2026-04-28"
+  "last_updated": "2026-04-28",
+  "rating": 4.7
 }

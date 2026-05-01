@@ -3,11 +3,21 @@
   "issuer": "Chase",
   "name": "Ink Business Preferred Credit Card",
   "network": "Visa",
-  "category": ["business", "travel", "rewards"],
-  "apr_purchase": { "min": 21.24, "max": 26.24 },
+  "category": [
+    "business",
+    "travel",
+    "rewards"
+  ],
+  "apr_purchase": {
+    "min": 21.24,
+    "max": 26.24
+  },
   "apr_intro": null,
   "apr_intro_months": 0,
-  "apr_balance_transfer": { "min": 21.24, "max": 26.24 },
+  "apr_balance_transfer": {
+    "min": 21.24,
+    "max": 26.24
+  },
   "apr_cash_advance": 29.99,
   "annual_fee": 95,
   "foreign_tx_fee": 0,
@@ -24,7 +34,10 @@
   },
   "rewards_type": "points",
   "points_value_cents": 1.25,
-  "credit_score_required": { "min": 690, "recommended": 720 },
+  "credit_score_required": {
+    "min": 690,
+    "recommended": 720
+  },
   "perks": [
     "3x points on first $150,000 combined per year in travel, shipping, internet, cable, phone, and advertising purchases",
     "100,000 bonus points after spending $8,000 in first 3 months",
@@ -43,5 +56,6 @@
     "5% balance transfer fee"
   ],
   "application_url": "https://creditcards.chase.com/business-credit-cards/ink/preferred",
-  "last_updated": "2026-04-29"
+  "last_updated": "2026-04-29",
+  "rating": 4.7
 }

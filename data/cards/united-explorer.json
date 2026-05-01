@@ -3,11 +3,20 @@
   "issuer": "Chase",
   "name": "United Explorer Card",
   "network": "Visa",
-  "category": ["travel", "miles"],
-  "apr_purchase": { "min": 21.99, "max": 28.99 },
+  "category": [
+    "travel",
+    "miles"
+  ],
+  "apr_purchase": {
+    "min": 21.99,
+    "max": 28.99
+  },
   "apr_intro": null,
   "apr_intro_months": 0,
-  "apr_balance_transfer": { "min": 21.99, "max": 28.99 },
+  "apr_balance_transfer": {
+    "min": 21.99,
+    "max": 28.99
+  },
   "apr_cash_advance": 29.99,
   "annual_fee": 95,
   "foreign_tx_fee": 0,
@@ -23,7 +32,10 @@
   },
   "rewards_type": "miles",
   "points_value_cents": 1.4,
-  "credit_score_required": { "min": 690, "recommended": 720 },
+  "credit_score_required": {
+    "min": 690,
+    "recommended": 720
+  },
   "perks": [
     "First checked bag free for you and one companion (saves up to $140 per round trip)",
     "2x miles on United purchases, dining, and hotels",
@@ -43,5 +55,6 @@
     "Award availability can be limited on popular routes"
   ],
   "application_url": "https://creditcards.chase.com/travel-credit-cards/united/united-explorer",
-  "last_updated": "2026-04-29"
+  "last_updated": "2026-04-29",
+  "rating": 4.2
 }

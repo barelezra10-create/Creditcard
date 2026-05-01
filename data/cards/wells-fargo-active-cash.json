@@ -3,11 +3,19 @@
   "issuer": "Wells Fargo",
   "name": "Active Cash Card",
   "network": "Visa",
-  "category": ["cashback"],
-  "apr_purchase": { "min": 20.24, "max": 29.99 },
+  "category": [
+    "cashback"
+  ],
+  "apr_purchase": {
+    "min": 20.24,
+    "max": 29.99
+  },
   "apr_intro": 0,
   "apr_intro_months": 12,
-  "apr_balance_transfer": { "min": 20.24, "max": 29.99 },
+  "apr_balance_transfer": {
+    "min": 20.24,
+    "max": 29.99
+  },
   "apr_cash_advance": 29.99,
   "annual_fee": 0,
   "foreign_tx_fee": 0.03,
@@ -15,10 +23,15 @@
   "signup_bonus": "$200 cash rewards bonus",
   "signup_bonus_spend": 500,
   "signup_bonus_value_usd": 200,
-  "rewards": { "other": 2 },
+  "rewards": {
+    "other": 2
+  },
   "rewards_type": "cashback",
   "points_value_cents": null,
-  "credit_score_required": { "min": 670, "recommended": 720 },
+  "credit_score_required": {
+    "min": 670,
+    "recommended": 720
+  },
   "perks": [
     "Unlimited 2% cash rewards on purchases, no categories to track",
     "$200 cash rewards bonus after spending $500 in first 3 months",
@@ -34,5 +47,6 @@
     "No bonus categories for higher earning"
   ],
   "application_url": "https://www.wellsfargo.com/credit-cards/active-cash/",
-  "last_updated": "2026-04-29"
+  "last_updated": "2026-04-29",
+  "rating": 4.6
 }

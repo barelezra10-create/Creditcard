@@ -3,11 +3,20 @@
   "issuer": "Barclays",
   "name": "JetBlue Plus Card",
   "network": "Mastercard",
-  "category": ["travel", "miles"],
-  "apr_purchase": { "min": 20.74, "max": 29.74 },
+  "category": [
+    "travel",
+    "miles"
+  ],
+  "apr_purchase": {
+    "min": 20.74,
+    "max": 29.74
+  },
   "apr_intro": null,
   "apr_intro_months": 0,
-  "apr_balance_transfer": { "min": 20.74, "max": 29.74 },
+  "apr_balance_transfer": {
+    "min": 20.74,
+    "max": 29.74
+  },
   "apr_cash_advance": 29.99,
   "annual_fee": 99,
   "foreign_tx_fee": 0,
@@ -23,7 +32,10 @@
   },
   "rewards_type": "points",
   "points_value_cents": 1.4,
-  "credit_score_required": { "min": 670, "recommended": 710 },
+  "credit_score_required": {
+    "min": 670,
+    "recommended": 710
+  },
   "perks": [
     "6x points on JetBlue purchases",
     "Free first checked bag for the primary cardmember and up to 3 companions",
@@ -42,5 +54,6 @@
     "Award pricing tied to cash fare variability"
   ],
   "application_url": "https://www.jetblue.com/credit-card",
-  "last_updated": "2026-04-29"
+  "last_updated": "2026-04-29",
+  "rating": 4.1
 }

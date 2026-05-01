@@ -3,11 +3,20 @@
   "issuer": "Chase",
   "name": "World of Hyatt Credit Card",
   "network": "Visa",
-  "category": ["travel", "hotel"],
-  "apr_purchase": { "min": 21.49, "max": 28.49 },
+  "category": [
+    "travel",
+    "hotel"
+  ],
+  "apr_purchase": {
+    "min": 21.49,
+    "max": 28.49
+  },
   "apr_intro": null,
   "apr_intro_months": 0,
-  "apr_balance_transfer": { "min": 21.49, "max": 28.49 },
+  "apr_balance_transfer": {
+    "min": 21.49,
+    "max": 28.49
+  },
   "apr_cash_advance": 29.99,
   "annual_fee": 95,
   "foreign_tx_fee": 0,
@@ -25,7 +34,10 @@
   },
   "rewards_type": "points",
   "points_value_cents": 2,
-  "credit_score_required": { "min": 690, "recommended": 720 },
+  "credit_score_required": {
+    "min": 690,
+    "recommended": 720
+  },
   "perks": [
     "Free Category 1-4 night award certificate every year",
     "4x Hyatt points at Hyatt hotels, resorts, and restaurants",
@@ -44,5 +56,6 @@
     "4x only at Hyatt properties, not at competitors"
   ],
   "application_url": "https://creditcards.chase.com/travel-credit-cards/world-of-hyatt",
-  "last_updated": "2026-04-29"
+  "last_updated": "2026-04-29",
+  "rating": 4.4
 }

@@ -3,11 +3,19 @@
   "issuer": "Chase",
   "name": "Freedom Unlimited",
   "network": "Visa",
-  "category": ["cashback"],
-  "apr_purchase": { "min": 20.49, "max": 29.24 },
+  "category": [
+    "cashback"
+  ],
+  "apr_purchase": {
+    "min": 20.49,
+    "max": 29.24
+  },
   "apr_intro": 0,
   "apr_intro_months": 15,
-  "apr_balance_transfer": { "min": 20.49, "max": 29.24 },
+  "apr_balance_transfer": {
+    "min": 20.49,
+    "max": 29.24
+  },
   "apr_cash_advance": 29.99,
   "annual_fee": 0,
   "foreign_tx_fee": 0.03,
@@ -23,7 +31,10 @@
   },
   "rewards_type": "cashback",
   "points_value_cents": null,
-  "credit_score_required": { "min": 670, "recommended": 720 },
+  "credit_score_required": {
+    "min": 670,
+    "recommended": 720
+  },
   "perks": [
     "1.5% cash back on all purchases with no annual fee",
     "5% on travel booked through Chase Travel, 3% dining and drugstores",
@@ -41,5 +52,6 @@
     "3% balance transfer fee during intro period (then up to 5%)"
   ],
   "application_url": "https://creditcards.chase.com/cash-back-credit-cards/freedom/unlimited",
-  "last_updated": "2026-04-29"
+  "last_updated": "2026-04-29",
+  "rating": 4.5
 }

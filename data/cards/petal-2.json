@@ -3,11 +3,20 @@
   "issuer": "WebBank",
   "name": "Petal 2 Cash Back No Fees Visa Credit Card",
   "network": "Visa",
-  "category": ["no-credit", "cashback"],
-  "apr_purchase": { "min": 18.24, "max": 32.24 },
+  "category": [
+    "no-credit",
+    "cashback"
+  ],
+  "apr_purchase": {
+    "min": 18.24,
+    "max": 32.24
+  },
   "apr_intro": null,
   "apr_intro_months": 0,
-  "apr_balance_transfer": { "min": 18.24, "max": 32.24 },
+  "apr_balance_transfer": {
+    "min": 18.24,
+    "max": 32.24
+  },
   "apr_cash_advance": 32.24,
   "annual_fee": 0,
   "foreign_tx_fee": 0,
@@ -20,7 +29,10 @@
   },
   "rewards_type": "cashback",
   "points_value_cents": null,
-  "credit_score_required": { "min": 300, "recommended": 550 },
+  "credit_score_required": {
+    "min": 300,
+    "recommended": 550
+  },
   "perks": [
     "1% cash back immediately, growing to 1.5% after 12 on-time monthly payments",
     "No annual fee, no late fees, no returned payment fees, no foreign transaction fees",
@@ -39,5 +51,6 @@
     "Issuer is WebBank, less name recognition than major banks"
   ],
   "application_url": "https://www.petalcard.com/",
-  "last_updated": "2026-04-29"
+  "last_updated": "2026-04-29",
+  "rating": 4.0
 }

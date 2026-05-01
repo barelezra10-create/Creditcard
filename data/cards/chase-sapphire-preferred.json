@@ -3,11 +3,20 @@
   "issuer": "Chase",
   "name": "Sapphire Preferred Card",
   "network": "Visa",
-  "category": ["travel", "rewards"],
-  "apr_purchase": { "min": 21.49, "max": 28.49 },
+  "category": [
+    "travel",
+    "rewards"
+  ],
+  "apr_purchase": {
+    "min": 21.49,
+    "max": 28.49
+  },
   "apr_intro": null,
   "apr_intro_months": 0,
-  "apr_balance_transfer": { "min": 21.49, "max": 28.49 },
+  "apr_balance_transfer": {
+    "min": 21.49,
+    "max": 28.49
+  },
   "apr_cash_advance": 29.99,
   "annual_fee": 95,
   "foreign_tx_fee": 0,
@@ -24,7 +33,10 @@
   },
   "rewards_type": "points",
   "points_value_cents": 1.25,
-  "credit_score_required": { "min": 690, "recommended": 720 },
+  "credit_score_required": {
+    "min": 690,
+    "recommended": 720
+  },
   "perks": [
     "5x points on Chase Travel portal purchases",
     "3x on dining, online groceries, and streaming",
@@ -41,5 +53,6 @@
     "Chase 5/24 rule applies - denied if 5+ cards opened in last 24 months"
   ],
   "application_url": "https://creditcards.chase.com/rewards-credit-cards/sapphire/preferred",
-  "last_updated": "2026-04-28"
+  "last_updated": "2026-04-28",
+  "rating": 4.9
 }

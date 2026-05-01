@@ -3,11 +3,19 @@
   "issuer": "Discover",
   "name": "Discover it Cash Back",
   "network": "Discover",
-  "category": ["cashback"],
-  "apr_purchase": { "min": 17.24, "max": 28.24 },
+  "category": [
+    "cashback"
+  ],
+  "apr_purchase": {
+    "min": 17.24,
+    "max": 28.24
+  },
   "apr_intro": 0,
   "apr_intro_months": 15,
-  "apr_balance_transfer": { "min": 17.24, "max": 28.24 },
+  "apr_balance_transfer": {
+    "min": 17.24,
+    "max": 28.24
+  },
   "apr_cash_advance": 29.99,
   "annual_fee": 0,
   "foreign_tx_fee": 0,
@@ -21,7 +29,10 @@
   },
   "rewards_type": "cashback",
   "points_value_cents": null,
-  "credit_score_required": { "min": 670, "recommended": 700 },
+  "credit_score_required": {
+    "min": 670,
+    "recommended": 700
+  },
   "perks": [
     "5% cash back on rotating quarterly categories (up to $1,500 per quarter, then 1%) - gas, groceries, Amazon, restaurants, and more",
     "Cashback Match: Discover doubles all cash back earned at the end of the first year",
@@ -39,5 +50,6 @@
     "Only 1% after rotating category cap"
   ],
   "application_url": "https://www.discover.com/credit-cards/cash-back/",
-  "last_updated": "2026-04-29"
+  "last_updated": "2026-04-29",
+  "rating": 4.5
 }

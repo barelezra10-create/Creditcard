@@ -3,11 +3,20 @@
   "issuer": "American Express",
   "name": "Hilton Honors American Express Card",
   "network": "Amex",
-  "category": ["travel", "hotel"],
-  "apr_purchase": { "min": 20.99, "max": 29.99 },
+  "category": [
+    "travel",
+    "hotel"
+  ],
+  "apr_purchase": {
+    "min": 20.99,
+    "max": 29.99
+  },
   "apr_intro": null,
   "apr_intro_months": 0,
-  "apr_balance_transfer": { "min": 20.99, "max": 29.99 },
+  "apr_balance_transfer": {
+    "min": 20.99,
+    "max": 29.99
+  },
   "apr_cash_advance": 29.99,
   "annual_fee": 0,
   "foreign_tx_fee": 0,
@@ -24,7 +33,10 @@
   },
   "rewards_type": "points",
   "points_value_cents": 0.6,
-  "credit_score_required": { "min": 670, "recommended": 700 },
+  "credit_score_required": {
+    "min": 670,
+    "recommended": 700
+  },
   "perks": [
     "7x Hilton Honors points at Hilton portfolio hotels and resorts",
     "5x on restaurants, U.S. supermarkets, and U.S. gas stations",
@@ -42,5 +54,6 @@
     "Not accepted everywhere Visa/Mastercard are"
   ],
   "application_url": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors/",
-  "last_updated": "2026-04-29"
+  "last_updated": "2026-04-29",
+  "rating": 4.1
 }

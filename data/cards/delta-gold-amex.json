@@ -3,11 +3,20 @@
   "issuer": "American Express",
   "name": "Delta SkyMiles Gold American Express Card",
   "network": "Amex",
-  "category": ["travel", "miles"],
-  "apr_purchase": { "min": 20.99, "max": 29.99 },
+  "category": [
+    "travel",
+    "miles"
+  ],
+  "apr_purchase": {
+    "min": 20.99,
+    "max": 29.99
+  },
   "apr_intro": null,
   "apr_intro_months": 0,
-  "apr_balance_transfer": { "min": 20.99, "max": 29.99 },
+  "apr_balance_transfer": {
+    "min": 20.99,
+    "max": 29.99
+  },
   "apr_cash_advance": 29.99,
   "annual_fee": 150,
   "foreign_tx_fee": 0,
@@ -23,7 +32,10 @@
   },
   "rewards_type": "miles",
   "points_value_cents": 1.2,
-  "credit_score_required": { "min": 690, "recommended": 720 },
+  "credit_score_required": {
+    "min": 690,
+    "recommended": 720
+  },
   "perks": [
     "First checked bag free for you and up to 8 companions on same reservation (saves up to $360 per round trip)",
     "2x miles on Delta purchases, restaurants, and U.S. supermarkets",
@@ -42,5 +54,6 @@
     "Not accepted everywhere Visa/Mastercard are"
   ],
   "application_url": "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-gold-american-express-card/",
-  "last_updated": "2026-04-29"
+  "last_updated": "2026-04-29",
+  "rating": 4.2
 }

@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import { PILLARS } from "@/lib/pillars";
 import { loadArticles, loadArticle } from "@/lib/content/loader";
+import { AuthorByline } from "@/components/seo/AuthorByline";
 
 export function generateStaticParams() {
   const out: { pillar: string; slug: string }[] = [];
@@ -24,11 +25,15 @@ export default async function ArticlePage({ params }: { params: Promise<{ pillar
   const a = loadArticle(`learn/${pillar}`, slug);
   if (!a) notFound();
 
+  const updatedAt = a.updatedAt ?? a.publishedAt ?? "";
+
   return (
-    <article className="prose prose-slate mx-auto max-w-3xl px-6 py-10">
-      <h1>{a.title}</h1>
-      <p className="text-sm text-slate-500">Updated {a.updatedAt ?? a.publishedAt}</p>
-      <MDXRemote source={a.body} />
+    <article className="mx-auto max-w-3xl px-6 py-10">
+      <h1 className="font-display text-3xl font-bold text-navy-900 md:text-4xl">{a.title}</h1>
+      <AuthorByline slug="bar-elezra" updatedAt={updatedAt} />
+      <div className="prose prose-slate max-w-none">
+        <MDXRemote source={a.body} />
+      </div>
     </article>
   );
 }

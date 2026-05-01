@@ -3,11 +3,20 @@
   "issuer": "Discover",
   "name": "Discover it Secured Credit Card",
   "network": "Discover",
-  "category": ["secured", "rebuilding"],
-  "apr_purchase": { "min": 28.24, "max": 28.24 },
+  "category": [
+    "secured",
+    "rebuilding"
+  ],
+  "apr_purchase": {
+    "min": 28.24,
+    "max": 28.24
+  },
   "apr_intro": null,
   "apr_intro_months": 0,
-  "apr_balance_transfer": { "min": 28.24, "max": 28.24 },
+  "apr_balance_transfer": {
+    "min": 28.24,
+    "max": 28.24
+  },
   "apr_cash_advance": 29.99,
   "annual_fee": 0,
   "foreign_tx_fee": 0,
@@ -22,7 +31,10 @@
   },
   "rewards_type": "cashback",
   "points_value_cents": null,
-  "credit_score_required": { "min": 300, "recommended": 580 },
+  "credit_score_required": {
+    "min": 300,
+    "recommended": 580
+  },
   "perks": [
     "Cashback Match - Discover doubles all cash back earned in first year",
     "2% at gas stations and restaurants on up to $1,000 in combined quarterly purchases",
@@ -39,5 +51,6 @@
     "Discover accepted less widely than Visa or Mastercard internationally"
   ],
   "application_url": "https://www.discover.com/credit-cards/secured/",
-  "last_updated": "2026-04-28"
+  "last_updated": "2026-04-28",
+  "rating": 4.5
 }

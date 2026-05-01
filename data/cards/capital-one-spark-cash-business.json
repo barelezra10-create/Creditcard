@@ -3,11 +3,20 @@
   "issuer": "Capital One",
   "name": "Spark Cash Plus for Business",
   "network": "Mastercard",
-  "category": ["business", "cashback"],
-  "apr_purchase": { "min": 0, "max": 0 },
+  "category": [
+    "business",
+    "cashback"
+  ],
+  "apr_purchase": {
+    "min": 0,
+    "max": 0
+  },
   "apr_intro": null,
   "apr_intro_months": 0,
-  "apr_balance_transfer": { "min": 0, "max": 0 },
+  "apr_balance_transfer": {
+    "min": 0,
+    "max": 0
+  },
   "apr_cash_advance": 0,
   "annual_fee": 150,
   "foreign_tx_fee": 0,
@@ -22,7 +31,10 @@
   },
   "rewards_type": "cashback",
   "points_value_cents": null,
-  "credit_score_required": { "min": 690, "recommended": 720 },
+  "credit_score_required": {
+    "min": 690,
+    "recommended": 720
+  },
   "perks": [
     "Unlimited 2% cash back on every purchase",
     "5% on hotels and rental cars booked via Capital One Travel",
@@ -42,5 +54,6 @@
     "High spend thresholds for signup bonus"
   ],
   "application_url": "https://www.capitalone.com/small-business/credit-cards/spark-cash-plus/",
-  "last_updated": "2026-04-29"
+  "last_updated": "2026-04-29",
+  "rating": 4.4
 }

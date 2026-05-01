@@ -41,6 +41,7 @@ export const CardSchema = z.object({
   drawbacks: z.array(z.string()),
   application_url: z.string().url(),
   last_updated: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
+  rating: z.number().min(1).max(5).optional(),
 });
 
 export type Card = z.infer<typeof CardSchema>;

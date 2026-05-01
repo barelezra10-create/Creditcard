@@ -3,11 +3,20 @@
   "issuer": "Chase",
   "name": "Southwest Rapid Rewards Priority Credit Card",
   "network": "Visa",
-  "category": ["travel", "miles"],
-  "apr_purchase": { "min": 21.49, "max": 28.49 },
+  "category": [
+    "travel",
+    "miles"
+  ],
+  "apr_purchase": {
+    "min": 21.49,
+    "max": 28.49
+  },
   "apr_intro": null,
   "apr_intro_months": 0,
-  "apr_balance_transfer": { "min": 21.49, "max": 28.49 },
+  "apr_balance_transfer": {
+    "min": 21.49,
+    "max": 28.49
+  },
   "apr_cash_advance": 29.99,
   "annual_fee": 149,
   "foreign_tx_fee": 0,
@@ -25,7 +34,10 @@
   },
   "rewards_type": "points",
   "points_value_cents": 1.4,
-  "credit_score_required": { "min": 690, "recommended": 720 },
+  "credit_score_required": {
+    "min": 690,
+    "recommended": 720
+  },
   "perks": [
     "$75 Southwest annual travel credit",
     "4 upgraded boardings per year (A1-A15 priority boarding)",
@@ -43,5 +55,6 @@
     "Chase 5/24 rule applies"
   ],
   "application_url": "https://creditcards.chase.com/travel-credit-cards/southwest/priority",
-  "last_updated": "2026-04-29"
+  "last_updated": "2026-04-29",
+  "rating": 4.3
 }

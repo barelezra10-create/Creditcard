@@ -3,11 +3,20 @@
   "issuer": "Capital One",
   "name": "Platinum Secured Credit Card",
   "network": "Mastercard",
-  "category": ["secured", "rebuilding"],
-  "apr_purchase": { "min": 29.99, "max": 29.99 },
+  "category": [
+    "secured",
+    "rebuilding"
+  ],
+  "apr_purchase": {
+    "min": 29.99,
+    "max": 29.99
+  },
   "apr_intro": null,
   "apr_intro_months": 0,
-  "apr_balance_transfer": { "min": 29.99, "max": 29.99 },
+  "apr_balance_transfer": {
+    "min": 29.99,
+    "max": 29.99
+  },
   "apr_cash_advance": 29.99,
   "annual_fee": 0,
   "foreign_tx_fee": 0,
@@ -15,10 +24,15 @@
   "signup_bonus": null,
   "signup_bonus_spend": null,
   "signup_bonus_value_usd": null,
-  "rewards": { "other": 0 },
+  "rewards": {
+    "other": 0
+  },
   "rewards_type": "none",
   "points_value_cents": null,
-  "credit_score_required": { "min": 300, "recommended": 550 },
+  "credit_score_required": {
+    "min": 300,
+    "recommended": 550
+  },
   "perks": [
     "Security deposit as low as $49, $99, or $200 depending on creditworthiness",
     "$200 initial credit line with a $49 minimum deposit",
@@ -37,5 +51,6 @@
     "No intro APR offer"
   ],
   "application_url": "https://www.capitalone.com/credit-cards/secured-mastercard/",
-  "last_updated": "2026-04-29"
+  "last_updated": "2026-04-29",
+  "rating": 4.0
 }

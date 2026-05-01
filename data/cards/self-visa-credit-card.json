@@ -3,11 +3,20 @@
   "issuer": "Self Financial",
   "name": "Self Visa Credit Card",
   "network": "Visa",
-  "category": ["secured", "rebuilding"],
-  "apr_purchase": { "min": 28.74, "max": 28.74 },
+  "category": [
+    "secured",
+    "rebuilding"
+  ],
+  "apr_purchase": {
+    "min": 28.74,
+    "max": 28.74
+  },
   "apr_intro": null,
   "apr_intro_months": 0,
-  "apr_balance_transfer": { "min": 28.74, "max": 28.74 },
+  "apr_balance_transfer": {
+    "min": 28.74,
+    "max": 28.74
+  },
   "apr_cash_advance": 28.74,
   "annual_fee": 25,
   "foreign_tx_fee": 0.03,
@@ -15,10 +24,15 @@
   "signup_bonus": null,
   "signup_bonus_spend": null,
   "signup_bonus_value_usd": null,
-  "rewards": { "other": 0 },
+  "rewards": {
+    "other": 0
+  },
   "rewards_type": "none",
   "points_value_cents": null,
-  "credit_score_required": { "min": 300, "recommended": 500 },
+  "credit_score_required": {
+    "min": 300,
+    "recommended": 500
+  },
   "perks": [
     "No upfront cash deposit required - your Credit Builder Account loan payments fund your credit limit",
     "Must open a Self Credit Builder Account first (loan builds savings while you build credit)",
@@ -37,5 +51,6 @@
     "Credit limit tied to savings in Credit Builder Account"
   ],
   "application_url": "https://www.self.inc/self-visa-credit-card",
-  "last_updated": "2026-04-29"
+  "last_updated": "2026-04-29",
+  "rating": 3.8
 }
