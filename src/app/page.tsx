@@ -6,6 +6,7 @@ import { EmailCapture } from "@/components/marketing/EmailCapture";
 import { HeroImage } from "@/components/layout/HeroImage";
 import { PressStrip } from "@/components/marketing/PressStrip";
 import { CategoryGrid } from "@/components/marketing/CategoryGrid";
+import { loadAllCards } from "@/lib/cards/loader";
 
 const TOOLS = [
   {
@@ -47,39 +48,47 @@ export default function Home() {
 
   return (
     <div>
-      {/* HERO: navy band above lifestyle image */}
-      <section className="bg-navy-900">
-        <div className="mx-auto max-w-6xl px-6">
-          <div className="grid gap-8 py-12 md:grid-cols-2 md:items-center md:py-16">
-            {/* Text side */}
-            <div>
-              <h1 className="font-display text-4xl font-bold text-white md:text-5xl leading-tight">
-                {SITE.tagline}
-              </h1>
-              <p className="mt-4 text-lg text-navy-200 leading-relaxed">{SITE.subhead}</p>
-              <div className="mt-8 flex flex-wrap gap-3">
-                <Link
-                  href="/tools/which-card"
-                  className="rounded-md bg-white px-5 py-3 text-sm font-bold text-navy-900 transition-colors hover:bg-slate-100"
-                >
-                  Take the 60-second quiz
-                </Link>
-                <Link
-                  href="/best/cashback"
-                  className="rounded-md border border-white/30 px-5 py-3 text-sm font-semibold text-white transition-colors hover:bg-navy-700"
-                >
-                  Browse top cards
-                </Link>
-              </div>
-            </div>
-            {/* Image side */}
-            <div>
-              <HeroImage
-                slug="homepage-illu-2-iso-scene"
-                alt="Isometric illustration of credit cards with data charts on a navy fintech platform"
-                className="h-64 w-full rounded-2xl object-cover shadow-2xl ring-1 ring-white/10 md:h-[340px]"
-              />
-            </div>
+      {/* HERO: full-width centered Bankrate-style with floating real card art */}
+      <section className="relative overflow-hidden bg-navy-900">
+        {/* subtle radial light effect */}
+        <div
+          className="pointer-events-none absolute inset-0 opacity-60"
+          style={{
+            background:
+              "radial-gradient(60% 50% at 50% 30%, rgba(0,196,106,0.10) 0%, rgba(11,27,58,0) 70%), radial-gradient(40% 40% at 80% 80%, rgba(245,158,11,0.10) 0%, rgba(11,27,58,0) 70%)",
+          }}
+        />
+        {/* floating card mosaic — decorative, hidden on mobile */}
+        <div className="pointer-events-none absolute inset-0 hidden overflow-hidden md:block">
+          <FloatingCardMosaic />
+        </div>
+        {/* Dark overlay over cards for text readability */}
+        <div className="pointer-events-none absolute inset-0 bg-navy-900/70" />
+
+        <div className="relative mx-auto max-w-4xl px-6 py-20 text-center md:py-28">
+          <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-navy-200">
+            <span className="h-1.5 w-1.5 rounded-full bg-green-500" />
+            Updated daily · 35+ cards reviewed
+          </div>
+          <h1 className="font-display text-5xl font-bold leading-tight text-white md:text-6xl lg:text-7xl">
+            {SITE.tagline}
+          </h1>
+          <p className="mx-auto mt-5 max-w-xl text-lg text-navy-200 md:text-xl">
+            {SITE.subhead}
+          </p>
+          <div className="mt-10 flex flex-wrap items-center justify-center gap-3">
+            <Link
+              href="/tools/which-card"
+              className="rounded-md bg-white px-7 py-3.5 text-sm font-bold text-navy-900 transition-colors hover:bg-slate-100"
+            >
+              Take the 60-second quiz
+            </Link>
+            <Link
+              href="/best/cashback"
+              className="rounded-md border border-white/30 px-7 py-3.5 text-sm font-semibold text-white transition-colors hover:bg-white/10"
+            >
+              Browse top cards
+            </Link>
           </div>
         </div>
       </section>
@@ -243,4 +252,60 @@ export default function Home() {
       </div>
     </div>
   );
+}
+
+// Decorative floating card mosaic for the hero background.
+// Uses real card images positioned absolutely with rotation, blur, and low opacity.
+function FloatingCardMosaic() {
+  const cards = loadAllCards();
+  const featuredSlugs = [
+    "chase-sapphire-reserve",
+    "amex-platinum",
+    "apple-card",
+    "chase-sapphire-preferred",
+    "marriott-bonvoy-boundless",
+    "world-of-hyatt",
+  ];
+  const items = featuredSlugs
+    .map((s) => cards.find((c) => c.slug === s))
+    .filter((c): c is NonNullable<typeof c> => Boolean(c));
+
+  // Hand-picked positions and rotations so the mosaic feels intentional.
+  // Cards anchored to the corners and edges, leaving the center clear for text.
+  const positions = [
+    { left: "-6%", top: "5%", rotate: "-15deg", w: "220px" },
+    { left: "2%", bottom: "-10%", rotate: "12deg", w: "240px" },
+    { right: "-6%", top: "8%", rotate: "14deg", w: "230px" },
+    { right: "0%", bottom: "-8%", rotate: "-12deg", w: "210px" },
+    { left: "26%", top: "-12%", rotate: "8deg", w: "150px" },
+    { right: "26%", bottom: "-14%", rotate: "-8deg", w: "150px" },
+  ];
+
+  return (
+    <>
+      {items.slice(0, positions.length).map((card, i) => {
+        const p = positions[i];
+        return (
+          <img
+            key={card.slug}
+            src={`/images/cards/${card.slug}.${cardExt(card.slug)}`}
+            alt=""
+            aria-hidden
+            className="absolute rounded-xl shadow-2xl"
+            style={{
+              ...p,
+              transform: `rotate(${p.rotate})`,
+              opacity: 1,
+            }}
+          />
+        );
+      })}
+    </>
+  );
+}
+
+function cardExt(slug: string): string {
+  // Most are png, citi-double-cash is webp
+  if (slug === "citi-double-cash") return "webp";
+  return "png";
 }
