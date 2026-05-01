@@ -75,8 +75,8 @@ export default function Home() {
             {/* Image side */}
             <div>
               <HeroImage
-                slug="homepage-tech-1-fan"
-                alt="Premium credit cards arranged in a fan with teal and amber glow on deep navy background"
+                slug="homepage-illu-2-iso-scene"
+                alt="Isometric illustration of credit cards with data charts on a navy fintech platform"
                 className="h-64 w-full rounded-2xl object-cover shadow-2xl ring-1 ring-white/10 md:h-[340px]"
               />
             </div>
