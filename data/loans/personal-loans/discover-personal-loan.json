@@ -1,0 +1,30 @@
+{
+  "slug": "discover-personal-loan",
+  "lender": "Discover",
+  "product_name": "Personal Loan",
+  "apr_range": { "min": 7.99, "max": 24.99 },
+  "loan_amount_min": 2500,
+  "loan_amount_max": 40000,
+  "repayment_terms_months": [36, 48, 60, 72, 84],
+  "origination_fee": { "min": 0, "max": 0 },
+  "prepayment_penalty": false,
+  "late_fee": "$39",
+  "funding_speed": "Next business day",
+  "credit_score_required": { "min": 660, "recommended": 700 },
+  "best_for": "Good credit, debt consolidation",
+  "perks": [
+    "No origination fee",
+    "Direct payoff to over 10 creditors for debt consolidation",
+    "Next business day funding after acceptance",
+    "Flexible loan amounts starting at $2,500",
+    "24/7 US-based customer service"
+  ],
+  "drawbacks": [
+    "$39 late payment fee",
+    "No joint or co-signer option",
+    "Lower maximum of $40,000 vs competitors"
+  ],
+  "application_url": "https://www.discover.com/personal-loans/",
+  "rating": 4.5,
+  "last_updated": "2026-05-02"
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "onemain-personal-loan",
+  "lender": "OneMain Financial",
+  "product_name": "Personal Loan",
+  "apr_range": { "min": 18.0, "max": 35.99 },
+  "loan_amount_min": 1500,
+  "loan_amount_max": 20000,
+  "repayment_terms_months": [24, 36, 48, 60],
+  "origination_fee": { "min": 1, "max": 10 },
+  "prepayment_penalty": false,
+  "late_fee": "$5-$30 or 1.5-15% of payment (varies by state)",
+  "funding_speed": "1-2 business days",
+  "credit_score_required": { "min": 300, "recommended": 550 },
+  "best_for": "Bad credit, secured loan option available",
+  "perks": [
+    "No minimum credit score requirement, bad credit accepted",
+    "Secured loan option to improve approval odds or lower APR",
+    "In-person branch network for those preferring face-to-face service",
+    "Quick funding within 1-2 business days",
+    "No prepayment penalty"
+  ],
+  "drawbacks": [
+    "APR floor of 18% means expensive even for better credit",
+    "Origination fee required on all loans",
+    "Lower maximum loan amount of $20,000",
+    "Not available in all states"
+  ],
+  "application_url": "https://www.onemainfinancial.com/personal-loans",
+  "rating": 4.0,
+  "last_updated": "2026-05-02"
+}

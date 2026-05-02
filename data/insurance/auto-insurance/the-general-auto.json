@@ -1,0 +1,31 @@
+{
+  "slug": "the-general-auto",
+  "carrier": "The General",
+  "states_available": ["AL", "AR", "AZ", "CA", "CO", "FL", "GA", "IL", "IN", "KY", "LA", "MD", "MI", "MS", "MO", "NM", "NV", "OH", "OK", "OR", "SC", "TN", "TX", "UT", "VA", "WA"],
+  "avg_annual_premium": { "min": 1800, "max": 3200 },
+  "bundling_discount_pct": null,
+  "good_driver_discount_pct": null,
+  "am_best_rating": "A-",
+  "jd_power_satisfaction": null,
+  "digital_experience": "fair",
+  "claims_process": "phone",
+  "best_for": "High-risk drivers, SR-22 filings",
+  "coverage_types_offered": ["liability-only", "minimum-state"],
+  "perks": [
+    "Accepts high-risk drivers including those with DUIs and multiple violations",
+    "SR-22 filing assistance available",
+    "No credit check required in most states",
+    "Quick online quote process",
+    "Flexible payment plans including monthly payments"
+  ],
+  "drawbacks": [
+    "Premiums significantly higher than standard market",
+    "Limited coverage options: primarily liability and minimum state",
+    "Claims process is phone-only in most cases",
+    "Digital experience is dated",
+    "Not available in all states"
+  ],
+  "quote_url": "https://www.thegeneral.com/auto-insurance/",
+  "rating": 4.0,
+  "last_updated": "2026-05-02"
+}

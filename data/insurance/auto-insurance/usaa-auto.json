@@ -1,0 +1,30 @@
+{
+  "slug": "usaa-auto",
+  "carrier": "USAA",
+  "states_available": "all",
+  "avg_annual_premium": { "min": 1000, "max": 1700 },
+  "bundling_discount_pct": 10,
+  "good_driver_discount_pct": 10,
+  "am_best_rating": "A++",
+  "jd_power_satisfaction": 900,
+  "digital_experience": "excellent",
+  "claims_process": "all",
+  "best_for": "Military families, lowest premiums for eligible members",
+  "coverage_types_offered": ["liability-only", "full-coverage", "minimum-state", "high-value"],
+  "perks": [
+    "Consistently lowest premiums for military members and families",
+    "Top JD Power satisfaction scores year after year",
+    "A++ AM Best rating, one of the most financially stable insurers",
+    "Excellent digital experience and mobile app",
+    "Flexible payment options and strong member benefits",
+    "SafePilot telematics program with up to 30% discount"
+  ],
+  "drawbacks": [
+    "Eligibility restricted to military members, veterans, and their families",
+    "No local agent offices in most areas",
+    "Limited to USAA ecosystem for maximum benefits"
+  ],
+  "quote_url": "https://www.usaa.com/inet/wc/auto-insurance",
+  "rating": 4.8,
+  "last_updated": "2026-05-02"
+}

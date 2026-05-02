@@ -8,6 +8,7 @@ const TOOLS = [
   { href: "/tools/payoff", title: "Payoff Calculator", desc: "How long until you're free." },
   { href: "/tools/apr", title: "APR Cost Calculator", desc: "What APR really costs." },
   { href: "/tools/student-loan-payoff", title: "Student Loan Calculator", desc: "Monthly payment and total interest for any student loan." },
+  { href: "/tools/personal-loan-calculator", title: "Personal Loan Calculator", desc: "Monthly payment and total interest for any personal loan." },
 ];
 
 export const metadata = { title: "Credit Card Tools" };

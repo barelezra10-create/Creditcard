@@ -1,0 +1,31 @@
+{
+  "slug": "lightstream-personal-loan",
+  "lender": "LightStream",
+  "product_name": "Personal Loan",
+  "apr_range": { "min": 6.99, "max": 25.49 },
+  "loan_amount_min": 5000,
+  "loan_amount_max": 100000,
+  "repayment_terms_months": [24, 36, 48, 60, 72, 84, 96, 108, 120, 132, 144],
+  "origination_fee": { "min": 0, "max": 0 },
+  "prepayment_penalty": false,
+  "late_fee": "None",
+  "funding_speed": "Same day",
+  "credit_score_required": { "min": 700, "recommended": 740 },
+  "best_for": "Excellent credit, long repayment terms",
+  "perks": [
+    "No fees whatsoever: no origination, late, or prepayment penalties",
+    "Same-day funding available",
+    "Longest terms in the industry up to 12 years for some purposes",
+    "Rate Beat Program: beat a competitor rate by 0.10%",
+    "$100 Loan Experience Guarantee",
+    "Low APR rates for excellent credit borrowers"
+  ],
+  "drawbacks": [
+    "Requires excellent credit to qualify",
+    "No soft-pull pre-qualification available",
+    "High minimum loan of $5,000"
+  ],
+  "application_url": "https://www.lightstream.com/personal-loan",
+  "rating": 4.7,
+  "last_updated": "2026-05-02"
+}

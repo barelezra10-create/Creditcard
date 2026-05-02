@@ -1,0 +1,30 @@
+{
+  "slug": "allstate-auto",
+  "carrier": "Allstate",
+  "states_available": "all",
+  "avg_annual_premium": { "min": 1800, "max": 2500 },
+  "bundling_discount_pct": 25,
+  "good_driver_discount_pct": 45,
+  "am_best_rating": "A+",
+  "jd_power_satisfaction": 849,
+  "digital_experience": "good",
+  "claims_process": "all",
+  "best_for": "Safe drivers, bundling discounts",
+  "coverage_types_offered": ["liability-only", "full-coverage", "minimum-state", "high-value"],
+  "perks": [
+    "Drivewise telematics program: safe drivers can earn up to 40% back",
+    "Accident forgiveness available",
+    "New car replacement coverage option",
+    "Extensive local agent network",
+    "Strong bundling discounts with home insurance",
+    "Milewise pay-per-mile option for low-mileage drivers"
+  ],
+  "drawbacks": [
+    "Premiums tend to run higher than GEICO and Progressive",
+    "Drivewise may raise rates for risky driving behavior",
+    "Customer service scores mixed versus top competitors"
+  ],
+  "quote_url": "https://www.allstate.com/auto-insurance",
+  "rating": 4.3,
+  "last_updated": "2026-05-02"
+}

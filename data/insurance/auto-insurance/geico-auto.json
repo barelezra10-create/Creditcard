@@ -1,0 +1,30 @@
+{
+  "slug": "geico-auto",
+  "carrier": "GEICO",
+  "states_available": "all",
+  "avg_annual_premium": { "min": 1200, "max": 1900 },
+  "bundling_discount_pct": 10,
+  "good_driver_discount_pct": 22,
+  "am_best_rating": "A++",
+  "jd_power_satisfaction": 874,
+  "digital_experience": "excellent",
+  "claims_process": "all",
+  "best_for": "Low premiums, digital experience",
+  "coverage_types_offered": ["liability-only", "full-coverage", "minimum-state", "high-value"],
+  "perks": [
+    "Consistently among the lowest premiums nationwide",
+    "Award-winning mobile app and online portal",
+    "Over 85 years in business with A++ AM Best rating",
+    "Wide range of discounts including military, federal employee, and good student",
+    "Mechanical breakdown insurance available",
+    "Fast claims processing via app"
+  ],
+  "drawbacks": [
+    "Limited local agent support compared to State Farm",
+    "Coverage options can be less customizable than some competitors",
+    "No gap insurance offered directly"
+  ],
+  "quote_url": "https://www.geico.com/auto-insurance/",
+  "rating": 4.7,
+  "last_updated": "2026-05-02"
+}

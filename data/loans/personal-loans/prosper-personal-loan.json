@@ -1,0 +1,30 @@
+{
+  "slug": "prosper-personal-loan",
+  "lender": "Prosper",
+  "product_name": "Personal Loan",
+  "apr_range": { "min": 8.99, "max": 35.99 },
+  "loan_amount_min": 2000,
+  "loan_amount_max": 50000,
+  "repayment_terms_months": [24, 36, 48, 60],
+  "origination_fee": { "min": 1, "max": 9.99 },
+  "prepayment_penalty": false,
+  "late_fee": "$15 or 5% of unpaid installment (whichever is greater)",
+  "funding_speed": "1-3 business days",
+  "credit_score_required": { "min": 560, "recommended": 640 },
+  "best_for": "Peer-to-peer lending, fair credit",
+  "perks": [
+    "One of the original peer-to-peer lenders, established since 2005",
+    "Accepts credit scores from 560",
+    "Joint loan applications accepted",
+    "Soft credit pull for pre-qualification",
+    "No prepayment penalty"
+  ],
+  "drawbacks": [
+    "Origination fee of 1-9.99%",
+    "Funding can take up to 3 business days",
+    "Rates on the higher end for fair credit borrowers"
+  ],
+  "application_url": "https://www.prosper.com/personal-loans",
+  "rating": 4.0,
+  "last_updated": "2026-05-02"
+}

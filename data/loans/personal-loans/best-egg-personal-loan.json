@@ -1,0 +1,30 @@
+{
+  "slug": "best-egg-personal-loan",
+  "lender": "Best Egg",
+  "product_name": "Personal Loan",
+  "apr_range": { "min": 8.99, "max": 35.99 },
+  "loan_amount_min": 2000,
+  "loan_amount_max": 50000,
+  "repayment_terms_months": [36, 48, 60],
+  "origination_fee": { "min": 0.99, "max": 8.99 },
+  "prepayment_penalty": false,
+  "late_fee": "$15",
+  "funding_speed": "1-3 business days",
+  "credit_score_required": { "min": 600, "recommended": 670 },
+  "best_for": "Good credit, debt consolidation",
+  "perks": [
+    "Fast funding within 1-3 business days",
+    "Secured loan option using home fixtures as collateral",
+    "Soft credit pull pre-qualification available",
+    "No prepayment penalty",
+    "Direct payoff for debt consolidation"
+  ],
+  "drawbacks": [
+    "Origination fee on all loans (0.99-8.99%)",
+    "Limited term options: only 3, 4, or 5 years",
+    "APR floor near 9% means not the cheapest for excellent credit"
+  ],
+  "application_url": "https://www.bestegg.com/personal-loans",
+  "rating": 4.2,
+  "last_updated": "2026-05-02"
+}

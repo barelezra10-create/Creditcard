@@ -1,0 +1,30 @@
+{
+  "slug": "liberty-mutual-auto",
+  "carrier": "Liberty Mutual",
+  "states_available": "all",
+  "avg_annual_premium": { "min": 1600, "max": 2300 },
+  "bundling_discount_pct": 20,
+  "good_driver_discount_pct": 20,
+  "am_best_rating": "A",
+  "jd_power_satisfaction": 828,
+  "digital_experience": "good",
+  "claims_process": "all",
+  "best_for": "Discount stackers, customizable coverage",
+  "coverage_types_offered": ["liability-only", "full-coverage", "minimum-state", "high-value"],
+  "perks": [
+    "Over a dozen available discounts to stack",
+    "RightTrack telematics program with up to 30% discount",
+    "Accident forgiveness and better car replacement options",
+    "New car replacement coverage available",
+    "24/7 claims support",
+    "Flexible deductible options"
+  ],
+  "drawbacks": [
+    "Base premiums tend to run higher than average",
+    "JD Power satisfaction scores below competitors",
+    "Some coverage options only available in certain states"
+  ],
+  "quote_url": "https://www.libertymutual.com/auto-insurance",
+  "rating": 4.2,
+  "last_updated": "2026-05-02"
+}

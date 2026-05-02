@@ -1,0 +1,29 @@
+{
+  "slug": "nationwide-auto",
+  "carrier": "Nationwide",
+  "states_available": "all",
+  "avg_annual_premium": { "min": 1500, "max": 2200 },
+  "bundling_discount_pct": 20,
+  "good_driver_discount_pct": 10,
+  "am_best_rating": "A+",
+  "jd_power_satisfaction": 851,
+  "digital_experience": "good",
+  "claims_process": "all",
+  "best_for": "Solid all-around coverage, bundling",
+  "coverage_types_offered": ["liability-only", "full-coverage", "minimum-state", "high-value"],
+  "perks": [
+    "SmartRide telematics program with up to 40% discount",
+    "Vanishing deductible: deductible drops $100 per claim-free year",
+    "On Your Side Review: free annual coverage checkup",
+    "Accident forgiveness available",
+    "Strong bundling with home and life insurance"
+  ],
+  "drawbacks": [
+    "Not available in all states (excluded from a few)",
+    "Rates not always competitive for young drivers",
+    "Digital experience slightly behind GEICO and Progressive"
+  ],
+  "quote_url": "https://www.nationwide.com/personal/insurance/auto/",
+  "rating": 4.3,
+  "last_updated": "2026-05-02"
+}

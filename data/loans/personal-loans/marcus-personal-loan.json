@@ -1,0 +1,30 @@
+{
+  "slug": "marcus-personal-loan",
+  "lender": "Marcus by Goldman Sachs",
+  "product_name": "Personal Loan",
+  "apr_range": { "min": 6.99, "max": 24.99 },
+  "loan_amount_min": 3500,
+  "loan_amount_max": 40000,
+  "repayment_terms_months": [36, 48, 60, 72],
+  "origination_fee": { "min": 0, "max": 0 },
+  "prepayment_penalty": false,
+  "late_fee": "None",
+  "funding_speed": "1-4 business days",
+  "credit_score_required": { "min": 660, "recommended": 700 },
+  "best_for": "No fees, on-time payment reward",
+  "perks": [
+    "No fees of any kind: no origination, late, or prepayment fees",
+    "On-time payment reward: make 12 consecutive payments, defer one month",
+    "Direct payoff to creditors for debt consolidation",
+    "Flexible payment dates",
+    "Backed by Goldman Sachs"
+  ],
+  "drawbacks": [
+    "No joint or co-signed loans",
+    "No mobile app for loan management",
+    "Funding can take up to 4 business days"
+  ],
+  "application_url": "https://www.marcus.com/us/en/loans/personal-loans",
+  "rating": 4.6,
+  "last_updated": "2026-05-02"
+}

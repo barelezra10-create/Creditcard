@@ -1,0 +1,31 @@
+{
+  "slug": "upgrade-personal-loan",
+  "lender": "Upgrade",
+  "product_name": "Personal Loan",
+  "apr_range": { "min": 9.99, "max": 35.99 },
+  "loan_amount_min": 1000,
+  "loan_amount_max": 50000,
+  "repayment_terms_months": [24, 36, 48, 60, 72, 84],
+  "origination_fee": { "min": 1.85, "max": 9.99 },
+  "prepayment_penalty": false,
+  "late_fee": "$10",
+  "funding_speed": "1-4 business days",
+  "credit_score_required": { "min": 580, "recommended": 640 },
+  "best_for": "Fair credit, flexible terms",
+  "perks": [
+    "Accepts borrowers with credit scores from 580",
+    "Longer terms up to 7 years available",
+    "Soft credit check for rate pre-qualification",
+    "Mobile app for loan management",
+    "No prepayment penalty",
+    "Credit health tools included"
+  ],
+  "drawbacks": [
+    "Origination fee of 1.85-9.99% charged at closing",
+    "APR range starts high for fair credit applicants",
+    "Funding can take up to 4 business days"
+  ],
+  "application_url": "https://www.upgrade.com/personal-loans/",
+  "rating": 4.1,
+  "last_updated": "2026-05-02"
+}

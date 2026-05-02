@@ -1,0 +1,30 @@
+{
+  "slug": "progressive-auto",
+  "carrier": "Progressive",
+  "states_available": "all",
+  "avg_annual_premium": { "min": 1400, "max": 2100 },
+  "bundling_discount_pct": 12,
+  "good_driver_discount_pct": 31,
+  "am_best_rating": "A+",
+  "jd_power_satisfaction": 861,
+  "digital_experience": "excellent",
+  "claims_process": "all",
+  "best_for": "Safe drivers, Snapshot telematics program",
+  "coverage_types_offered": ["liability-only", "full-coverage", "minimum-state", "high-value"],
+  "perks": [
+    "Snapshot program rewards safe drivers with significant discounts",
+    "Name Your Price tool helps find coverage within your budget",
+    "Rideshare insurance available for Uber and Lyft drivers",
+    "Pet injury coverage included in collision",
+    "Excellent digital tools and app",
+    "Broad range of coverage add-ons"
+  ],
+  "drawbacks": [
+    "Rates can be high for drivers with accidents or violations",
+    "Snapshot program may increase rates for some driving patterns",
+    "Customer service ratings vary by region"
+  ],
+  "quote_url": "https://www.progressive.com/auto/",
+  "rating": 4.5,
+  "last_updated": "2026-05-02"
+}

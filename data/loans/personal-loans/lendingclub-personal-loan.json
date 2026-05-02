@@ -1,0 +1,30 @@
+{
+  "slug": "lendingclub-personal-loan",
+  "lender": "LendingClub",
+  "product_name": "Personal Loan",
+  "apr_range": { "min": 8.98, "max": 35.99 },
+  "loan_amount_min": 1000,
+  "loan_amount_max": 40000,
+  "repayment_terms_months": [24, 36, 48, 60],
+  "origination_fee": { "min": 3, "max": 8 },
+  "prepayment_penalty": false,
+  "late_fee": "$15 or 5% of payment (whichever is greater)",
+  "funding_speed": "2-4 business days",
+  "credit_score_required": { "min": 600, "recommended": 660 },
+  "best_for": "Fair credit, debt consolidation",
+  "perks": [
+    "Accepts fair credit borrowers with score as low as 600",
+    "No prepayment penalty",
+    "Joint loan applications accepted",
+    "Soft credit pull for pre-qualification",
+    "Direct creditor payoff available for debt consolidation"
+  ],
+  "drawbacks": [
+    "Origination fee of 3-8% charged upfront",
+    "Rates can be high for borrowers with fair credit",
+    "Funding takes up to 4 business days"
+  ],
+  "application_url": "https://www.lendingclub.com/loans/personal-loans",
+  "rating": 4.1,
+  "last_updated": "2026-05-02"
+}

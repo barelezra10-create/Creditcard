@@ -1,0 +1,30 @@
+{
+  "slug": "state-farm-auto",
+  "carrier": "State Farm",
+  "states_available": "all",
+  "avg_annual_premium": { "min": 1500, "max": 2200 },
+  "bundling_discount_pct": 17,
+  "good_driver_discount_pct": 15,
+  "am_best_rating": "A++",
+  "jd_power_satisfaction": 891,
+  "digital_experience": "good",
+  "claims_process": "all",
+  "best_for": "Agent-based service, top JD Power scores",
+  "coverage_types_offered": ["liability-only", "full-coverage", "minimum-state", "high-value"],
+  "perks": [
+    "Largest auto insurer in the US with extensive agent network",
+    "Top JD Power customer satisfaction rankings",
+    "Drive Safe and Save telematics discount program",
+    "Steer Clear program for young drivers to earn discounts",
+    "Strong bundling discounts with home and renters insurance",
+    "A++ AM Best financial strength rating"
+  ],
+  "drawbacks": [
+    "Not always the cheapest option for younger or high-risk drivers",
+    "Digital experience lags behind GEICO and Progressive",
+    "Rates vary widely by state and agent"
+  ],
+  "quote_url": "https://www.statefarm.com/insurance/auto",
+  "rating": 4.6,
+  "last_updated": "2026-05-02"
+}

@@ -8,7 +8,7 @@ export const metadata = {
 
 const LOAN_CATEGORIES = [
   { slug: "student-loans", label: "Student Loans", desc: "Private student loans and refinancing options.", Icon: GraduationCap, status: "live" },
-  { slug: "personal-loans", label: "Personal Loans", desc: "Unsecured loans for debt consolidation, home improvement, and more.", Icon: Banknote, status: "soon" },
+  { slug: "personal-loans", label: "Personal Loans", desc: "Unsecured loans for debt consolidation, home improvement, and more.", Icon: Banknote, status: "live" },
   { slug: "auto-loans", label: "Auto Loans", desc: "New car loans, used car financing, refinancing.", Icon: Car, status: "soon" },
   { slug: "business-loans", label: "Business Loans", desc: "Term loans, lines of credit, equipment financing.", Icon: Building2, status: "soon" },
   { slug: "mortgages", label: "Mortgages", desc: "Home purchase loans, refinancing, HELOC.", Icon: HomeIcon, status: "soon" },
