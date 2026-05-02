@@ -6,11 +6,13 @@ import { Menu, X } from "lucide-react";
 import { SITE } from "@/lib/site";
 
 const NAV = [
-  { href: "/best", label: "Best Cards" },
-  { href: "/cards", label: "Reviews" },
+  { href: "/cards", label: "Cards" },
+  { href: "/loans", label: "Loans" },
+  { href: "/insurance", label: "Insurance" },
+  { href: "/banking", label: "Banking" },
+  { href: "/investing", label: "Investing" },
   { href: "/tools", label: "Tools" },
   { href: "/learn", label: "Learn" },
-  { href: "/compare", label: "Compare" },
 ];
 
 const EXTRA_LINKS = [

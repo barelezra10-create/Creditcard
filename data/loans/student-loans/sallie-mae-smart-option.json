@@ -1,0 +1,35 @@
+{
+  "slug": "sallie-mae-smart-option",
+  "lender": "Sallie Mae",
+  "product_name": "Smart Option Student Loan",
+  "type": "private",
+  "apr_range": { "min": 5.37, "max": 15.70 },
+  "apr_type": "both",
+  "loan_amount_min": 1000,
+  "loan_amount_max": null,
+  "repayment_terms_years": [10, 15, 20],
+  "cosigner_required": false,
+  "cosigner_release_after_months": 12,
+  "origination_fee": 0,
+  "prepayment_penalty": false,
+  "late_fee": "5% of amount due or $25, whichever is less",
+  "forbearance_available": true,
+  "in_school_payment_options": ["deferred", "fixed $25/month", "interest-only", "full principal and interest"],
+  "credit_score_required": { "min": 620, "recommended": 670 },
+  "perks": [
+    "No origination fees or prepayment penalties",
+    "4 in-school repayment options including deferred",
+    "Cosigner release available after 12 on-time payments",
+    "Multi-year advantage: single application for multiple school years",
+    "Covers up to 100% of school-certified costs",
+    "Autopay discount of 0.25%"
+  ],
+  "drawbacks": [
+    "Variable rates can rise significantly over loan term",
+    "No income-driven repayment options",
+    "Limited forbearance compared to federal loans"
+  ],
+  "application_url": "https://www.salliemae.com/student-loans/smart-option-student-loan/",
+  "rating": 4.3,
+  "last_updated": "2026-05-02"
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "splash-financial-refinance",
+  "lender": "Splash Financial",
+  "product_name": "Student Loan Refinance",
+  "type": "refinance",
+  "apr_range": { "min": 4.49, "max": 9.99 },
+  "apr_type": "both",
+  "loan_amount_min": 5000,
+  "loan_amount_max": null,
+  "repayment_terms_years": [5, 7, 10, 15, 20],
+  "cosigner_required": false,
+  "cosigner_release_after_months": null,
+  "origination_fee": 0,
+  "prepayment_penalty": false,
+  "late_fee": "Varies by lender partner",
+  "forbearance_available": true,
+  "in_school_payment_options": [],
+  "credit_score_required": { "min": 640, "recommended": 700 },
+  "perks": [
+    "Marketplace model: one application, multiple lender offers",
+    "No origination fees through Splash platform",
+    "Among the lowest refinance rates available",
+    "Soft credit pull for rate check",
+    "Spousal refinancing available",
+    "Can refinance both federal and private loans"
+  ],
+  "drawbacks": [
+    "Rate and terms vary by partner lender",
+    "Refinancing federal loans removes federal protections",
+    "No cosigner release as a marketplace"
+  ],
+  "application_url": "https://www.splashfinancial.com/",
+  "rating": 4.4,
+  "last_updated": "2026-05-02"
+}

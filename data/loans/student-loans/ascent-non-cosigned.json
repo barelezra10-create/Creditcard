@@ -1,0 +1,35 @@
+{
+  "slug": "ascent-non-cosigned",
+  "lender": "Ascent",
+  "product_name": "Non-Cosigned Outcomes-Based Loan",
+  "type": "private",
+  "apr_range": { "min": 6.63, "max": 14.95 },
+  "apr_type": "both",
+  "loan_amount_min": 2000,
+  "loan_amount_max": 200000,
+  "repayment_terms_years": [5, 7, 10, 12, 15, 20],
+  "cosigner_required": false,
+  "cosigner_release_after_months": 24,
+  "origination_fee": 0,
+  "prepayment_penalty": false,
+  "late_fee": "5% of the minimum monthly payment amount",
+  "forbearance_available": true,
+  "in_school_payment_options": ["deferred", "fixed $25/month", "interest-only", "full principal and interest"],
+  "credit_score_required": { "min": 540, "recommended": 620 },
+  "perks": [
+    "Specifically designed for students who cannot qualify with a cosigner",
+    "Considers GPA, school, major, and future income potential",
+    "1% cash back reward at graduation",
+    "No origination or prepayment fees",
+    "Generous forbearance up to 24 months lifetime",
+    "Wide range of repayment terms up to 20 years"
+  ],
+  "drawbacks": [
+    "Rates are higher than cosigned loan options",
+    "Non-cosigned product requires junior or senior standing",
+    "Not available in all states"
+  ],
+  "application_url": "https://www.ascentfunding.com/",
+  "rating": 4.2,
+  "last_updated": "2026-05-02"
+}

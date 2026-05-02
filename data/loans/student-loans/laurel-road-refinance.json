@@ -1,0 +1,35 @@
+{
+  "slug": "laurel-road-refinance",
+  "lender": "Laurel Road",
+  "product_name": "Student Loan Refinancing",
+  "type": "refinance",
+  "apr_range": { "min": 4.99, "max": 8.90 },
+  "apr_type": "both",
+  "loan_amount_min": 5000,
+  "loan_amount_max": null,
+  "repayment_terms_years": [5, 7, 10, 15, 20],
+  "cosigner_required": false,
+  "cosigner_release_after_months": null,
+  "origination_fee": 0,
+  "prepayment_penalty": false,
+  "late_fee": "None",
+  "forbearance_available": true,
+  "in_school_payment_options": [],
+  "credit_score_required": { "min": 660, "recommended": 700 },
+  "perks": [
+    "Specialized programs for healthcare professionals (doctors, nurses, dentists)",
+    "No origination fees or late fees",
+    "Extra $200 cash bonus for AMA members",
+    "Competitive rates, especially for medical school debt",
+    "0.25% autopay rate reduction",
+    "Forbearance available for up to 12 months"
+  ],
+  "drawbacks": [
+    "Best rates reserved for high-income professionals",
+    "Less flexible for non-healthcare borrowers",
+    "Refinancing federal loans removes income-driven repayment eligibility"
+  ],
+  "application_url": "https://www.laurelroad.com/refinance-student-loans/",
+  "rating": 4.3,
+  "last_updated": "2026-05-02"
+}

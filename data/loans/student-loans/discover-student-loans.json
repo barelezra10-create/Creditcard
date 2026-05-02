@@ -1,0 +1,35 @@
+{
+  "slug": "discover-student-loans",
+  "lender": "Discover",
+  "product_name": "Student Loans",
+  "type": "private",
+  "apr_range": { "min": 5.99, "max": 14.99 },
+  "apr_type": "both",
+  "loan_amount_min": 1000,
+  "loan_amount_max": 150000,
+  "repayment_terms_years": [10, 15, 20],
+  "cosigner_required": false,
+  "cosigner_release_after_months": null,
+  "origination_fee": 0,
+  "prepayment_penalty": false,
+  "late_fee": "No late fees",
+  "forbearance_available": true,
+  "in_school_payment_options": ["deferred", "interest-only"],
+  "credit_score_required": { "min": 620, "recommended": 680 },
+  "perks": [
+    "No late fees ever",
+    "No origination fees or prepayment penalties",
+    "Cash reward for 3.0 GPA or higher",
+    "0.25% autopay interest rate reduction",
+    "U.S.-based customer service 24/7",
+    "Covers 100% of school-certified costs"
+  ],
+  "drawbacks": [
+    "No cosigner release option available",
+    "Only 2 in-school repayment options",
+    "Higher minimum APR than some competitors"
+  ],
+  "application_url": "https://www.discover.com/student-loans/",
+  "rating": 4.1,
+  "last_updated": "2026-05-02"
+}

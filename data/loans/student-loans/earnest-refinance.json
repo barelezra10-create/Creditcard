@@ -1,0 +1,35 @@
+{
+  "slug": "earnest-refinance",
+  "lender": "Earnest",
+  "product_name": "Student Loan Refinancing",
+  "type": "refinance",
+  "apr_range": { "min": 4.99, "max": 9.74 },
+  "apr_type": "both",
+  "loan_amount_min": 5000,
+  "loan_amount_max": 500000,
+  "repayment_terms_years": [5, 7, 10, 15, 20],
+  "cosigner_required": false,
+  "cosigner_release_after_months": null,
+  "origination_fee": 0,
+  "prepayment_penalty": false,
+  "late_fee": "None",
+  "forbearance_available": true,
+  "in_school_payment_options": [],
+  "credit_score_required": { "min": 650, "recommended": 700 },
+  "perks": [
+    "Precision pricing: pick exact monthly payment or payoff date",
+    "Skip one payment per year with no penalty",
+    "No origination fees, no late fees",
+    "Forbearance available during financial hardship",
+    "0.25% autopay discount",
+    "Refinance both federal and private student loans"
+  ],
+  "drawbacks": [
+    "Not available in Kentucky or Nevada",
+    "Losing federal loan protections by refinancing",
+    "Higher minimum credit score than some competitors"
+  ],
+  "application_url": "https://www.earnest.com/student-loan-refinancing",
+  "rating": 4.6,
+  "last_updated": "2026-05-02"
+}

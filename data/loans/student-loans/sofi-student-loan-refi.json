@@ -1,0 +1,35 @@
+{
+  "slug": "sofi-student-loan-refi",
+  "lender": "SoFi",
+  "product_name": "Student Loan Refinancing",
+  "type": "refinance",
+  "apr_range": { "min": 4.74, "max": 9.99 },
+  "apr_type": "both",
+  "loan_amount_min": 5000,
+  "loan_amount_max": null,
+  "repayment_terms_years": [5, 7, 10, 15, 20],
+  "cosigner_required": false,
+  "cosigner_release_after_months": null,
+  "origination_fee": 0,
+  "prepayment_penalty": false,
+  "late_fee": "None",
+  "forbearance_available": true,
+  "in_school_payment_options": [],
+  "credit_score_required": { "min": 650, "recommended": 700 },
+  "perks": [
+    "Career coaching and job placement assistance included",
+    "Unemployment protection: pause payments if you lose your job",
+    "No origination fees, no late fees, no prepayment penalties",
+    "0.25% autopay rate discount",
+    "Parent PLUS loan refinancing available",
+    "Access to SoFi member benefits including financial planning"
+  ],
+  "drawbacks": [
+    "Refinancing federal loans eliminates federal protections",
+    "Stricter income and employment requirements",
+    "Requires a degree to refinance in most cases"
+  ],
+  "application_url": "https://www.sofi.com/refinance-student-loan/",
+  "rating": 4.5,
+  "last_updated": "2026-05-02"
+}

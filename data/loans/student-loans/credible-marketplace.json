@@ -1,0 +1,35 @@
+{
+  "slug": "credible-marketplace",
+  "lender": "Credible",
+  "product_name": "Student Loan Refinance Marketplace",
+  "type": "refinance",
+  "apr_range": { "min": 4.49, "max": 11.99 },
+  "apr_type": "both",
+  "loan_amount_min": 5000,
+  "loan_amount_max": null,
+  "repayment_terms_years": [5, 7, 10, 15, 20],
+  "cosigner_required": false,
+  "cosigner_release_after_months": null,
+  "origination_fee": 0,
+  "prepayment_penalty": false,
+  "late_fee": "Varies by lender",
+  "forbearance_available": true,
+  "in_school_payment_options": [],
+  "credit_score_required": { "min": 620, "recommended": 670 },
+  "perks": [
+    "Compare multiple real prequalified rates in 2 minutes",
+    "Soft credit pull only to see rates from all lenders",
+    "Best Price Guarantee: $200 if you find a lower rate",
+    "Wide lender network including large banks and credit unions",
+    "Free to use, no marketplace fee",
+    "Cosigned refinancing options available through partner lenders"
+  ],
+  "drawbacks": [
+    "Not a direct lender; terms depend on chosen partner",
+    "Wide rate range since it aggregates multiple lenders",
+    "You apply separately with your chosen lender after comparing"
+  ],
+  "application_url": "https://www.credible.com/refinance-student-loans",
+  "rating": 4.4,
+  "last_updated": "2026-05-02"
+}

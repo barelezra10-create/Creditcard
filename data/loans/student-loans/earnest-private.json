@@ -1,0 +1,35 @@
+{
+  "slug": "earnest-private",
+  "lender": "Earnest",
+  "product_name": "Private Student Loan",
+  "type": "private",
+  "apr_range": { "min": 5.62, "max": 16.20 },
+  "apr_type": "both",
+  "loan_amount_min": 1000,
+  "loan_amount_max": 200000,
+  "repayment_terms_years": [5, 7, 10, 12, 15],
+  "cosigner_required": false,
+  "cosigner_release_after_months": 36,
+  "origination_fee": 0,
+  "prepayment_penalty": false,
+  "late_fee": "5% of unpaid amount or $25, whichever is less",
+  "forbearance_available": true,
+  "in_school_payment_options": ["deferred", "fixed $25/month", "interest-only", "full principal and interest"],
+  "credit_score_required": { "min": 650, "recommended": 700 },
+  "perks": [
+    "Precision pricing with 180 rate options to find your exact rate",
+    "Skip one payment per year with no penalty",
+    "No origination fees or hidden charges",
+    "0.25% autopay discount",
+    "Merit-based underwriting considers GPA and field of study",
+    "In-school deferment up to 9 months post-graduation grace period"
+  ],
+  "drawbacks": [
+    "Cosigner release requires 36 months of payments",
+    "Minimum credit score of 650 is stricter than some lenders",
+    "Not available in all states"
+  ],
+  "application_url": "https://www.earnest.com/student-loans",
+  "rating": 4.4,
+  "last_updated": "2026-05-02"
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "college-ave-undergraduate",
+  "lender": "College Ave",
+  "product_name": "Undergraduate Student Loan",
+  "type": "private",
+  "apr_range": { "min": 5.59, "max": 16.85 },
+  "apr_type": "both",
+  "loan_amount_min": 1000,
+  "loan_amount_max": 150000,
+  "repayment_terms_years": [5, 8, 10, 15],
+  "cosigner_required": false,
+  "cosigner_release_after_months": 24,
+  "origination_fee": 0,
+  "prepayment_penalty": false,
+  "late_fee": "5% of the late payment amount",
+  "forbearance_available": true,
+  "in_school_payment_options": ["deferred", "interest-only", "flat $25/month", "full principal and interest"],
+  "credit_score_required": { "min": 600, "recommended": 660 },
+  "perks": [
+    "No fees of any kind (origination, application, prepayment)",
+    "Flexible repayment terms from 5 to 15 years",
+    "Pre-qualification with soft credit pull",
+    "Approval decision in as little as 3 minutes",
+    "0.25% autopay rate discount",
+    "Dedicated student loan advisors available"
+  ],
+  "drawbacks": [
+    "Cosigner release only after 24 payments (longer than some competitors)",
+    "Does not offer multi-year approval option",
+    "No graduate-specific products"
+  ],
+  "application_url": "https://www.collegeave.com/student-loans/undergraduate/",
+  "rating": 4.5,
+  "last_updated": "2026-05-02"
+}

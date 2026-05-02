@@ -7,6 +7,7 @@ const TOOLS = [
   { href: "/tools/balance-transfer", title: "Balance Transfer Calculator", desc: "See how much you'd save." },
   { href: "/tools/payoff", title: "Payoff Calculator", desc: "How long until you're free." },
   { href: "/tools/apr", title: "APR Cost Calculator", desc: "What APR really costs." },
+  { href: "/tools/student-loan-payoff", title: "Student Loan Calculator", desc: "Monthly payment and total interest for any student loan." },
 ];
 
 export const metadata = { title: "Credit Card Tools" };
