@@ -9,6 +9,29 @@ import { StarRating } from "@/components/cards/StarRating";
 
 type Slot = string | null;
 
+const POPULAR_COMPARISONS = [
+  {
+    label: "Best premium travel",
+    slugs: ["chase-sapphire-reserve", "amex-platinum", "capital-one-venture-x"],
+  },
+  {
+    label: "Best flat-rate cashback",
+    slugs: ["citi-double-cash", "wells-fargo-active-cash", "capital-one-quicksilver"],
+  },
+  {
+    label: "Best secured cards",
+    slugs: ["discover-it-secured", "capital-one-platinum-secured", "opensky-secured"],
+  },
+  {
+    label: "Sapphire Preferred vs Reserve",
+    slugs: ["chase-sapphire-preferred", "chase-sapphire-reserve"],
+  },
+  {
+    label: "Amex Gold vs Platinum",
+    slugs: ["amex-gold", "amex-platinum"],
+  },
+];
+
 export default function CompareClient({ allCards }: { allCards: Card[] }) {
   const sp = useSearchParams();
   const router = useRouter();
@@ -52,6 +75,7 @@ export default function CompareClient({ allCards }: { allCards: Card[] }) {
   );
   const filledCards = cards.filter((c): c is Card => Boolean(c));
   const cols = slots.length;
+  const allEmpty = filledCards.length === 0;
 
   return (
     <div className="mx-auto max-w-6xl px-6 py-10">
@@ -64,7 +88,31 @@ export default function CompareClient({ allCards }: { allCards: Card[] }) {
         </p>
       </header>
 
-      {/* Card slot selectors */}
+      {/* Popular comparisons — only shown when nothing is picked */}
+      {allEmpty && (
+        <div className="mb-8 rounded-xl bg-slate-50 border border-slate-200 p-5">
+          <div className="text-sm font-bold uppercase tracking-wider text-slate-500 mb-3">
+            Popular comparisons
+          </div>
+          <div className="flex flex-wrap gap-2">
+            {POPULAR_COMPARISONS.map((comp) => (
+              <button
+                key={comp.label}
+                onClick={() => {
+                  const next = comp.slugs as Slot[];
+                  setSlots(next);
+                  updateUrl(next);
+                }}
+                className="rounded-full border border-slate-300 bg-white px-4 py-2 text-sm font-medium text-slate-700 hover:border-navy-500 hover:text-navy-900 transition-colors"
+              >
+                {comp.label}
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* Card slot pickers */}
       <div className={`grid gap-4 ${cols === 2 ? "md:grid-cols-2" : "md:grid-cols-3"}`}>
         {slots.map((slug, idx) => (
           <CardSlot
@@ -102,6 +150,139 @@ export default function CompareClient({ allCards }: { allCards: Card[] }) {
   );
 }
 
+// ---- CardPickerModal ----
+
+const MODAL_CATEGORIES = [
+  "all",
+  "cashback",
+  "travel",
+  "miles",
+  "hotel",
+  "business",
+  "secured",
+  "student",
+] as const;
+
+function CardPickerModal({
+  open,
+  onClose,
+  onSelect,
+  allCards,
+  excludeSlugs,
+}: {
+  open: boolean;
+  onClose: () => void;
+  onSelect: (slug: string) => void;
+  allCards: Card[];
+  excludeSlugs: string[];
+}) {
+  const [search, setSearch] = useState("");
+  const [categoryFilter, setCategoryFilter] = useState<string>("all");
+
+  if (!open) return null;
+
+  const filtered = allCards
+    .filter((c) => !excludeSlugs.includes(c.slug))
+    .filter(
+      (c) =>
+        categoryFilter === "all" ||
+        c.category.includes(categoryFilter as Card["category"][number]),
+    )
+    .filter((c) => {
+      if (!search.trim()) return true;
+      const s = search.toLowerCase();
+      return c.name.toLowerCase().includes(s) || c.issuer.toLowerCase().includes(s);
+    })
+    .sort((a, b) => (b.rating ?? 0) - (a.rating ?? 0));
+
+  return (
+    <div
+      className="fixed inset-0 z-50 flex items-start justify-center bg-black/60 p-4 md:p-8 overflow-y-auto"
+      onClick={onClose}
+    >
+      <div
+        className="my-auto w-full max-w-4xl rounded-xl bg-white shadow-2xl"
+        onClick={(e) => e.stopPropagation()}
+      >
+        {/* Sticky header */}
+        <div className="sticky top-0 z-10 rounded-t-xl border-b border-slate-200 bg-white p-5">
+          <div className="flex items-center justify-between gap-4">
+            <h2 className="font-display text-xl font-bold text-navy-900">
+              Pick a card to compare
+            </h2>
+            <button
+              onClick={onClose}
+              aria-label="Close"
+              className="rounded-md p-1 text-slate-500 hover:bg-slate-100 hover:text-slate-900"
+            >
+              <X className="h-5 w-5" />
+            </button>
+          </div>
+          <input
+            type="text"
+            placeholder="Search by card name or issuer..."
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+            autoFocus
+            className="mt-4 w-full rounded-md border border-slate-300 px-4 py-2.5 text-sm focus:border-navy-500 focus:outline-none"
+          />
+          <div className="mt-3 flex flex-wrap gap-2">
+            {MODAL_CATEGORIES.map((cat) => (
+              <button
+                key={cat}
+                onClick={() => setCategoryFilter(cat)}
+                className={`rounded-full px-3 py-1 text-xs font-semibold capitalize transition-colors ${
+                  categoryFilter === cat
+                    ? "bg-navy-900 text-white"
+                    : "border border-slate-200 bg-white text-slate-700 hover:border-navy-500"
+                }`}
+              >
+                {cat}
+              </button>
+            ))}
+          </div>
+        </div>
+
+        {/* Card grid */}
+        <div className="grid gap-3 p-5 sm:grid-cols-2 md:grid-cols-3">
+          {filtered.length === 0 ? (
+            <p className="col-span-full text-center text-slate-500">
+              No cards match your filters.
+            </p>
+          ) : (
+            filtered.map((c) => (
+              <button
+                key={c.slug}
+                onClick={() => {
+                  onSelect(c.slug);
+                  onClose();
+                }}
+                className="group flex flex-col items-center rounded-lg border border-slate-200 bg-white p-4 text-left hover:border-navy-500 hover:shadow-sm transition-colors"
+              >
+                <CardVisual card={c} size="sm" />
+                <div className="mt-3 w-full text-center">
+                  <div className="text-xs font-medium uppercase text-slate-500">{c.issuer}</div>
+                  <div className="mt-0.5 truncate font-display text-sm font-semibold text-navy-900">
+                    {c.name}
+                  </div>
+                </div>
+                {c.rating !== undefined && (
+                  <div className="mt-2">
+                    <StarRating rating={c.rating} />
+                  </div>
+                )}
+                <div className="mt-2 text-xs text-slate-500">
+                  {c.annual_fee === 0 ? "No annual fee" : `$${c.annual_fee}/yr`}
+                </div>
+              </button>
+            ))
+          )}
+        </div>
+      </div>
+    </div>
+  );
+}
+
 // ---- CardSlot: one slot in the picker grid ----
 function CardSlot({
   idx,
@@ -118,56 +299,66 @@ function CardSlot({
   onSelect: (slug: string | null) => void;
   onRemove?: () => void;
 }) {
+  const [pickerOpen, setPickerOpen] = useState(false);
   const card = slug ? allCards.find((c) => c.slug === slug) ?? null : null;
-
   const otherSelected = selectedSlugs.filter((s) => s !== slug);
-  const available = allCards.filter((c) => !otherSelected.includes(c.slug));
 
   return (
-    <div className="relative flex min-h-[280px] flex-col rounded-xl border border-slate-200 bg-white p-5">
+    <div className="relative flex min-h-[300px] flex-col rounded-xl border border-slate-200 bg-white p-5">
       {onRemove && (
         <button
           onClick={onRemove}
           aria-label="Remove this slot"
-          className="absolute right-3 top-3 rounded-md p-1 text-slate-400 hover:bg-slate-100 hover:text-slate-700"
+          className="absolute right-3 top-3 rounded-md p-1 text-slate-400 hover:bg-slate-100 hover:text-slate-700 z-10"
         >
           <X className="h-4 w-4" />
         </button>
       )}
-      <select
-        value={slug ?? ""}
-        onChange={(e) => onSelect(e.target.value || null)}
-        className="w-full rounded-md border border-slate-300 bg-white px-3 py-2 text-sm focus:border-navy-500 focus:outline-none"
-      >
-        <option value="">Select a card...</option>
-        {available.map((c) => (
-          <option key={c.slug} value={c.slug}>
-            {c.issuer} {c.name}
-          </option>
-        ))}
-      </select>
 
       {card ? (
-        <div className="mt-5 flex flex-col items-center gap-3">
-          <CardVisual card={card} size="sm" />
+        <div className="flex flex-1 flex-col items-center gap-3">
+          <CardVisual card={card} size="md" />
           <div className="text-center">
-            <div className="font-display text-base font-semibold text-navy-900">{card.name}</div>
-            <div className="text-xs text-slate-500">{card.issuer}</div>
+            <div className="text-xs font-medium uppercase text-slate-500">{card.issuer}</div>
+            <div className="mt-0.5 font-display text-base font-semibold text-navy-900">
+              {card.name}
+            </div>
           </div>
           {card.rating !== undefined && <StarRating rating={card.rating} />}
           <Link
             href={`/go/${card.slug}`}
-            className="mt-2 inline-flex items-center gap-1.5 rounded-md bg-blue-600 px-4 py-2 text-sm font-bold text-white shadow-sm hover:bg-blue-700"
+            className="inline-flex items-center gap-1.5 rounded-md bg-blue-600 px-4 py-2 text-sm font-bold text-white shadow-sm hover:bg-blue-700"
           >
             <Lock className="h-3.5 w-3.5" />
             Apply now
           </Link>
+          <button
+            onClick={() => setPickerOpen(true)}
+            className="text-xs font-medium text-navy-700 underline hover:text-navy-900"
+          >
+            Change card
+          </button>
         </div>
       ) : (
-        <div className="mt-5 flex flex-1 items-center justify-center text-sm text-slate-400">
-          Pick a card from the dropdown above
-        </div>
+        <button
+          onClick={() => setPickerOpen(true)}
+          className="flex flex-1 flex-col items-center justify-center gap-3 rounded-lg border-2 border-dashed border-slate-300 px-6 py-12 text-center text-slate-500 hover:border-navy-500 hover:text-navy-700 hover:bg-slate-50 transition-colors"
+        >
+          <div className="rounded-full bg-slate-100 p-3">
+            <Plus className="h-6 w-6" />
+          </div>
+          <div className="font-semibold text-base">Pick a card</div>
+          <div className="text-xs text-slate-400">Choose from 50+ reviewed cards</div>
+        </button>
       )}
+
+      <CardPickerModal
+        open={pickerOpen}
+        onClose={() => setPickerOpen(false)}
+        onSelect={(s) => onSelect(s)}
+        allCards={allCards}
+        excludeSlugs={otherSelected}
+      />
     </div>
   );
 }
