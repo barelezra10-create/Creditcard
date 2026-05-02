@@ -1,4 +1,5 @@
 import { AUTHORS, type AuthorSlug } from "@/lib/authors";
+import { formatDate } from "@/lib/format-date";
 
 export function AuthorByline({ slug, updatedAt }: { slug: AuthorSlug; updatedAt: string }) {
   const a = AUTHORS[slug];
@@ -12,7 +13,7 @@ export function AuthorByline({ slug, updatedAt }: { slug: AuthorSlug; updatedAt:
           <span className="mx-1 text-slate-300">|</span>
           <span className="text-slate-500">{a.role}</span>
         </div>
-        <div className="text-xs text-slate-400">Updated {updatedAt}</div>
+        <div className="text-xs font-medium text-slate-500">Updated {formatDate(updatedAt)}</div>
       </div>
     </div>
   );

@@ -3,7 +3,7 @@ import { SITE } from "@/lib/site";
 
 const COLS = [
   { title: "Site", links: [["Glossary", "/glossary"], ["Methodology", "/methodology"], ["How We Make Money", "/how-we-make-money"]] },
-  { title: "Company", links: [["About", "/about"], ["Contact", "/contact"], ["Privacy", "/privacy"]] },
+  { title: "Company", links: [["About", "/about"], ["Contact", "/contact"], ["Our Team", "/team"], ["Privacy", "/privacy"]] },
 ];
 
 export function Footer() {

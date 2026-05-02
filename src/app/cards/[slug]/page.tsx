@@ -64,7 +64,7 @@ export default async function CardPage({ params }: { params: Promise<{ slug: str
           <div className="mt-2">
             <StarRating rating={rating} label="our rating" />
           </div>
-          <p className="mt-1 text-xs text-slate-400">Updated {card.last_updated}</p>
+          <p className="mt-1 text-xs text-slate-400" />
         </div>
         <CardVisual card={card} size="lg" />
       </header>
