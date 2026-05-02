@@ -1,0 +1,31 @@
+{
+  "slug": "interactive-brokers",
+  "broker": "Interactive Brokers",
+  "account_types": ["taxable", "ira", "roth-ira", "401k-rollover", "joint", "custodial", "trust"],
+  "commission_stocks": 0,
+  "commission_options_per_contract": 0.65,
+  "commission_mutual_funds": 0,
+  "fractional_shares_available": true,
+  "account_minimum": 0,
+  "research_quality": "excellent",
+  "mobile_app_rating": 4.4,
+  "best_for": "Professional traders and global investors",
+  "asset_classes": ["stocks", "etfs", "options", "mutual-funds", "bonds", "crypto", "futures", "forex"],
+  "perks": [
+    "Access to 150+ global markets in 33 countries",
+    "Industry-lowest margin rates (5.83% as of 2026)",
+    "Broadest asset class coverage including forex and futures",
+    "IBKR Pro for active traders, IBKR Lite for beginners",
+    "Advanced Trader Workstation (TWS) platform",
+    "Fractional shares available"
+  ],
+  "drawbacks": [
+    "Complex platform with steep learning curve",
+    "IBKR Pro has tiered commissions (not flat $0)",
+    "Overwhelming for casual investors",
+    "Mobile app less polished than consumer-focused brokers"
+  ],
+  "application_url": "https://www.interactivebrokers.com/en/trading/open-account.php",
+  "rating": 4.5,
+  "last_updated": "2026-05-02"
+}

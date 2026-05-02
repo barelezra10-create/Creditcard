@@ -1,0 +1,30 @@
+{
+  "slug": "e-trade",
+  "broker": "E*TRADE (Morgan Stanley)",
+  "account_types": ["taxable", "ira", "roth-ira", "401k-rollover", "joint", "custodial", "trust"],
+  "commission_stocks": 0,
+  "commission_options_per_contract": 0.65,
+  "commission_mutual_funds": 0,
+  "fractional_shares_available": false,
+  "account_minimum": 0,
+  "research_quality": "excellent",
+  "mobile_app_rating": 4.6,
+  "best_for": "Options traders and Morgan Stanley clients",
+  "asset_classes": ["stocks", "etfs", "options", "mutual-funds", "bonds"],
+  "perks": [
+    "Power E*TRADE platform built for active options trading",
+    "Morgan Stanley research available to all customers",
+    "Paper trading to practice without real money",
+    "Prebuilt and customizable stock screeners",
+    "Strong options analytics and strategy tools"
+  ],
+  "drawbacks": [
+    "No fractional shares",
+    "$0.65/contract options (drops to $0.50 for 30+ trades/quarter)",
+    "Less emphasis on passive/index investing tools",
+    "Some futures require separate application"
+  ],
+  "application_url": "https://us.etrade.com/what-we-offer/our-accounts",
+  "rating": 4.3,
+  "last_updated": "2026-05-02"
+}

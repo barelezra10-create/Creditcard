@@ -1,0 +1,31 @@
+{
+  "slug": "vanguard",
+  "broker": "Vanguard",
+  "account_types": ["taxable", "ira", "roth-ira", "401k-rollover", "joint", "trust"],
+  "commission_stocks": 0,
+  "commission_options_per_contract": 1.00,
+  "commission_mutual_funds": 0,
+  "fractional_shares_available": false,
+  "account_minimum": 0,
+  "research_quality": "good",
+  "mobile_app_rating": 4.2,
+  "best_for": "Low-cost passive investing and retirement",
+  "asset_classes": ["stocks", "etfs", "mutual-funds", "bonds"],
+  "perks": [
+    "Industry's lowest-cost mutual funds and ETFs",
+    "Client-owned structure aligns incentives with investors",
+    "Target-date retirement funds best in class",
+    "No commissions on Vanguard funds",
+    "Strong track record for long-term wealth building"
+  ],
+  "drawbacks": [
+    "No fractional shares",
+    "Mobile app and website behind competitors in usability",
+    "High options commission at $1.00/contract",
+    "Not built for active traders",
+    "Limited research for individual stocks"
+  ],
+  "application_url": "https://investor.vanguard.com/accounts-plans/",
+  "rating": 4.2,
+  "last_updated": "2026-05-02"
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "american-express-personal-savings",
+  "bank": "American Express National Bank",
+  "product_name": "American Express Personal Savings",
+  "apy": 3.85,
+  "apy_tier_min_balance": null,
+  "monthly_fee": 0,
+  "monthly_fee_waivable": false,
+  "min_opening_deposit": 0,
+  "min_balance": 0,
+  "withdrawal_limit_per_month": null,
+  "fdic_insured": true,
+  "ncua_insured": false,
+  "mobile_app_rating": 4.5,
+  "best_for": "Amex cardholders wanting integrated savings",
+  "perks": [
+    "Trusted American Express brand",
+    "Integrates with your existing Amex account login",
+    "No fees, no minimums",
+    "FDIC insured up to $250K",
+    "Easy setup for existing Amex customers"
+  ],
+  "drawbacks": [
+    "3.85% APY is the lowest on this list",
+    "No ATM card",
+    "Savings account only, no checking",
+    "Rate historically lags other online banks"
+  ],
+  "application_url": "https://www.americanexpress.com/en-us/banking/online-savings/",
+  "rating": 4.0,
+  "last_updated": "2026-05-02"
+}

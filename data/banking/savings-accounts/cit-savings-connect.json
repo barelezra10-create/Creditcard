@@ -1,0 +1,32 @@
+{
+  "slug": "cit-savings-connect",
+  "bank": "CIT Bank (First Citizens)",
+  "product_name": "CIT Savings Connect",
+  "apy": 4.85,
+  "apy_tier_min_balance": null,
+  "monthly_fee": 0,
+  "monthly_fee_waivable": false,
+  "min_opening_deposit": 100,
+  "min_balance": 0,
+  "withdrawal_limit_per_month": null,
+  "fdic_insured": true,
+  "ncua_insured": false,
+  "mobile_app_rating": 4.3,
+  "best_for": "Highest APY among major FDIC banks",
+  "perks": [
+    "4.85% APY among the highest available nationally",
+    "No monthly fees",
+    "Backed by First Citizens Bank after acquisition",
+    "Easy eCheck deposits",
+    "Competitive CD and money market options available"
+  ],
+  "drawbacks": [
+    "$100 minimum opening deposit required",
+    "Mobile app rated lower than big-bank peers",
+    "No ATM card on savings account",
+    "No branch access"
+  ],
+  "application_url": "https://www.cit.com/cit-bank/banking/savings/savings-connect/",
+  "rating": 4.5,
+  "last_updated": "2026-05-02"
+}

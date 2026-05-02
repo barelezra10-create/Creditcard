@@ -1,0 +1,31 @@
+{
+  "slug": "marcus-online-savings",
+  "bank": "Goldman Sachs (Marcus)",
+  "product_name": "Marcus Online Savings Account",
+  "apy": 4.40,
+  "apy_tier_min_balance": null,
+  "monthly_fee": 0,
+  "monthly_fee_waivable": false,
+  "min_opening_deposit": 0,
+  "min_balance": 0,
+  "withdrawal_limit_per_month": null,
+  "fdic_insured": true,
+  "ncua_insured": false,
+  "mobile_app_rating": 4.7,
+  "best_for": "No-fee high-yield savings",
+  "perks": [
+    "No fees of any kind",
+    "Competitive 4.40% APY with no balance tiers",
+    "Rate match guarantee for new rates",
+    "Backed by Goldman Sachs financial strength",
+    "Easy ACH transfers up to $100K"
+  ],
+  "drawbacks": [
+    "No ATM card or checking account option",
+    "No branch access",
+    "CD required for bonus rate on some promotions"
+  ],
+  "application_url": "https://www.marcus.com/us/en/savings/high-yield-savings",
+  "rating": 4.6,
+  "last_updated": "2026-05-02"
+}

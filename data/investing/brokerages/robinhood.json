@@ -1,0 +1,32 @@
+{
+  "slug": "robinhood",
+  "broker": "Robinhood",
+  "account_types": ["taxable", "ira", "roth-ira"],
+  "commission_stocks": 0,
+  "commission_options_per_contract": 0,
+  "commission_mutual_funds": 0,
+  "fractional_shares_available": true,
+  "account_minimum": 0,
+  "research_quality": "fair",
+  "mobile_app_rating": 4.5,
+  "best_for": "Mobile-first beginners and crypto investors",
+  "asset_classes": ["stocks", "etfs", "options", "crypto"],
+  "perks": [
+    "Truly commission-free options trading",
+    "Crypto trading alongside stocks in one app",
+    "Fractional shares starting at $1",
+    "Robinhood Gold: 5% APY on uninvested cash",
+    "Clean, intuitive mobile interface",
+    "24-hour market access (5 AM to 8 PM ET extended)"
+  ],
+  "drawbacks": [
+    "Limited research and educational content",
+    "No mutual funds or bonds",
+    "No joint or custodial accounts",
+    "History of outages during high-volatility markets",
+    "Controversial payment for order flow model"
+  ],
+  "application_url": "https://robinhood.com/us/en/invest/",
+  "rating": 4.0,
+  "last_updated": "2026-05-02"
+}

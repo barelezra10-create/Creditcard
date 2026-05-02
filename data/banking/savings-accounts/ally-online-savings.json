@@ -1,0 +1,31 @@
+{
+  "slug": "ally-online-savings",
+  "bank": "Ally Bank",
+  "product_name": "Ally Online Savings Account",
+  "apy": 4.20,
+  "apy_tier_min_balance": null,
+  "monthly_fee": 0,
+  "monthly_fee_waivable": false,
+  "min_opening_deposit": 0,
+  "min_balance": 0,
+  "withdrawal_limit_per_month": null,
+  "fdic_insured": true,
+  "ncua_insured": false,
+  "mobile_app_rating": 4.8,
+  "best_for": "Savings buckets and automation",
+  "perks": [
+    "Savings Buckets to organize goals in one account",
+    "Surprise Savings automatic transfers",
+    "Excellent mobile app rated 4.8 stars",
+    "24/7 customer service",
+    "Pairs with Ally checking for seamless transfers"
+  ],
+  "drawbacks": [
+    "APY slightly below top-tier competitors",
+    "No ATM card on savings account",
+    "Transfers can take 1-3 business days"
+  ],
+  "application_url": "https://www.ally.com/bank/online-savings-account/",
+  "rating": 4.5,
+  "last_updated": "2026-05-02"
+}

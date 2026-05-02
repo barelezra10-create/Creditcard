@@ -1,0 +1,32 @@
+{
+  "slug": "webull",
+  "broker": "Webull",
+  "account_types": ["taxable", "ira", "roth-ira"],
+  "commission_stocks": 0,
+  "commission_options_per_contract": 0,
+  "commission_mutual_funds": 0,
+  "fractional_shares_available": false,
+  "account_minimum": 0,
+  "research_quality": "good",
+  "mobile_app_rating": 4.6,
+  "best_for": "Active traders wanting advanced charting free",
+  "asset_classes": ["stocks", "etfs", "options", "crypto"],
+  "perks": [
+    "Advanced charting tools available free (TradingView-level)",
+    "Commission-free options trading",
+    "Paper trading for practice",
+    "Level 2 quotes included at no cost",
+    "Extended hours trading (4 AM to 8 PM ET)",
+    "Crypto trading available 24/7"
+  ],
+  "drawbacks": [
+    "No fractional shares",
+    "No mutual funds or bonds",
+    "No joint or custodial accounts",
+    "Less established brand versus Fidelity or Schwab",
+    "Limited retirement account options"
+  ],
+  "application_url": "https://www.webull.com/activity",
+  "rating": 4.1,
+  "last_updated": "2026-05-02"
+}

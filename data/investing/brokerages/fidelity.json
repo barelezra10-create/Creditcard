@@ -1,0 +1,30 @@
+{
+  "slug": "fidelity",
+  "broker": "Fidelity Investments",
+  "account_types": ["taxable", "ira", "roth-ira", "401k-rollover", "joint", "custodial", "trust"],
+  "commission_stocks": 0,
+  "commission_options_per_contract": 0.65,
+  "commission_mutual_funds": 0,
+  "fractional_shares_available": true,
+  "account_minimum": 0,
+  "research_quality": "excellent",
+  "mobile_app_rating": 4.8,
+  "best_for": "Best overall full-service brokerage",
+  "asset_classes": ["stocks", "etfs", "options", "mutual-funds", "bonds"],
+  "perks": [
+    "Industry-leading research tools and reports",
+    "Fractional shares starting at $1",
+    "Zero-fee index funds (FZROX, FZILX)",
+    "Top-rated mobile and desktop platforms",
+    "Excellent 24/7 customer service",
+    "No account minimums or inactivity fees"
+  ],
+  "drawbacks": [
+    "$0.65/contract options commission (no free options)",
+    "No cryptocurrency trading",
+    "Active Trader Pro desktop requires $25K+ in trades"
+  ],
+  "application_url": "https://www.fidelity.com/open-account/overview",
+  "rating": 4.7,
+  "last_updated": "2026-05-02"
+}

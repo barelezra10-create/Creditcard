@@ -1,0 +1,31 @@
+{
+  "slug": "synchrony-high-yield-savings",
+  "bank": "Synchrony Bank",
+  "product_name": "Synchrony High Yield Savings",
+  "apy": 4.65,
+  "apy_tier_min_balance": null,
+  "monthly_fee": 0,
+  "monthly_fee_waivable": false,
+  "min_opening_deposit": 0,
+  "min_balance": 0,
+  "withdrawal_limit_per_month": null,
+  "fdic_insured": true,
+  "ncua_insured": false,
+  "mobile_app_rating": 4.5,
+  "best_for": "High APY with ATM access",
+  "perks": [
+    "One of the highest APYs among major banks at 4.65%",
+    "Optional ATM card for cash access",
+    "ATM fee reimbursements up to $5/month",
+    "No monthly fees or minimums",
+    "Solid online and mobile experience"
+  ],
+  "drawbacks": [
+    "No branch access",
+    "ATM card is optional, not standard",
+    "Customer service wait times can be longer than peers"
+  ],
+  "application_url": "https://www.synchronybank.com/banking/high-yield-savings/",
+  "rating": 4.6,
+  "last_updated": "2026-05-02"
+}

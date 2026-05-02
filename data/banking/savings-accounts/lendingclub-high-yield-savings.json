@@ -1,0 +1,32 @@
+{
+  "slug": "lendingclub-high-yield-savings",
+  "bank": "LendingClub Bank",
+  "product_name": "LendingClub High-Yield Savings",
+  "apy": 4.50,
+  "apy_tier_min_balance": null,
+  "monthly_fee": 0,
+  "monthly_fee_waivable": false,
+  "min_opening_deposit": 25,
+  "min_balance": 0,
+  "withdrawal_limit_per_month": null,
+  "fdic_insured": true,
+  "ncua_insured": false,
+  "mobile_app_rating": 4.4,
+  "best_for": "Low opening deposit with high APY",
+  "perks": [
+    "Strong 4.50% APY with only $25 minimum to open",
+    "Full FDIC-insured bank (not just a fintech)",
+    "ATM card available with checking account",
+    "No monthly fees",
+    "Pair with LendingClub Rewards Checking for combined benefits"
+  ],
+  "drawbacks": [
+    "$25 minimum opening deposit",
+    "Smaller bank with less brand recognition",
+    "Limited customer service hours vs. big banks",
+    "Mobile app not as polished as Ally or Capital One"
+  ],
+  "application_url": "https://www.lendingclub.com/banking/savings",
+  "rating": 4.4,
+  "last_updated": "2026-05-02"
+}

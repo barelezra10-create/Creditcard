@@ -1,0 +1,30 @@
+{
+  "slug": "charles-schwab",
+  "broker": "Charles Schwab",
+  "account_types": ["taxable", "ira", "roth-ira", "401k-rollover", "joint", "custodial", "trust"],
+  "commission_stocks": 0,
+  "commission_options_per_contract": 0.65,
+  "commission_mutual_funds": 0,
+  "fractional_shares_available": true,
+  "account_minimum": 0,
+  "research_quality": "excellent",
+  "mobile_app_rating": 4.7,
+  "best_for": "Deep research and branch access",
+  "asset_classes": ["stocks", "etfs", "options", "mutual-funds", "bonds", "futures"],
+  "perks": [
+    "300+ physical branch locations nationwide",
+    "thinkorswim platform (acquired from TD Ameritrade)",
+    "Extensive third-party research (Morningstar, Credit Suisse)",
+    "Schwab Intelligent Portfolios robo-advisor included",
+    "Fractional shares via Schwab Stock Slices",
+    "24/7 customer support"
+  ],
+  "drawbacks": [
+    "$0.65/contract options fee",
+    "Some mutual funds carry transaction fees",
+    "Mobile app slightly less intuitive than Fidelity"
+  ],
+  "application_url": "https://www.schwab.com/open-an-account",
+  "rating": 4.6,
+  "last_updated": "2026-05-02"
+}

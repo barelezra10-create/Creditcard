@@ -1,0 +1,31 @@
+{
+  "slug": "capital-one-360-performance-savings",
+  "bank": "Capital One",
+  "product_name": "Capital One 360 Performance Savings",
+  "apy": 4.10,
+  "apy_tier_min_balance": null,
+  "monthly_fee": 0,
+  "monthly_fee_waivable": false,
+  "min_opening_deposit": 0,
+  "min_balance": 0,
+  "withdrawal_limit_per_month": null,
+  "fdic_insured": true,
+  "ncua_insured": false,
+  "mobile_app_rating": 4.8,
+  "best_for": "Hybrid online-branch banking",
+  "perks": [
+    "Access to 280+ Capital One Cafes and branches",
+    "Top-rated mobile app with 4.8 stars",
+    "Savings goals within the app",
+    "Pairs with Capital One checking and credit cards",
+    "No minimum balance or fees ever"
+  ],
+  "drawbacks": [
+    "APY below best online-only competitors",
+    "Rate adjustments can lag market moves",
+    "Capital One Cafes are not full-service branches"
+  ],
+  "application_url": "https://www.capitalone.com/bank/savings-accounts/online-performance-savings-account/",
+  "rating": 4.3,
+  "last_updated": "2026-05-02"
+}

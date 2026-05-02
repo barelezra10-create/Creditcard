@@ -8,8 +8,8 @@ export const metadata = {
 
 const INSURANCE_CATEGORIES = [
   { slug: "auto-insurance", label: "Auto Insurance", desc: "Compare car insurance rates from top carriers.", Icon: Shield, status: "live" },
-  { slug: "home-insurance", label: "Home Insurance", desc: "Homeowners insurance for every budget and coverage need.", Icon: HomeIcon, status: "soon" },
-  { slug: "life-insurance", label: "Life Insurance", desc: "Term and whole life policies compared.", Icon: Heart, status: "soon" },
+  { slug: "home-insurance", label: "Home Insurance", desc: "Homeowners insurance for every budget and coverage need.", Icon: HomeIcon, status: "live" },
+  { slug: "life-insurance", label: "Life Insurance", desc: "Term and whole life policies compared.", Icon: Heart, status: "live" },
   { slug: "health-insurance", label: "Health Insurance", desc: "Individual and family health plan options.", Icon: Activity, status: "soon" },
   { slug: "renters-insurance", label: "Renters Insurance", desc: "Affordable coverage for renters starting under $20/month.", Icon: Building, status: "soon" },
   { slug: "pet-insurance", label: "Pet Insurance", desc: "Vet cost coverage for dogs and cats.", Icon: PawPrint, status: "soon" },

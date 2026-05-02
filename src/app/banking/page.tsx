@@ -7,7 +7,7 @@ export const metadata = {
 };
 
 const BANKING_CATEGORIES = [
-  { slug: "savings-accounts", label: "Savings Accounts", desc: "Traditional savings accounts from banks and credit unions.", Icon: PiggyBank, status: "soon" },
+  { slug: "savings-accounts", label: "Savings Accounts", desc: "Traditional savings accounts from banks and credit unions.", Icon: PiggyBank, status: "live" },
   { slug: "checking-accounts", label: "Checking Accounts", desc: "Fee-free and high-yield checking options.", Icon: CreditCard, status: "soon" },
   { slug: "cds", label: "CDs", desc: "Certificates of deposit with guaranteed returns.", Icon: Lock, status: "soon" },
   { slug: "money-market-accounts", label: "Money Market Accounts", desc: "Higher rates with flexible access.", Icon: Landmark, status: "soon" },
@@ -25,16 +25,17 @@ export default function BankingHub() {
         {BANKING_CATEGORIES.map((c) => (
           <Link
             key={c.slug}
-            href="#"
-            className="flex flex-col rounded-xl border border-slate-200 bg-white p-6 opacity-60 transition-all"
-            aria-disabled
+            href={c.status === "live" ? `/banking/${c.slug}` : "#"}
+            className={`flex flex-col rounded-xl border border-slate-200 bg-white p-6 transition-all ${c.status === "live" ? "hover:border-navy-500 hover:shadow-sm" : "opacity-60"}`}
+            aria-disabled={c.status !== "live"}
           >
             <c.Icon className="h-8 w-8 text-navy-700" />
             <div className="mt-4 flex items-center gap-2">
               <span className="font-display text-base font-semibold text-navy-900">{c.label}</span>
-              <span className="rounded-full bg-amber-100 px-2 py-0.5 text-xs font-semibold text-amber-700">Coming soon</span>
+              {c.status === "soon" && <span className="rounded-full bg-amber-100 px-2 py-0.5 text-xs font-semibold text-amber-700">Coming soon</span>}
             </div>
             <p className="mt-2 text-sm text-slate-500">{c.desc}</p>
+            {c.status === "live" && <div className="mt-4 text-sm font-medium text-blue-600 hover:underline">Compare &rarr;</div>}
           </Link>
         ))}
       </div>

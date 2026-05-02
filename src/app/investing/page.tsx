@@ -7,7 +7,7 @@ export const metadata = {
 };
 
 const INVESTING_CATEGORIES = [
-  { slug: "brokerages", label: "Brokerages", desc: "Self-directed investing platforms with stocks, ETFs, and more.", Icon: TrendingUp, status: "soon" },
+  { slug: "brokerages", label: "Brokerages", desc: "Self-directed investing platforms with stocks, ETFs, and more.", Icon: TrendingUp, status: "live" },
   { slug: "robo-advisors", label: "Robo-Advisors", desc: "Automated portfolio management at low cost.", Icon: Bot, status: "soon" },
   { slug: "ira-accounts", label: "IRA Accounts", desc: "Traditional IRAs for tax-deferred retirement savings.", Icon: Umbrella, status: "soon" },
   { slug: "roth-iras", label: "Roth IRAs", desc: "Tax-free growth on after-tax contributions.", Icon: RefreshCw, status: "soon" },
@@ -25,16 +25,17 @@ export default function InvestingHub() {
         {INVESTING_CATEGORIES.map((c) => (
           <Link
             key={c.slug}
-            href="#"
-            className="flex flex-col rounded-xl border border-slate-200 bg-white p-6 opacity-60 transition-all"
-            aria-disabled
+            href={c.status === "live" ? `/investing/${c.slug}` : "#"}
+            className={`flex flex-col rounded-xl border border-slate-200 bg-white p-6 transition-all ${c.status === "live" ? "hover:border-navy-500 hover:shadow-sm" : "opacity-60"}`}
+            aria-disabled={c.status !== "live"}
           >
             <c.Icon className="h-8 w-8 text-navy-700" />
             <div className="mt-4 flex items-center gap-2">
               <span className="font-display text-base font-semibold text-navy-900">{c.label}</span>
-              <span className="rounded-full bg-amber-100 px-2 py-0.5 text-xs font-semibold text-amber-700">Coming soon</span>
+              {c.status === "soon" && <span className="rounded-full bg-amber-100 px-2 py-0.5 text-xs font-semibold text-amber-700">Coming soon</span>}
             </div>
             <p className="mt-2 text-sm text-slate-500">{c.desc}</p>
+            {c.status === "live" && <div className="mt-4 text-sm font-medium text-blue-600 hover:underline">Compare &rarr;</div>}
           </Link>
         ))}
       </div>

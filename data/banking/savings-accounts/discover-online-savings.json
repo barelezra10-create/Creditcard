@@ -1,0 +1,31 @@
+{
+  "slug": "discover-online-savings",
+  "bank": "Discover Bank",
+  "product_name": "Discover Online Savings Account",
+  "apy": 4.00,
+  "apy_tier_min_balance": null,
+  "monthly_fee": 0,
+  "monthly_fee_waivable": false,
+  "min_opening_deposit": 0,
+  "min_balance": 0,
+  "withdrawal_limit_per_month": null,
+  "fdic_insured": true,
+  "ncua_insured": false,
+  "mobile_app_rating": 4.7,
+  "best_for": "Brand trust and easy banking",
+  "perks": [
+    "No fees on any banking product",
+    "Cashback Debit checking pairs well with savings",
+    "Highly rated 24/7 US-based customer service",
+    "Strong mobile and online banking experience",
+    "Easy to link with Discover credit cards"
+  ],
+  "drawbacks": [
+    "APY below competitors at 4.00%",
+    "No ATM card on savings",
+    "No branch locations"
+  ],
+  "application_url": "https://www.discover.com/online-banking/savings-account/",
+  "rating": 4.2,
+  "last_updated": "2026-05-02"
+}
